@@ -32,7 +32,19 @@ module.exports = function (eleventyConfig) {
     // Add YAML support
     eleventyConfig.addDataExtension("yml", contents => yaml.load(contents));
 
+    eleventyConfig.addCollection("byFolder", function(collectionApi) {
+        const collections = {};
 
+        collectionApi.getAll().forEach(item => {
+            const folder = item.inputPath.split('/')[1]; // Premier dossier après src/
+            if (!collections[folder]) {
+                collections[folder] = [];
+            }
+            collections[folder].push(item);
+        });
+
+        return collections;
+    });
 
     // Ajouter un filtre personnalisé `split`
     eleventyConfig.addFilter("split", function(value, delimiter) {
