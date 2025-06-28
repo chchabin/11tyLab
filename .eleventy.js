@@ -99,7 +99,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPairedShortcode("col-n", shortcodes.coln);
 
     return {
-        pathPrefix: "/",
+        pathPrefix: "/11tyLab/",
         dir: {
             input: 'src',
             output: '_site',
