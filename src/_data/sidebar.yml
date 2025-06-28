@@ -1,0 +1,324 @@
+- title: Cours et Certifications
+  section: apprentissage
+  icon: book-half
+  icon_color: purple
+  pages:
+    - title: Cours
+    - title: Certifications
+    - title: AI
+
+- title: Jeux
+  section: apprentissage
+  icon: palette2
+  icon_color: purple
+  pages:
+    - title: CSS
+    - title: Code
+    - title: JS
+    - title: Divers
+
+- title: IDE
+  section: apprentissage
+  icon: book-half
+  icon_color: purple
+  pages:
+    - title: Vscode
+    - title: PhpStorm
+
+- title: Prologue
+  section: csharp
+  icon: book-half
+  icon_color: red
+  pages:
+    - title: Introduction
+    - title: Programmation
+    - title: Histoire
+
+- title: Programmer
+  section: csharp
+  icon: palette2
+  icon_color: red
+  pages:
+    - title: Les Bases
+    - title: Les Variables
+    - title: Tests Et Conditions
+    - title: Les Tableaux
+    - title: Les Boucles
+    - title: Les Fonctions
+    - title: Les Fichiers
+    - title: Les Exceptions
+    - title: Les Erreurs Au Commencement
+
+- title: Winform
+  section: csharp
+  icon: palette2
+  icon_color: red
+  pages:
+    - title: Les Bases
+    - title: Exercices Simples
+
+- title: Introduction
+  section: programmation-objet
+  icon: book-half
+  icon_color: red
+  pages:
+    - title: Approche Objet
+    - title: Conception
+    - title: Tests
+
+- title: Csharp
+  section: programmation-objet
+  icon: grid-fill
+  icon_color: yellow
+  pages:
+    - title: Principaux Concepts
+    - title: Les Relations Entre Les Classes
+    - title: Class Static
+    - title: Test Unitaire
+    - title: Heritage
+
+
+- title: PHP
+  section: programmation-objet
+  icon: braces-asterisk
+  icon_color: green
+  pages:
+    - title: Principaux Concepts
+    - title: Les Relations Entre Les Classes
+    - title: Classe Static
+
+- title: JavaScript
+  section: programmation-objet
+  icon: palette2
+  icon_color: blue
+  pages:
+    - title: Principaux Concepts
+
+
+- title: TP Csharp
+  section: tp-et-missions
+  icon: menu-button-wide-fill
+  icon_color: orange
+  pages:
+    - title: Autoecole
+    - title: Commerciaux
+    - title: Commerciaux WinForm
+    - title: Comptes Bancaires
+    - title: Comptes WinForm
+    - title: Linq to Entity
+    - title: DLL
+
+- title: TP PHP
+  section: tp-et-missions
+  icon: menu-button-wide-fill
+  icon_color: orange
+  pages:
+    - title: Horoscope
+    - title: Annuaire
+
+- title: Missions
+  section: tp-et-missions
+  icon: menu-button-wide-fill
+  icon_color: orange
+  pages:
+    - title: contexte
+    - title: Fiche descriptive
+    - title: Mission1
+    - title: Mission2
+    - title: Mission3
+
+- title: PHP TP Introductif
+  section: tp-et-missions
+  icon: menu-button-wide-fill
+  icon_color: orange
+  pages:
+    - title: Affichage Declaration Tableaux
+    - title: Tableaux Boucles Formulaires
+    - title: Tableaux Associatifs Boucles Foreach
+    - title: Pattern Mvc
+    - title: Pattern Mvc Session
+    - title: Pattern Mvc Sgbd
+
+- title: Exercices
+  section: exercices-et-challenges
+  icon: book-half
+  icon_color: orange
+  pages:
+    - title: Les Exercices
+    - title: Les challenges
+
+- title: Exercices csharp
+  section: exercices-et-challenges
+  icon: palette2
+  icon_color: orange
+  pages:
+    - title: Variables Et Conditions
+    - title: Boucles
+    - title: Tableaux
+    - title: Fonctions
+
+- title: Exercices php
+  section: exercices-et-challenges
+  icon: grid-fill
+  icon_color: orange
+  pages:
+    - title: Variables
+    - title: Boucles
+    - title: Tableaux
+    - title: Fonctions
+    - title: Formulaires
+
+- title: Exercices javascript
+  section: exercices-et-challenges
+  icon: menu-button-wide-fill
+  icon_color: orange
+  pages:
+    - title: Affichage simple
+    - title: Gerer des data
+    - title: Gerer les classes
+    - title: Cas de synthese
+
+- title: Programmer
+  section: javascript
+  icon: book-half
+  icon_color: indigo
+  pages:
+    - title: Introduction
+    - title: Affichage
+    - title: Les Variables
+    - title: Les Tableaux
+    - title: Les Objets
+    - title: Les Tests Et Les Boucles
+    - title: Les Fonctions
+    - title: Les Classes
+    - title: Les Promesses
+    - title: Les Modules
+    - title: Requetes HTTP
+
+- title: Manipuler Le DOM
+  section: javascript
+  icon: grid-fill
+  icon_color: teal
+  pages:
+    - title: Introduction
+    - title: Objet Dom
+    - title: Conception Manipulation Des Composants
+    - title: Les Evenements
+    - title: Exemple
+
+- title: Nodejs Et Expressjs
+  section: javascript
+  icon: palette2
+  icon_color: pink
+  pages:
+    - title: Introduction
+    - title: Installation
+    - title: Commencer Et Afficher
+    - title: Architecture Mvc
+    - title: Connexion au SGBD
+    - title: Url Configurer
+
+- title: Le Web
+  section: php
+  icon: book-half
+  icon_color: green
+  pages:
+    - title: Fonctionnement
+    - title: Les Bases
+
+- title: Programmer
+  section: php
+  icon: palette2
+  icon_color: green
+  pages:
+    - title: Les Variables
+    - title: Tests Et Conditions
+    - title: Les Tableaux
+    - title: Les Boucles
+    - title: Les Fonctions
+    - title: Les Raccourcis
+
+- title: Transmission
+  section: php
+  icon: grid-fill
+  icon_color: green
+  pages:
+    - title: Les Formulaires
+    - title: Transmission Url
+    - title: Transmission Script
+    - title: Transmission Session
+    - title: Transmission Secure
+    - title: Pattern MVC
+
+- title: Sgbd
+  section: php
+  icon: menu-button-wide-fill
+  icon_color: green
+  pages:
+    - title: Introduction
+    - title: Script Sql
+    - title: Rappel Sql
+    - title: Request Simple
+    - title: Request Parameters
+    - title: Cas Particuliers
+
+- title: htmlcss
+  section: commencer
+  icon: book-half
+  icon_color: cyan
+  pages:
+    - title: Concevoir Une Page
+    - title: Css
+    - title: Maquettage
+    - title: Objets Utiles
+    - title: Exercices
+
+- title: Github
+  section: commencer
+  icon: book-half
+  icon_color: red
+  pages:
+    - title: Installation
+    - title: Git Local
+    - title: Git En Groupe
+    - title: Gitlab
+
+- title: sqlExpress
+  section: commencer
+  icon: book-half
+  icon_color: green
+  pages:
+    - title: Installation
+    - title: Acces Distant
+
+- title: Failles et Architecture Web
+  section: failles
+  icon: book-half
+  icon_color: purple
+  pages:
+    - title: Introduction
+    - title: Le Protocole HTTP
+    - title: User Story
+    - title: Abuse Story
+
+- title: Failles Informatique
+  section: failles
+  icon: palette2
+  icon_color: purple
+  pages:
+    - title: Introduction
+    - title: Risques du navigateur
+    - title: Le top 10 des risques
+    - title: Les 10 commandements
+    - title: Pentester for web
+    - title: Lexique
+    - title: Regles
+
+- title: Exemple de failles
+  section: failles
+  icon: grid-fill
+  icon_color: purple
+  pages:
+    - title: RFI et LFI
+    - title: IDOR
+    - title: XSS

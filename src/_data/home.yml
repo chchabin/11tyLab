@@ -1,0 +1,197 @@
+- titre : C#
+  id : _1
+  target : c0
+  liens :
+    - arefs :
+        ref : docs/csharp/prologue/introduction/
+        titre : Guide C#
+    - arefs:
+        ref: docs/exercices-et-challenges/exercices/les-exercices/
+        titre: Exercices & défis
+    - arefs:
+        ref: https://bpesquet.developpez.com/tutoriels/csharp/programmation-evenementielle-winforms/#LIII-G
+        titre: WinForm et programmation événementielle
+    - arefs:
+        ref: https://github.com/thangchung/clean-code-dotnet
+        titre: Clean code C#
+
+- titre : PHP
+  id : _2
+  target : p0
+  liens :
+    - arefs :
+        ref : docs/php/le-web/fonctionnement/
+        titre : Guide PHP
+    - arefs:
+        ref: https://www.php-fig.org/
+        titre: Normalisation PHP
+    - arefs:
+        ref: https://eilgin.github.io/php-the-right-way/
+        titre: Les bonnes pratiques
+    - arefs:
+        ref: docs/tp-et-missions/php-tp-introductif/affichage-declaration-tableaux/
+        titre: TP Découverte
+    - arefs:
+        ref: docs/exercices-et-challenges/exercices-php/variables/
+        titre: Exercices Découverte
+    - arefs:
+        ref: https://github.com/piotrplenik/clean-code-php/tree/master
+        titre: Clean code PHP
+    - arefs:
+        ref: https://paiza.io/projects/GCItxbag1q4hryVPTiPbfg?language=java
+        titre: piaza éditeur en ligne php mais pas que
+    - arefs:
+        ref: http://ideone.com
+        titre: ideone éditeur en ligne php
+    - arefs:
+        ref: http://sandbox.onlinephpfunctions.com
+        titre: onlinephpfunctions éditeur en ligne php
+
+- titre : Base de données
+  id : _3
+  target : b0
+  liens :
+    - arefs :
+        ref : http://sen.arbezcarme.free.fr/site/index.php?article19/cours-cisco
+        titre : Cours-cisco
+    - arefs:
+        ref: content/download/SQL_les_mots_cles.pdf
+        titre: Rappel sql
+    - arefs:
+        ref: content/download/ResumeMerise.pdf
+        titre: Résumé Merise (MCD)
+    - arefs:
+        ref: https://stph.scenari-community.org
+        titre: Conception de base de données
+    - arefs:
+        ref: https://www.datacamp.com/
+        titre: datacamp
+
+- titre : Javascript - Node.js - Express
+  id : _4
+  target : j0
+  liens :
+    - arefs :
+        ref : docs/javascript/programmer/introduction/
+        titre : Guide JS
+    - arefs:
+        ref: http://es6-features.org/#BlockScopedVariables
+        titre: ES6
+    - arefs:
+        ref: https://github.com/DrkSephy/es6-cheatsheet
+        titre: es6-cheatsheet
+    - arefs:
+        ref: https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.14.7&externalPlugins=
+        titre: Babel - Testeur de version de javascript
+    - arefs:
+        ref: https://github.com/ryanmcdermott/clean-code-javascript
+        titre: Clean code Javascript
+
+- titre :  Cours et certifications
+  id : _5
+  target : c1
+  liens :
+    - arefs :
+        ref : docs/apprentissage/cours-et-certifications/cours/
+        titre : Cours et Certifications
+    - arefs:
+        ref: docs/failles/failles-et-architecture-web/introduction/
+        titre: Sécurité
+
+- titre : Github et Gitlab
+  id : _6
+  target : g0
+  liens :
+    - arefs :
+        ref : content/download/SLAM2-02-1-cours GIT.pdf
+        titre : Cours sur Git (David Roumanet)
+    - arefs:
+        ref: docs/commencer/github/installation/
+        titre: Github perso et en projet
+    - arefs:
+        ref: https://www.youtube.com/watch?v=q5E-scBPYFA&list=PLn6POgpklwWrRoZZXv0xf71mvT4E0QDOF
+        titre: Vidéos sur Gitlab
+
+- titre : Bureautique
+  id : _7
+  target : b1
+  liens :
+    - arefs :
+        ref : https://www.typingclub.com/sportal
+        titre : Tapez comme un Pro sur le clavier
+    - arefs:
+        ref: https://www.typinglessons-online.com
+        titre: Tapez comme un Pro sur le clavier (2)
+
+- titre : Bureautique Word
+  id : _8
+  target : w0
+  liens :
+    - arefs :
+        ref : content/download/Cours-Word-2013.pdf
+        titre : Cours Word
+    - arefs:
+        ref: content/download/ExercicesWord.pdf
+        titre: Exercice Word
+    - arefs:
+        ref: content/download/interventionEtat.docx
+        titre: Exercice - L’intervention de l’Etat dans l’économie du laisserfaire à la régulation
+
+- titre : Bureautique Excel
+  id : _9
+  target : x0
+  liens :
+    - arefs :
+        ref : https://www.excel-pratique.com/fr/cours.php
+        titre : Cours sur les bases Excel
+    - arefs:
+        ref: content/download/ExercicesExcel.pdf
+        titre: Exercices Excel
+    - arefs:
+        ref: content/download/BddObjectifs.txt
+        titre: Data Objectifs
+    - arefs:
+        ref: content/download/Bdd.txt
+        titre: Data salariés
+
+- titre : Bureautique WordPress
+  id : _10
+  target : wp0
+  liens :
+    - arefs :
+        ref : https://www.youtube.com/watch?v=m0ayd1D_TXE
+        titre : How to use the Wordpress Gutenberg Block Editor (full tutorial)
+    - arefs:
+        ref: https://www.youtube.com/watch?v=YQ7Z7hnR-HA
+        titre: Créer un menu dans Wordpress 5.9
+    - arefs:
+        ref: https://www.youtube.com/watch?v=KsclYH5uOeY
+        titre: Tutoriel WordPress débutant - On (re)découvre tout ensemble !
+    - arefs:
+        ref: https://789456poiuyt.wordpress.com/
+        titre: Exemple de site en 4 pages
+
+- titre : HTML5 CSS3
+  id : _11
+  target : h0
+  liens :
+    - arefs :
+        ref : docs/commencer/htmlcss/concevoir-une-page/
+        titre : Documentation & prototypes
+    - arefs:
+        ref: docs/commencer/htmlcss/concevoir-une-page/
+        titre: Créer des pages Web
+
+- titre : Serveur web
+  id : _12
+  target : s0
+  liens :
+    - arefs :
+        ref : docs/commencer/sqlexpress/installation/
+        titre : Installer SqlExpress
+    - arefs:
+        ref: https://github.com/chchabin/annuaire-VerEtudt/releases/tag/5.0
+        titre: Laragon +
+    - arefs:
+        ref: https://www.youtube.com/watch?v=0RrvrMnq7OU&list=PLGBzNYNT_qduAEkaaEFCRwLqDatq9Pzi5
+        titre: Vidéo sur la création d’un site en php, pattern MVC

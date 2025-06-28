@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="icon" type="image/png"  href="../img/favicon.png">
+        <title>Emmet</title>
+
+    </head>
+    <body>        
+        <div class="container">
+            <div class="mt-2 p-4 bg-light border">
+                <h1>Emmet ou Zen Coding</h1>
+            </div> 
+           <h2>Liens</h2>
+            <a href="http://emmet.io/" class="" target="zen-coding">http://emmet.io/</a>
+            <br>
+            <a href="https://docs.emmet.io/cheat-sheet/">Résumé de Emmet</a>
+            <h2>Propriétés à saisir</h2>
+            <ul>
+                <li>E<br />
+                    Nom de l'élément (<code>div</code>, <code>p</code>,<code>a</code>);</li>
+                <li>E#id<br />
+                    Elément avec id (<code>div#content</code>, <code>p#intro</code>, <code>span#error</code>);</li>
+                <li>E.class<br />
+                    Elément avec classes (<code>div.header</code>, <code>p.error.critial</code>). On peut aussi combiner les classes et les IDs : <code>div#content.column.width</code>;</li>            
+                <li>E&gt;N<br />
+                    Elément enfant (<code>div&gt;p</code>, <code>div#footer&gt;p&gt;span</code>);</li>
+                <li>E+N<br />
+                    Eléments frères (<code>h1+p</code>, <code>div#header+div#content+div#footer</code>);</li>
+                <li>E*N<br />
+                    Multiplication d'éléments (<code>ul#nav&gt;li*5&gt;a</code>);</li>
+                <li>E$*N<br />
+                    Item horodatés (<code>ul#nav&gt;li.item-$*5</code>);</li>
+                <li>E{N}<br />
+                    Données associées (<code>h2{mon Titre}</code>);</li>
+            </ul> 
+            <h1>Exemple Simple</h1>
+            <div class="alert alert-primary" role="alert">
+            <pre><code>div#content&gt;p.intro+ul&gt;li*3&gt;a
+</code></pre>
+            </div>
+            <pre><code>&lt;div id="content"&gt;
+    &lt;p class="intro"&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+            <h1>Exemple plus Complet</h1>
+            <div class="alert alert-primary" role="alert">
+            <pre>
+ div#container>(div.main_content>div.article*4>
+                    (a.cat)
+                    (div.article_body>(h2)(a.photo>img)(p.the_excerpt)(a.more_link))
+                    (ul.tags>li*3>a))
+                (div.aside>div.aside_block*3>h3)
+            </pre>
+            </div>
+            <pre>
+        &lt;div id="container"&gt;
+            &lt;div class="main_content"&gt;
+                &lt;div class="article"&gt;
+                    &lt;a href="" class="cat"&gt;&lt;/a&gt;
+                    &lt;div class="article_body"&gt;
+                        &lt;h2&gt;&lt;/h2&gt;
+                        &lt;a href="" class="photo"&gt;&lt;img src="" alt="" /&gt;&lt;/a&gt;
+                        &lt;p class="the_excerpt"&gt;&lt;/p&gt;
+                        &lt;a href="" class="more_link"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;ul class="tags"&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="article"&gt;
+                    &lt;a href="" class="cat"&gt;&lt;/a&gt;
+                    &lt;div class="article_body"&gt;
+                        &lt;h2&gt;&lt;/h2&gt;
+                        &lt;a href="" class="photo"&gt;&lt;img src="" alt="" /&gt;&lt;/a&gt;
+                        &lt;p class="the_excerpt"&gt;&lt;/p&gt;
+                        &lt;a href="" class="more_link"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;ul class="tags"&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="article"&gt;
+                    &lt;a href="" class="cat"&gt;&lt;/a&gt;
+                    &lt;div class="article_body"&gt;
+                        &lt;h2&gt;&lt;/h2&gt;
+                        &lt;a href="" class="photo"&gt;&lt;img src="" alt="" /&gt;&lt;/a&gt;
+                        &lt;p class="the_excerpt"&gt;&lt;/p&gt;
+                        &lt;a href="" class="more_link"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;ul class="tags"&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="article"&gt;
+                    &lt;a href="" class="cat"&gt;&lt;/a&gt;
+                    &lt;div class="article_body"&gt;
+                        &lt;h2&gt;&lt;/h2&gt;
+                        &lt;a href="" class="photo"&gt;&lt;img src="" alt="" /&gt;&lt;/a&gt;
+                        &lt;p class="the_excerpt"&gt;&lt;/p&gt;
+                        &lt;a href="" class="more_link"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;ul class="tags"&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="aside"&gt;
+                &lt;div class="aside_block"&gt;
+                    &lt;h3&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                &lt;div class="aside_block"&gt;
+                    &lt;h3&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                &lt;div class="aside_block"&gt;
+                    &lt;h3&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            </pre>
+            <h2>Que donne ?</h2>
+            <div class="alert alert-primary" role="alert">
+            <pre>html>head+body>h1+h2</pre>
+            <pre>html:5</pre>
+            <pre>a[href=#]</pre>
+            <pre>ul>li.item$*3</pre>
+            </div>
+        </div>
+    </body>
+</html>
+

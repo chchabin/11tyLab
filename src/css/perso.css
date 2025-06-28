@@ -1,0 +1,5 @@
+.white{color:white;}
+.toc ol {
+    list-style-type: none; /* Supprime les chiffres ou les puces */
+    padding-left: 0; /* Optionnel : supprime le padding par défaut */
+}

@@ -1,0 +1,64 @@
+
+{# Access to page parameters #}
+
+<nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
+    {# Split current URL #}
+    {% set url = page.url.split('/') %}
+    {% set page_slug = url[url.length - 2] %}
+    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
+        {# Loop through sidebar data from _data/sidebar.yml #}
+        {% for group in sidebar %}
+            {% set link = group.title %}
+            {% set link_slug = group.title | slugify %}
+      
+            {% if section == group.section %}
+                {% if group.pages %}
+                    {% set link = group.pages[0] %}
+                    {% set link_slug = link.title | slugify %}
+                {% endif %}
+                
+                {% set group_slug = group.title | slugify %}
+                {% set is_active_group = group == group_slug %}
+                
+                {% if group.pages %}
+                <li class="bd-links-group py-2">
+                    <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
+                        {% if group.icon %}
+                        <svg class="bi me-2"{% if group.icon_color %} style="color: var(--bs-{{ group.icon_color }});"{% endif %} aria-hidden="true">
+                            <use xlink:href="#{{ group.icon }}"></use>
+                        </svg>
+                        {% endif %}
+                        {{ group.title }}
+                    </strong>
+                    
+                    <ul class="list-unstyled fw-normal pb-2 small">
+                        {% for doc in group.pages %}
+                            {% set doc_slug = doc.title | slugify %}
+                            {% set is_active = is_active_group and page_slug == doc_slug %}
+                            {% set href0 = "docs/" + section + "/" + group_slug + "/" + doc_slug + "/" %}
+                            {% set href = "/" + href0 %}
+                            
+                            <li>
+                                <a href="{{ href }}" 
+                                   class="bd-links-link d-inline-block rounded{% if is_active %} active{% endif %}"
+                                   {% if is_active %}aria-current="page"{% endif %}>
+                                    {{ doc.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% else %}
+                <li class="bd-links-span-all mt-1 mb-3 mx-4 border-top"></li>
+                <li class="bd-links-span-all">
+                    <a href="/docs/{{ site.docs_version }}/{{ group_slug }}/"
+                       class="bd-links-link d-inline-block rounded small{% if is_active_group %} active{% endif %}"
+                       {% if is_active_group %}aria-current="page"{% endif %}>
+                        {{ group.title }}
+                    </a>
+                </li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

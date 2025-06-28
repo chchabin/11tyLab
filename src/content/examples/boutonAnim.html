@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <link rel="icon" type="image/png"  href="../img/favicon.png">
+        <title>Etiquette Css3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>    
+
+
+    <style>
+
+        .bouton span{
+            color:#FFF;
+            display: inline-block;
+            padding: 10px 20px;
+            -webkit-border-radius: 8px;
+            background: -webkit-gradient(linear, left top, left bottom, from(#e5650f), to(#ea751f));
+            -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+        }
+
+        .bouton{
+            display: inline-block;
+            -webkit-border-radius: 8px;
+            -webkit-box-shadow:
+                    0 6px 0 #e5650f,
+                    0 15px 20px rgba(0,0,0,.35);
+            -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+        }
+
+        .bouton:hover{
+            -webkit-box-shadow:
+                    0 4px 0 #e5650f,
+                    0 10px 10px rgba(0,0,0,.30);
+        }
+
+        .bouton:hover span{
+            -webkit-transform: translate(0,2px);
+        }
+
+    </style>
+</head>
+<body>
+
+
+    
+    <div class="top">
+            <div class="exemple">
+                <a href="#" class="bouton"><span>Survole moi !</span></a>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr" data-bs-theme="auto">
+<head>
+    {% include "partials/header.njk" %}
+</head>
+{% include "partials/body.njk" %}
+    {% include "partials/icons.html" %}
+    {% include "partials/docs-navbar.njk" %}
+
+        {% block content %} 
+            {{ content | safe }}
+        {% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: 'default'
+    });
+</script>
+</body>
+</html>
