@@ -10,7 +10,7 @@ draft : false
 ---
 ## Exercice 1 : Une première application
 
-### a - Réalisation de l'interface
+### a - Réalisation de l'interface.
 
 Nous allons réaliser une petite application de gestion d'une liste déroulante. L'utilisateur peut ajouter et supprimer des items à la liste.
 
@@ -19,7 +19,7 @@ Nous allons réaliser une petite application de gestion d'une liste déroulante.
 - Lancez VS (Visual Studio) et créez un nouveau projet. Nommez-le **WinFiche1** et enregistrez-le dans votre répertoire. 
     Le premier formulaire de l'application est créé automatiquement. Renommez le **FrmPrincipal** (propriété **name**)
 
-- Il vaut mieux nommer les composants dès leur création... Ne confondez pas les propriétés **Text** et **Name** !!!
+- Il vaut mieux nommer les composants dès leur création… Ne confondez pas les propriétés **Text** et **Name** !!!
 
 - Attention ne touchez pas au code généré par VS, vous risquez de tout casser!!!!!!!
 
@@ -43,11 +43,11 @@ Nous allons réaliser une petite application de gestion d'une liste déroulante.
     - Par la touche F5
 {% endquestions %}
   
-### b - Ajout du code
+### b - Ajout du code.
 
  *Bouton **Ajouter***
 
-Faire un double click sur le bouton pour éditer la méthode correspondant à un clic sur ce bouton de commande (Evénement Click du bouton). Complétez-la avec le code suivant :
+Faire un double click sur le bouton pour éditer la méthode correspondant à un clic sur ce bouton de commande (Événement Click du bouton). Complétez-la avec le code suivant :
 ```csharp
 private void btnAjout_Click(object sender, System.EventArgs e)
 {
@@ -55,7 +55,8 @@ private void btnAjout_Click(object sender, System.EventArgs e)
     txtSaisie.Text=""; // ou txtSaisie.Clear() ; txtSaisie.Focus();
 }
 ```
-En appuyant sur F1 après avoir sélectionné un élément du formulaire, on obtient une aide sur le composant concerné. N'hésitez pas à parcourir cette aide en ligne :)
+En appuyant sur F1 après avoir sélectionné un élément du formulaire, on obtient une aide sur le composant concerné.
+N'hésitez pas à parcourir cette aide en ligne :)
 
 *Bouton **Supprimer***
 
@@ -69,7 +70,7 @@ private void btnsupprimer_Click(object sender, System.EventArgs e)
 
 *Messages d'erreur*
 
-Vous allez ajouter un message d'erreur dans le cas où l'utilisateur clique sur **Ajouter** avec une zone de saisie vide et un autre dans le cas où il clique sur **Supprimer** sans item sélectionné dans la liste. Utilisez pour cela la classe **MessageBox**, consultez l'aide...
+Vous allez ajouter un message d'erreur dans le cas où l'utilisateur clique sur **Ajouter** avec une zone de saisie vide et un autre dans le cas où il clique sur **Supprimer** sans item sélectionné dans la liste. Utilisez pour cela la classe **MessageBox**, consultez l'aide…
 
 ### c - Dernières retouches
 
@@ -90,7 +91,7 @@ Dans l'exemple, c'est l'évènement **Click** qui est choisi.
 
 {% figure-abs "images/winform/exercices-simples2.png" "exercices-simples2" "50%" "50%" %}
 
-L'IDE vous propose alors une structure vous permettant de programmer votre application :
+L'IDE vous propose, alors, une structure vous permettant de programmer votre application :
 ```csharp
 private void btnQuitter_Click(object sender, EventArgs (e)
 {
@@ -126,7 +127,7 @@ Nous allons réaliser une petite calculatrice.
 
 {% questions %}
 1. Créer l'interface ci-dessus avec deux zones de texte pour la saisie et une zone label pour le résultat et deux boutons.
-2. Faire en sorte que l'ouverture du formulaire se fasse sur le premier champs
+2. Faire en sorte que l'ouverture du formulaire se fasse sur le premier champ,
 
 3. Modifier les noms des contrôle texte(**txtNb1** et **txtNb2**) du résultat (**lblResult**).
 
@@ -148,7 +149,7 @@ Nous allons réaliser une petite calculatrice.
 - Créez un nouveau projet. Nommez-le **Fiche3**, n'oubliez pas de définir votre projet en tant que projet de démarrage (le nom du projet doit être en gras)
 - Copiez-collez le formulaire precédent,
   - dans la partie code changer le nom du namespace en **Fiche3**
-  - dans la partie **FrmCalculs.Designer.cs** changer le nom du namespace en **Fiche3**
+  - dans la partie **`FrmCalculs.Designer.cs`** changer le nom du namespace en **Fiche3**
 - Adaptez le code bouton **Ajouter**.
 
 {% questions %}
@@ -162,13 +163,14 @@ Nous allons réaliser une petite calculatrice.
 
 {% endquestions %}
 
+
 ## Exercice 4
 Nous allons réaliser une calculatrice plus avancée.
 
 - Créez un nouveau projet. Nommez-le **Fiche4**, n'oubliez pas de définir votre projet en tant que projet de démarrage (le nom du projet doit être en gras)
 - Copiez-collez le formulaire precédent,
     - dans la partie code changer le nom du namespace en **Fiche4**
-    - dans la partie **FrmCalculs.Designer.cs** changer le nom du namespace en **Fiche4**
+    - dans la partie **`FrmCalculs.Designer.cs`** changer le nom du namespace en **Fiche4**
 - Utilisez la class **Calcul**
 
   {% figure-abs "images/winform/exercices-simples6.png" "exercices-simples5" "50%" "50%" %}
@@ -177,7 +179,7 @@ Nous allons réaliser une calculatrice plus avancée.
 
 1. Modifier l'interface pour obtenir l'écran ci-dessus. (Utiliser un contrôle **groupBox** pour contenir les **radio button**),
 
-2. En cliquant sur le bouton **Calculer**, on doit avoir le résultat approprié selon la case option sélectionné. (propriété **checked**),
+2. En cliquant sur le bouton **Calculer**, on doit avoir le résultat approprié selon la case option sélectionnée. (propriété **checked**),
 
 3. Programmer le bouton **Effacer**,
 4. Programmer le bouton **Quitter**,
@@ -195,11 +197,11 @@ Il s'agit de réaliser une application gérant deux listes déroulantes dont l'i
 
 {% figure-abs "images/winform/exercices-simples6.jpg" "exercices-simples6" "50%" "50%" %}
 
-- Les boutons **+** et **-** permettent d'ajouter et de supprimer des éléments aux listes déroulantes.
+- Les boutons **`+`** et **`-`** permettent d'ajouter et de supprimer des éléments aux listes déroulantes.
 
-- Le bouton **>>** fait passer l'élément sélectionné dans la liste de gauche vers la liste de droite.
+- Le bouton **`>>`** fait passer l'élément sélectionné dans la liste de gauche vers la liste de droite.
 
-- Le bouton **<<** a l'effet inverse.
+- Le bouton **`<<`** a l'effet inverse.
 
 - Le bouton **Quitter** permet de quitter l'application après une demande de confirmation.
 
@@ -211,38 +213,99 @@ Il s'agit de réaliser une application gérant deux listes déroulantes dont l'i
 1. Donnez au Formulaire le nom **Deux listes**
 2. Réalisez l'interface en prenant soin de respecter les règles de nommage ex: txtSaisie1, lst1, btnPlus1...
 
-3. Réalisez le code associé aux boutons **+** et **-** qui ajoute le texte saisi dans la liste ou retire le texte sélectionné de la liste. Testez !
+3. Réalisez le code associé aux boutons **`+`** et **`-`** qui ajoute le texte saisi dans la liste ou retire le texte sélectionné de la liste. Testez !
 
-4. Réalisez le code des boutons **<<** et **>>** qui fait passer d'une liste à l'autre les éléments sélectionnés.
+4. Réalisez le code des boutons **`<<`** et **`>>`** qui fait passer d'une liste à l'autre les éléments sélectionnés.
+5. Créez une classe **Liste** dans laquelle vous créez une **List** nommée **_listeValeur** instanciée dans le contrôleur.
+6. Créez les méthodes :
+    - Ajouter
+    - Supprimer
+    - TransfererVers (transférer une valeur d'une liste vers une autre)
+    - TransfererDe (transférer une valeur à partir d'une liste d'une liste)
+    - ObtenirValeurs (récupérer la liste)
+7. Instanciez 2 listes dans le constructeur du formulaire (n'oubliez pas de les déclarer en attribut)
+8. Créez 2 **BindingSource** nommés **bdgListe1** et **bdgListe2**, affectez-leur des valeurs selon l'exemple précédent (n'oubliez pas de les déclarer en attribut) :
+   {% endquestions %} 
 
-- Il est possible de définir des méthodes (fonctions) personnelles dans le code d'un formulaire.
-  Créer une fonction ajoutant le contenu d'une zone d'édition à une zone de liste et utilisez-la dans le code.
-  De même pour le passage d'une liste à l'autre.
+```csharp
+ bdgListe1 = new BindingSource();
+ bdgListe1.DataSource=Liste1.ObtenirValeurs();
+ lst1.DataSource = bdgListe1;
+```
+   
+{% questions %} 
+9. Gérez le code des boutons à partir de la classe liste
 
 {% endquestions %}
+
+{% callout "info" %}
+Comme tous les boutons ont un code identique, comme le bouton plus de la liste1 et la Liste2, vous pouvez créer une fonction qui prend en paramètre les éléments qui sont modifiables.
+{% endcallout %}
+
+## Résultat
+{% figure-abs "images/gif/fiche5.gif" "premierProgramme" "50%" "50%" %}
 
 ## Exercice 6
 {% figure-abs "images/winform/exercices-simples7.png" "exercices-simples7" "50%" "50%" %}
 
-1.  Créer un nouveau projet **TpWin4** et créer les interfaces suivantes : **frmSaisie** et **frmListe**
+{% questions %}
+1. Créez un nouveau projet. Nommez-le **Fiche6**, n'oubliez pas de définir votre projet en tant que projet de démarrage (le nom du projet doit être en gras)
 
-2.  **Dans le projet:**, ajouter une classe Client (nom, prénom, cp, ville) créer le
-    constructeur, la méthode **ToString,** etc.
+2. Créez les interfaces suivantes : **FrmSaisie**, nommez-la, **Client** et **FrmListe**, nommez-la, **Liste Clients**. 
 
-3.  **frmsaisie:**, déclarer en début de la classe une collection de type Client dans lequel on va ajouter les clients
-    ```csharp
-    static public List<Client>
-    mesClients = new List<Client>();
-    ``` 
-4. Le click sur le bouton **Ajouter** permettra d'ajouter un client à la collection. les données saisies seront ensuite effacées.
+3. **Dans le projet :**, ajouter une classe Client (nom, prénom, cp, ville) créer le constructeur, la méthode **ToString**, les accesseurs et les mutateurs.
 
-5.  **Lister** affichera le deuxième formulaire.
+{% endquestions %}
 
-6.  **frmListe**, **Afficher** du deuxième formulaire permettra d'afficher la liste à partir de la collection. 
-    Pour utiliser la liste créee dans **frmSaisie**, il faut la préfixer par **frmSaisie**.
+### a - Frmsaisie
 
-7. Les boutons **Quitter** et **Fermer** permettent de quitter l'application.
+{% questions %}
+1. Déclarez en début de la classe une collection de type Client dans lequel on va ajouter les clients :
+{% endquestions %}
 
-8. Testez votre application
+```csharp
+// En attribut
+public List<Client> mesClients;
+// dans le controleur aprés InitializeComponent
+mesClients = new List<Client>();
+```
+{% questions %}
 
+2. Le click sur le bouton **Ajouter** permettra d'ajouter un client à la collection. 
+   - Les données saisies seront ensuite effacées.
+   - les coordonnées du client seront affichées sous les boutons
+
+3. **Lister** affichera le deuxième formulaire, uniquement si la collection n'est pas vide.
+    L'appel du formulaire prend en paramètre la collection.
+
+{% endquestions %}
+
+```csharp
+    using (FrmListe f = new FrmListe(mesClients))
+    {
+        f.ShowDialog(); 
+    }
+``` 
+{% questions %}
+4. Le bouton **Quitter** permet de quitter l'application
+{% endquestions %}
+
+### b - FrmListe
+
+{% questions %}
+
+1. Créez un attribut pour la collection, nommez le `mesClients` et affectez-lui dans le contrôleur la valeur passée en paramètre. 
+2. Créez 1 BindingSource nommés bdgListeClient (n'oubliez pas de les déclarer en attribut) et affectez-lui la collection :
+
+3. **Afficher** du deuxième formulaire permettra d'afficher la liste à partir de la collection.
+4. Le bouton **Retour** permet de fermer le formulaire
+    
+5. Le bouton **Quitter** permet de quitter l'application.
+
+6. Testez votre application
+
+{% endquestions %}
+
+## Résultat
+{% figure-abs "images/gif/fiche6.gif" "premierProgramme" "50%" "50%" %}
 

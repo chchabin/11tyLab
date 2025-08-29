@@ -15,5 +15,5 @@ draft : false
 [Mooc: Certifications universitaires en ligne sur les mathématiques, prendre le socle ou le niveau d’entrée à l’université quand il sera disponible.](https://www.fun-mooc.fr/en/courses/?limit=21&offset=0&query=mathematique&subjects=L-00070001000E)  
 [Udemy: quelques cours gratuits, mais beaucoup de payants avec une certification maison, (attendez les promos !)](https://www.udemy.com/) 
 [Jetbrain: des cours et des certifications, plus encore si vous êtes inscrit à github education](https://www.jetbrains.com/edu-products/learning/)  
-[github education : un pack pour développeur, logiciel, formations, certifications](https://education.github.com/pack)  
+[github education: un pack pour développeur, logiciel, formations, certifications](https://education.github.com/pack)  
 [Freecodecamp: des certifications pour développeur dans le domaine du web](https://www.freecodecamp.org/) 

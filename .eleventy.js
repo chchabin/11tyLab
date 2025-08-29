@@ -1,5 +1,8 @@
 const SITE_CONFIG = {
-    baseURL: "https://chchabin.github.io/11tyLab/"
+    baseURL: process.env.NODE_ENV === 'production'
+        ? "https://chchabin.github.io/11tyLab/"
+        : "http://localhost:8080/",
+    pathPrefix: process.env.NODE_ENV === 'production' ? "/11tyLab/" : "/"
 };
 const siteConfigs=require('./config/');
 // npm install js-yaml --save-dev
@@ -23,6 +26,7 @@ module.exports = function (eleventyConfig) {
         'src/images':"images",
         'src/css':"css",
         'src/js':"js",
+        'src/content':"content",
         "node_modules/mermaid/dist/mermaid.min.js": "js/mermaid.min.js"
     });
 
@@ -99,7 +103,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPairedShortcode("col-n", shortcodes.coln);
 
     return {
-        pathPrefix: "/11tyLab/",
+        pathPrefix: SITE_CONFIG.pathPrefix,
         dir: {
             input: 'src',
             output: '_site',

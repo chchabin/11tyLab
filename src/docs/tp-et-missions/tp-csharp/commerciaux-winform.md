@@ -35,7 +35,7 @@ Nous allons nous intéresser à présent à une autre façon de gérer les multi
    {% endcallout %}
 
 **Résultat attendu :**
-{% figure-abs "images/exercices-et-challenges/cas/wfcommerciaux03.png" "wfcommerciaux03" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/cas/wfcommerciaux03.png" "wfcommerciaux03" "50%" "50%" %}
 
 **Résultat pour le WinForm :**
 {% figure-abs "images/exercices-et-challenges/cas/wfcommerciaux02.png" "wfcommerciaux02" "100%" "100%" %}

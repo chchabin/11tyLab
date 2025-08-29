@@ -10,11 +10,11 @@ draft : false
 ---
 ## 1 - Hello World
 ### Prérequis
-[addEventListener]({% aref "docs/javascript/manipuler-le-dom/les-evenements/#a---addeventlistener"%})
+{% aref "docs/javascript/manipuler-le-dom/les-evenements/#a---addeventlistener" "addEventListener" %}
 
-[e.target]({% aref "docs/javascript/manipuler-le-dom/les-evenements/#b---eventtarget"%})
+{% aref "docs/javascript/manipuler-le-dom/les-evenements/#b---eventtarget" "e.target" %}
 
-[querySelector]({% aref "docs/javascript/manipuler-le-dom/objet-dom/#e---queryselector-et-queryselectorall"%})
+{% aref "docs/javascript/manipuler-le-dom/objet-dom/#e---queryselector-et-queryselectorall" "querySelector" %}
 
 ### Le code
 Voici une page HTML qui affiche HELLO
@@ -80,7 +80,7 @@ Modifier le code pour afficher non plus `WORLD` mais `HELLO WORLD`, sans modifie
 {% endquestions %}
 
 
-## 2 - Changer une image
+## 2 - Changer une image.
 ### Prérequis
 [L'opérateur ternaire]({% aref "docs/javascript/programmer/les-tests-et-les-boucles/#d---lopérateur-ternaire"%})
 
@@ -117,7 +117,7 @@ Cette page fait appel au fichier `app.js` qui contiendra notre code javascript
    **Résultat**
    {% figure-abs "images/gif/exo1.gif" "exo1" "100%" "100%" %}
 
-## 3 - Changer deux images
+## 3 - Changer deux images.
 Voici une page HTML qui affiche deux images
 
 ```html
@@ -147,7 +147,7 @@ Nous traitons l'événement `Appuyer Sur Un Bouton`.
 **Résultat**
 {% figure-abs "images/gif/exo2.gif", "exo2" %}
 
-## 4 - Faire disparaitre une image
+## 4 - Faire disparaitre une image.
 ### Prérequis
 [Le DOM]({% aref "docs/javascript/manipuler-le-dom/introduction/#2---les-éléments-du-dom"%})
 
@@ -177,14 +177,14 @@ Nous traitons deux événements :
 
 {% callout %}
 **Attention**  
-   Les variables ont une portée qui dépasse la portée de la fonction. La constante titre est définie en dehors de la
+   Les variables ont une portée qui dépasse la portée de la fonction. La constante, `titre`, est définie en dehors de la
 fonction, mais elle est utilisée à l'intérieur de la fonction.
 {% endcallout %}
 
 **Résultat**
 {% figure-abs "images/gif/exo3.gif", "exo3" %}
 
-## 5 - Afficher le numéro choisi
+## 5 - Afficher le numéro choisi.
 Voici la page HTML
 
 ```html

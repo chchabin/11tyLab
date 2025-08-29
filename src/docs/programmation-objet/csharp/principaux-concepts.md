@@ -13,16 +13,16 @@ draft : false
 - Maintenir les données privées.
 - Initialiser toujours les données.
 - Ne fournissez de méthodes d'accès que si cela est nécessaire.
-- Utilisez les conventions standards pour nommer classes et méthodes. Un nom de classe doit comporter un substantif : *Client, ClientPrivilegie*... Les méthodes doivent avoir un nom signifiant, commencer par une lettre minuscule ; les méthodes d’accès doivent commencer par **get** (*getNom()*) et les méthodes d’altération par **set** (*setNom()*).
+- Utilisez les conventions standards pour nommer classes et méthodes. Un nom de classe doit comporter un substantif : *Client, ClientPrivilegie…* Les méthodes doivent avoir un nom signifiant, commencer par une lettre minuscule, les méthodes d’accès doivent commencer par **get** (*getNom()*) et les méthodes d’altération par **set** (*setNom()*).
 - Ne faites jouer à la méthode main que le rôle d’instanciation d’objets.
 - Pour plus de détails, voyez [le site de Microsoft](https://learn.microsoft.com/fr-fr/dotnet/standard/design-guidelines/naming-guidelines)
 {% endcallout %}
-## 1 - Constructeur
+## 1 - Constructeur.
 {% callout %}
 **Classe : Définition**
 le constructeur est une méthode spécifique dont le rôle est de construire un objet, le plus souvent en initialisant ses attributs.
 {% endcallout %}
-Le constructeur sans argument et les constructeurs paramétriques sont **OPTIONNELS**. De toute façon, un constructeur par défaut est fourni par C# en tenant compte des initialisations explicites et en fournissant des initialisations implicites pour tous les autres variables d’instance.
+Le constructeur sans argument et les constructeurs paramétriques sont **OPTIONNELS**. De toute façon, un constructeur par défaut est fourni par C# en tenant compte des initialisations explicites et en fournissant des initialisations implicites pour toutes les autres variables d’instance.
 
 Il est possible d’avoir plusieurs constructeurs pour une classe
 {% bt-collapse "notes1" %}
@@ -121,7 +121,7 @@ using System;
 ```
 {% endbt-collapse %}
 
-## 3 - Accesseurs
+## 3 - Accesseurs.
 {% callout %}
 **Définition**  
 Un accesseur est une méthode le plus souvent publique qui permet d’accéder à un attribut privé, en lecture
@@ -164,7 +164,7 @@ using System;
     }
 ```
 {% endbt-collapse %}
-## 4 - Mutateurs
+## 4 - Mutateurs.
 {% callout %}
 **Définition**  
 Un mutateur est une méthode le plus souvent publique qui permet d’accéder à un attribut privé, en écriture

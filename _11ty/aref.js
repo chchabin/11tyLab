@@ -1,9 +1,9 @@
 
 const path = require('path');
 
-module.exports = function(url, text, siteData) {
+module.exports = function(url, text, site = {}) {
     // Définir l'URL de base pour les chemins relatifs
-    const baseURL = siteData?.baseURL || 'http://localhost:8080/';
+    const baseURL = site.baseURL || 'http://localhost:8080/';
 
     // Résoudre l'URL (relative ou absolue)
     let resolvedUrl;

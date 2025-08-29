@@ -8,7 +8,7 @@ toc : true
 date : "2022-10-20T17:14:01+02:00"
 draft : false
 ---
-{% figure-abs "images/exercices-et-challenges/missions/logo.png" "logo" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/missions/logo.png" "logo" "30%" "30%" %}
 ## Description du laboratoire GSB Galaxy Swiss Bourdin
 ### Le secteur d'activité
 L’industrie pharmaceutique est un secteur très lucratif dans lequel le mouvement de fusion acquisition est très fort. Les regroupements de laboratoires ces dernières années ont donné naissance à des entités gigantesques au sein desquelles le travail est longtemps resté organisé selon les anciennes structures.
@@ -30,8 +30,8 @@ L'entreprise compte 480 visiteurs médicaux en France métropolitaine (Corse com
 
 Une vision partielle de cette organisation est présentée ci-dessous.
 
-{% figure-abs "images/exercices-et-challenges/missions/france.png" "france" "100%" "100%" %}
-{% figure-abs "images/exercices-et-challenges/missions/secteurs.png" "secteurs" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/missions/france.png" "france" "50%" "50%" %}
+{% figure-abs "images/exercices-et-challenges/missions/secteurs.png" "secteurs" "30%" "30%" %}
 
 
 ## Description du Système Informatique
