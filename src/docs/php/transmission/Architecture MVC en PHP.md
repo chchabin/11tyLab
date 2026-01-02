@@ -1,4 +1,13 @@
-﻿3 
+﻿---
+layout : "layouts/docs.njk"
+title : "Architecture MVC"
+description : ""
+group : "transmission"
+section : "php"
+toc : true
+date : "2022-09-02T21:23:32+02:00"
+draft : false
+---
 
 **Architecture MVC en PHP – Présentation** 
 

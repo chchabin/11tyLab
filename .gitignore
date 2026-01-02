@@ -4,6 +4,7 @@ node_modules/
 # Eleventy output
 public/
 _site/
+pagefind/
 
 # Logs
 npm-debug.log*

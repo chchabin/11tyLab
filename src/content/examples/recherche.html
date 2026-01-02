@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche</title>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <style>
+        /* Styles de base pour la page */
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #000000;
+        }
+
+        body.dark-mode {
+            --bg-color: #1a1a1a;
+            --text-color: #f0f0f0;
+
+            /* Variables spécifiques à Pagefind pour le mode sombre */
+            --pagefind-ui-primary: #eeeeee;
+            --pagefind-ui-text: #eeeeee;
+            --pagefind-ui-background: #2d2d2d;
+            --pagefind-ui-border: #444444;
+            --pagefind-ui-tag: #444444;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+            padding: 20px;
+        }
+
+        /* Style du bouton */
+        #theme-toggle {
+            cursor: pointer;
+            padding: 8px 16px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid var(--text-color);
+            background: transparent;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+
+<button id="theme-toggle">Passer en mode sombre</button>
+
+<h1>Rechercher sur le site</h1>
+<div id="search"></div>
+
+<script>
+    // Initialisation de Pagefind
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            bundlePath: "/pagefind/"
+        });
+
+        // Gestion du mode sombre
+        const toggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        // Vérifier si l'utilisateur a déjà une préférence enregistrée
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = "Passer en mode clair";
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                toggleBtn.textContent = "Passer en mode clair";
+            } else {
+                localStorage.setItem('theme', 'light');
+                toggleBtn.textContent = "Passer en mode sombre";
+            }
+        });
+    });
+</script>
+</body>
+</html>
