@@ -53,12 +53,19 @@
 
 <script>
     // Initialisation de Pagefind
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
-            element: "#search",
-            showSubResults: true,
-            bundlePath: "/pagefind/"
-        });
+    window.addEventListener('load', () => {
+        // Cette astuce permet de détecter automatiquement si vous êtes en local ou sur GH Pages
+        const pathPrefix = window.location.pathname.includes('/11tyLab/') ? '/11tyLab/' : '/';
+
+        if (typeof PagefindUI !== 'undefined') {
+            new PagefindUI({
+                element: "#search",
+                showSubResults: true,
+                // On s'assure que Pagefind cherche dans le bon sous-dossier
+                bundlePath: pathPrefix + "pagefind/"
+            });
+        }
+    });
 
         // Gestion du mode sombre
         const toggleBtn = document.getElementById('theme-toggle');
