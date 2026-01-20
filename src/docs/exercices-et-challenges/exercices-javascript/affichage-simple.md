@@ -115,7 +115,7 @@ Cette page fait appel au fichier `app.js` qui contiendra notre code javascript
    {% endcallout %}
 
    **Résultat**
-   {% figure-abs "images/gif/exo1.gif" "exo1" "100%" "100%" %}
+   {% figure-abs "images/gif/exo1.gif" "exo1" "30%" "30%" %}
 
 ## 3 - Changer deux images.
 Voici une page HTML qui affiche deux images
@@ -145,7 +145,7 @@ Cette page fait appel au fichier `app.js` qui contiendra notre code javascript.
 Nous traitons l'événement `Appuyer Sur Un Bouton`.
 
 **Résultat**
-{% figure-abs "images/gif/exo2.gif", "exo2" %}
+{% figure-abs "images/gif/exo2.gif", "exo2" "30%" "30%" %}
 
 ## 4 - Faire disparaitre une image.
 ### Prérequis
@@ -182,7 +182,7 @@ fonction, mais elle est utilisée à l'intérieur de la fonction.
 {% endcallout %}
 
 **Résultat**
-{% figure-abs "images/gif/exo3.gif", "exo3" %}
+{% figure-abs "images/gif/exo3.gif", "exo3" "30%" "30%" %}
 
 ## 5 - Afficher le numéro choisi.
 Voici la page HTML

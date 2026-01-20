@@ -16,7 +16,7 @@ draft : false
 #### Création et accès à la page accueil (1/3)
 Vous allez récrire l'application [Lafleur](https://github.com/chchabin/Lafleur-2021-php-MVC), initialement écrite enPHP, en javascript.
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 #### Prérequis
 Vous devez :
 
@@ -26,7 +26,7 @@ Vous devez :
 4. créer un fichier index.js selon le [modèle]({% aref "docs/javascript/nodejs-et-expressjs/commencer-et-afficher"%}) (supprimer la partie création de la route),
 {% endcallout %}
 ## 1 - Création de la structure des routes
-{% callout warning%}
+{% callout "warning" %}
 #### Prérequis
 Créez un répertoire routes.
 Créez un fichier routes.js.
@@ -56,7 +56,7 @@ Copiez maintenant la partie du code qui correspond à la route dans le fichier r
 Vous ne devez pas avoir d'erreurs !
 {% endquestions %}
 ## 2 - Création de la structure des vues
-{% callout warning%}
+{% callout "warning" %}
 #### Prérequis
 Téléchargez les modules `ejs` et `express-layout`.
 Créez un répertoire `public`
@@ -161,7 +161,7 @@ router.get('/', (req, res) => {
 Vous devez retrouver la vue d'accueil de Lafleur
 {% endquestions %}
 ## 3 - Création du contrôleur
-{% callout warning%}
+{% callout "warning" %}
 #### Prérequis
 Créez un répertoire `controller`.
 Créez dans ce répertoire, un fichier `voirProduits.js`.

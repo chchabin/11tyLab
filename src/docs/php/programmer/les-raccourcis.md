@@ -54,7 +54,7 @@ L'expression `(expr1) ? (expr2) : (expr3)` est évaluée à expr2 si expr1 est �
 Il est possible d'omettre la partie centrale de l'opérateur ternaire. L'expression `expr1 ?: expr3` retourne expr1 si expr1
 vaut TRUE, et expr3 sinon.
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 ### Empilage
 Il est recommandé de ne pas "empiler" les expressions ternaires. Le comportement de PHP lors de l'utilisation de plus d'un opérateur ternaire dans une seule instruction n'est pas évident comparé à d'autres langages. En effet, antérieur à PHP 8.0.0, les expressions ternaires étaient évaluées de gauche à droite, au lieu de droite à gauche comme la plupart des autres langages de programmation.
 {% endcallout %}
@@ -81,7 +81,7 @@ avec des tableaux.
 ### Définition
 L'expression `(expr1) ?? (expr2)` retourne expr2 si expr1 est NULL, et expr1 dans les autres cas. En particulier, cet opérateur n'émet pas de notice si la partie gauche n'existe pas, exactement comme `isset()`. Ceci est particulièrement utile pour les clés des tableaux.
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 ### Empilage
 L'opérateur de fusion null permet une imbrication simple
 ```php
@@ -109,7 +109,7 @@ Au lieu de cela, vous pouvez utiliser ceci :
 <?= $variable;?>
 ```
 Cela fait exactement la même chose. `<?=` signifie echo et vous donne un moyen légèrement plus court d'imprimer les variables.
-{% callout warning%}
+{% callout "warning" %}
 ### Les limites de l'abrégé d'echo
 Il y a cependant une limitation à cela : si vous utilisez `<?=` , vous pouvez seulement afficher ; vous ne pouvez pas inclure d'instructions `if`, d'instructions `for`, etc., bien que vous puissiez utiliser la concaténation, et elle peut être suivie d'un appel de fonction.
 {% endcallout %}

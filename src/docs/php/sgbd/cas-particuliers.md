@@ -138,7 +138,7 @@ DELETE FROM `employe`
 WHERE `name` = 'Laure Dinateur';
 ⋮
 ```
-{% callout danger%}
+{% callout "danger" %}
 **WHERE est facultatif**  
 Croyez-le ou non, la clause `WHERE` de la commande `UPDATE` et `DELETE` est facultative. 
 Par conséquent, vous devez être très prudent lorsque vous tapez cette commande ! Si vous laissez la clause `WHERE` de côté, 

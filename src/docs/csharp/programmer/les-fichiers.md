@@ -19,7 +19,7 @@ En C#, la plupart des périphériques sont considérés comme des ﬂux entrants
 
 
 Comme la plupart des périphériques acceptent les entrées et les sorties, cela multiplie par deux les ﬂux et buffets à déclarer.
-{% callout danger%}
+{% callout "danger" %}
 **ATTENTION**
 la lecture d’un ﬂux vide entraîne la génération d’une exception qui bloque l’exécution du programme.
 {% endcallout %}

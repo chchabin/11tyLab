@@ -51,6 +51,9 @@
   id : _3
   target : b0
   liens :
+    - arefs:
+        ref: docs/commencer/intelligence-artificielle/utiliser-une-ia/
+        titre: TP Intelligence artificielle
     - arefs :
         ref : http://sen.arbezcarme.free.fr/site/index.php?article19/cours-cisco
         titre : Cours-cisco

@@ -51,7 +51,7 @@ maximum(1, 2, 3); // retourne 3
 ```
 ### b - la gestion des arguments
 La gestion des arguments est particulière en javascript, les arguments seront récupérés par l’objet arguments.
-{% callout warning%}
+{% callout "warning" %}
 #### Note :
 L’objet n’est pas un tableau, vous ne pouvez pas l’utiliser avec les propriétés ou les méthodes de l’objet tableau 
 (comme pop()...) sauf avec la propriété length qui renvoie le nombre d’arguments. Vous pouvez récupérer chaque argument 
@@ -393,6 +393,6 @@ var num;
 // Ne donne aucune erreur tant que num est déclarée
 ```
 Car JavaScript hisse seulement les déclarations, pas les initialisations
-{% callout danger%}
+{% callout "danger" %}
 Le hissage ne fonctionne pas avec les fonctions fléchées
 {% endcallout %}

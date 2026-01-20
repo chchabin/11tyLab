@@ -11,7 +11,7 @@ draft : false
 # Création d'une DLL avec l'application Comptes Bancaires
 
 ## 1 - Création du projet
-{% callout danger%}
+{% callout "danger" %}
 Attention :  
 Vérifiez bien que le projet est en `.Net Framework`  
 Sinon vous devrez tout recommencer !
@@ -61,7 +61,7 @@ Allez dans le repertoire `bin\Debug\` de la solution dans votre explorateur vous
    {% figure-abs "images/exercices-et-challenges/cas/dll05.png" "dll05" "100%" "100%" %}
 2. faire un clic droit `=>` Ajouter `=>` Nouveau Projet
 3. Choisir le type de projet (Console ou WinForms) puis valider
-{% callout danger%}
+{% callout "danger" %}
    Attention :  
    Vérifiez bien que le projet est en `.Net Framework`  
    Sinon vous devrez tout recommencer !
@@ -78,13 +78,13 @@ Allez dans le repertoire `bin\Debug\` de la solution dans votre explorateur vous
 9. Il ne reste plus qu’à indiquer dans votre code, grâce à la clause `using`, la bibliothèque :  
    {% figure-abs "images/exercices-et-challenges/cas/dll09.png" "dll09" "100%" "100%" %}
 
-{% callout danger%}
+{% callout "danger" %}
    Attention :  
 la bibliothèque à indiquer dans la clause using est le nom du namespace de la dll ! Dans notre cas la dll et le nom 
 du namespace sont les mêmes.
 {% endcallout %}
 
-{% callout danger%}
+{% callout "danger" %}
 Attention :  
 Les bibliothèques (dans les propriétés) doivent être identiques.
 {% endcallout %}

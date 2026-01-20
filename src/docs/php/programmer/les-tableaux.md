@@ -49,7 +49,7 @@ Vous pouvez également ajouter des éléments à la fin d’un tableau en utilis
 $langages[]='HTML';
 echo $langages[3];// Affiche HTML
 ```
-{% callout warning%}
+{% callout "warning" %}
 ### Débogage
 L'instruction PHP `var_dump()` permet d'afficher l'ensemble du contenu du tableau.
 {% endcallout %}

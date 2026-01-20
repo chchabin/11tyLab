@@ -373,7 +373,7 @@ En effet, le véhicule sera ajouté plus tard ainsi que l’enregistrement du ch
 7. Générez un objet de type `lecon`
    {% endcallout %}
    {% figure-abs "images/exercices-et-challenges/cas/autoecoleAjouterLeconType.png" "autoecoleAjouterLeconType" "90%" "90%"  %}
-   {% callout warning%}
+   {% callout "warning" %}
    Remarques : nous récupérons l’élève concerné par la leçon par la propriété `SelectedValue`.
 {% endcallout %}
    Le constructeur généré pour la classe `lecon` est le constructeur par défaut (sans argument) ; c’est
@@ -496,7 +496,7 @@ Ce qui va produire :
 Chargez les sources de données :
 {% endcallout %}
 {% figure-abs "images/exercices-et-challenges/cas/autoecoleLeconListeData.png" "autoecoleLeconListeData" "50%" "50%"  %}
-{% callout warning%}
+{% callout "warning" %}
 La ligne :
 ```csharp
 this.bdgSeleve.DataSource = this.mesDonneesEF.eleves.Include("lecons");
@@ -514,7 +514,7 @@ Nous allons tout d’abord créer une procédure stockée dans MySql, cette proc
 Créez la procédure stockée dans MySql
 {% endcallout %}
 {% figure-abs "images/exercices-et-challenges/cas/autoecolePS.png" "autoecolePS" "50%" "50%"  %}
-{% callout warning%}
+{% callout "warning" %}
 Notez le délimiteur `|` après le `END`
 {% endcallout %}
 {% callout %}

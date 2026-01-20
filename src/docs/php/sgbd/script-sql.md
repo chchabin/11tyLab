@@ -24,7 +24,7 @@ CREATE DATABASE IF NOT EXISTS `annuaire` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `annuaire`;
 ```
 Dans cet exemple, le fichier va supprimer et créer une nouvelle base `annuaire`.
-{% callout danger%}
+{% callout "danger" %}
 Cette méthode est très pratique quand vous voulez créer une base vierge.  
 Mais si vous avez déjà des données que vous voulez conserver, elles seront supprimées.
 {% endcallout%}
@@ -40,7 +40,7 @@ Voici ce que vous obtenez en créant la base :
 
 ## 2 - Execution du script
 
-{% callout danger%}
+{% callout "danger" %}
 **Décompressez le fichier !**  
 Si vous voulez exécuter le fichier sql **sans** décompresser le fichier zip, vous obtiendrez une erreur.
 {% endcallout%}

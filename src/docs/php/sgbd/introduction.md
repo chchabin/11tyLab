@@ -53,7 +53,7 @@ Le serveur MySQL est un logiciel complètement distinct du serveur Web. Par cons
 
 Une exception PHP est ce qui se produit lorsque vous dites à PHP d’exécuter une tâche et qu’il est incapable de le faire. PHP essaiera de faire ce qu’on lui dit, mais échouera ; et afin de vous informer de l’échec, il vous lancera une exception. Une exception est un peu plus que PHP qui plante avec un message d’erreur spécifique. Lorsqu’une exception est levée, PHP s’arrête. Aucune ligne de code après l’erreur ne sera exécutée.
 En tant que développeur responsable, c’est votre travail de détecter cette exception et de faire quelque chose pour que le programme puisse continuer.
-{% callout danger%}
+{% callout "danger" %}
 **Exceptions non interceptées**  
 Si vous n’interceptez pas d’exception, PHP arrêtera d’exécuter votre script PHP et affichera un message d’erreur, spectaculairement laid. Ce message d’erreur révélera même le code de votre script qui a généré l’erreur. Dans ce cas, ce code contient votre nom d’utilisateur et votre mot de passe MySQL, il est donc particulièrement important d’éviter que le message d’erreur ne soit vu par les utilisateurs !
 {% endcallout %}

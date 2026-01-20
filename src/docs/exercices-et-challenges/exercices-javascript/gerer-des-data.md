@@ -77,7 +77,7 @@ Voici le fichier JSON `chambre.json`
 Cette page fait appel au fichier `app.js` qui contiendra notre code javascript
 
 **Résultat**
-{% figure-abs "images/gif/exo11.gif" "exo11" "100%" "100%" %}
+{% figure-abs "images/gif/exo11.gif" "exo11" "30%" "30%" %}
 
 ## 3 - Utiliser un fichier HTML
 Voici une page HTML qui affiche un bouton
@@ -214,7 +214,7 @@ ul li {
 ```
 
 **Résultat**
-{% figure-abs "images/gif/exo14.gif" "exo14" "100%" "100%" %}
+{% figure-abs "images/gif/exo14.gif" "exo14" "30%" "30%" %}
 
 ## 5 - Utiliser une API rest
 Voici une page HTML qui affiche un bouton

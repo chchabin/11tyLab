@@ -27,7 +27,7 @@ while($i < 10) {
 ?>
 ```
 Avant chaque tour de boucle, la condition, associée au `while`, est évaluée : Si elle est vraie, les instructions du bloc `while` sont exécutées. Ensuite, la ligne du `while` est à nouveau exécutée et la condition vérifiée. Si elle est fausse, les instructions du bloc ne sont pas exécutées et le programme continue juste après le bloc `while`.
-{% callout danger%}
+{% callout "danger" %}
 ### Attention
 Il faut absolument que la condition de la boucle `while` puisse devenir fausse. Dans le cas contraire, on obtient une boucle infinie qui ne s’arrête jamais.
 {% endcallout %}
@@ -60,7 +60,7 @@ foreach($langages as $monlangage) {
 }
 ?>
 ```
-{% callout danger%}
+{% callout "danger" %}
 ### Attention
 Ne pas confondre la variable qui représente le tableau (ici `$langages`, écrite au pluriel) et la variable qui représente l’élément courant dans la boucle (ici `$monlangage`).
 {% endcallout%}

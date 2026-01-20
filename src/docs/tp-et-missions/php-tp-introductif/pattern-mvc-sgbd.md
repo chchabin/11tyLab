@@ -14,13 +14,13 @@ Il s’agit d’obtenir des données qui sont stockées dans une base de donnée
 {% endcallout%}
 
 ## Prérequis
-{% callout warning%}
+{% callout "warning" %}
 **Avant de commencer**
 - Créez un répertoire TP06
 - Copiez-collez les fichiers du répertoire TP05
   {% endcallout %}
 
-{% callout danger%}
+{% callout "danger" %}
 **Attention**  
 Vérifiez bien que vous êtes en UTF8.
 {% endcallout %}
@@ -48,7 +48,7 @@ Voici ce que vous obtenez en créant la base :
 ### b - Execution du script
 Si vous avez décompressé le fichier, vous avez accès au fichier `lafleur2013.sql`
 
-{% callout danger%}
+{% callout "danger" %}
 **Décompressez le fichier !**  
 Si vous voulez exécuter le fichier sql **sans** décompresser le fichier zip, vous obtiendrez une erreur.
 {% endcallout%}

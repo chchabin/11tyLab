@@ -73,7 +73,7 @@ Il y a deux façons de placer des commentaires :
 Le point-virgule est généralement utilisé en informatique pour indiquer la fin d’une instruction, c’est-à-dire pour séparer deux instructions l’une de l’autre et cela va également être le cas en JavaScript.
 
 Le langage JavaScript est très bien fait et ne nous oblige pas strictement à utiliser un point-virgule pour notifier la fin de chaque instruction. En effet, le JavaScript va être capable de « deviner » quand une instruction se termine et va ajouter automatiquement des points-virgules là où ça lui semble pertinent.
-{% callout warning%}
+{% callout "warning" %}
 #### Attention aux évolutions
 Le langage javascript est en perpétuelle évolution, si tous les navigateurs répondent à la norme ES5 les plus récents, répondent à celle de ES6 et sa modification ES7. Ce sont ces dernières normes que nous prendrons en compte, en particulier pour la déclaration de variables ou la création d’objets.
 {% endcallout %}

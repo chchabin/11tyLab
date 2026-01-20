@@ -294,7 +294,7 @@ qu'un long discours, l'image ci-dessous sera très largement explicite.
 Il existe de nombreuses propriétés pour la mise en forme des polices.
 
 ### charger des fontes
-{% callout warning %}
+{% callout "warning" %}
 Attention en téléchargeant des polices,elles peuvent ralentir considérablement votre site.
 Il est préférable d'utiliser des polices système.
 

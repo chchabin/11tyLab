@@ -21,7 +21,7 @@ La méthode `createElement()` permet de créer un nouveau nœud élément (balis
 const li = document.createElement('li');
 ```
 Ici, c'est un nœud correspondant à la balise `<li>` qui est créé.
-{% callout warning%}
+{% callout "warning" %}
 **Attention**
 Le fait de déclarer un nouveau nœud ne veut pas dire qu'il sera visible dans la page, car on ne l'a pas encore intégré à l'arbre HTML.
 {% endcallout %}

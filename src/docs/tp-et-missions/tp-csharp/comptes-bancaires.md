@@ -125,7 +125,7 @@ il ne faut pas dépasser le découvert autorisé.
 
 ### 3 - Écriture de la classe
 
-{% callout warning%}
+{% callout "warning" %}
 Pour réaliser la mission 2 téléchargez ou faites un fork de la version de base sur 
 [github](https://github.com/chchabin/libCptBqTU_Etudiant)
 
@@ -386,7 +386,7 @@ La classe `Mouvement` est liée à la classe `Compte` et la classe `Type` :
 
 {% figure-abs "images/exercices-et-challenges/cas/compte11.png" "compte11" "100%" "100%" %}
 
-{% callout warning%}
+{% callout "warning" %}
 Remarque : `dateMvt` est de type `DateTime`
 {% endcallout %}
 
@@ -408,7 +408,7 @@ Remarque : `dateMvt` est de type `DateTime`
 b.AjouterCompte(45657, "titi", 2000, -1000);
 b.RendCompte(45657).AjouterMouvement(200, new DateTime(2012, 09, 11),b.GetType("vir"));
 ```
-{% callout danger%}
+{% callout "danger" %}
 Attention, car l’ajout du mouvement entraine une action sur le solde du compte.
 {% endcallout %}
 Effectuer les tests nécessaires sur la méthode `AjouterMouvement`.

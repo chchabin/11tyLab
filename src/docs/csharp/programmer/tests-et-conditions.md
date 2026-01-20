@@ -70,7 +70,7 @@ C’est le cas des expressions utilisant des opérateurs de comparaison, dont vo
 | >         | Supérieur strictement |
 | >=        | Supérieur ou égal     |
 {% endbs-table %}
-{% callout warning%}
+{% callout "warning" %}
 **Attention !**  
 La plupart des langages de programmation utilisent le symbole `=` pour symboliser **l’affectation** et 
 le symbole `==` pour **l’équivalence**.

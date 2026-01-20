@@ -14,13 +14,13 @@ Comme la valeur de certaines variables disparait quand on change de page, PHP of
 {% endcallout%}
 
 ## Prérequis
-{% callout warning%}
+{% callout "warning" %}
 **Avant de commencer**
 - Créez un répertoire TP05
 - Copiez-collez les fichiers du répertoire TP04
   {% endcallout %}
 
-{% callout danger%}
+{% callout "danger" %}
 **Attention**  
 Vérifiez bien que vous êtes en UTF8.
 {% endcallout %}

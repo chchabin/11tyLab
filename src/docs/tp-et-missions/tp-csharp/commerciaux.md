@@ -94,7 +94,7 @@ Signature de la méthode `ajouterNoteFrais` :
 void ajouterNoteFrais(NoteFrais f)
 ```
 
-{% callout warning%}
+{% callout "warning" %}
 Remarque : le numéro de la note de frais est géré automatiquement ; dans notre cas, c’est la première note de frais 
 pour ce commercial.
 {% endcallout %}

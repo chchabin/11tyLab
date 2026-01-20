@@ -260,7 +260,7 @@ switch ($action) {
     </div>
 </div>
 ```
-{% callout danger%}
+{% callout "danger" %}
 **ATTENTION**  
  Ici le nom de la variable doit être identique dans l'action et dans la vue !
 {% endcallout%}

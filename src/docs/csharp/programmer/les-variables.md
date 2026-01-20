@@ -103,7 +103,7 @@ Ainsi le code suivant demande à l’utilisateur de saisir une variable qui sera
 ```csharp
 s = Console.ReadLine();
 ```
-{% callout warning%}
+{% callout "warning" %}
 **Le problème :**  
 Le problème, c'est que `Console.ReadLine()` ne renvoie qu’un type string.
 {% endcallout %}
@@ -127,7 +127,7 @@ int i = Convert.ToInt32(Console.ReadLine());
 **Info**  
 Ceci s’applique intelligemment à toutes les conversions autres que string.
 {% endcallout %}
-{% callout danger%}
+{% callout "danger" %}
 **Les Winform :**
 Il est possible de faire des saisies à partir des formulaires C#, les Winform.
 Dans ce cas, ce sont des objets graphiques qui permettent une saisie comme les `TextBox`.
@@ -246,7 +246,7 @@ On obtient le même résultat à l’affichage :
 ```csharp
 Console.WriteLine(d);//Vous avez entré : Coucou, c’est moi !
 ```
-{% callout danger%}
+{% callout "danger" %}
 **Attention**  
 N’ajoutez pas d’espace entre les signes `$` et `"` au début d’un littéral de chaîne.
 {% endcallout %}

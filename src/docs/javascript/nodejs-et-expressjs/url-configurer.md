@@ -34,7 +34,7 @@ voirProduit:async (req, res) => {
         });
     }
 ```
-{% callout danger%}
+{% callout "danger" %}
 #### Attention
 N'oubliez pas la virgule à la fin de voirCategorie !!!
 
@@ -59,7 +59,7 @@ getLesProduitsDeCategorie:async (param=[]) => {
         }
     }
 ``` 
-{% callout danger%}
+{% callout "danger" %}
 #### Attention
 N'oubliez pas la virgule à la fin de getLesCategories !!!
 

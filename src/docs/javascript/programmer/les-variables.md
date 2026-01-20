@@ -71,7 +71,7 @@ Il s’agit d’une méthode qui se retrouve dans tous les languages :
     // affiche : Mon nom est toto, mon age est de 18 ans
 </script>
 ```
-{% callout danger%}
+{% callout "danger" %}
 #### Attention
 Pour que cela fonctionne la chaine doit être entourée de backticks (touches `ALT GR + 7`) et pas de cotes (touche `4`)
 {% endcallout %}

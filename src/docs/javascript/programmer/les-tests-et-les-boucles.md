@@ -104,7 +104,7 @@ expression dans le cas contraire. L'expression sera alors la suivante :
 ```javascript
 const hostname = config.baseURL ?? 'localhost';
 ```
-{% callout danger%}
+{% callout "danger" %}
 #### Attention à la compatibilité !
 Votre version de navigateur ou de nodejs doit être suffisamment récente pour prendre cette modification en compte
 {% endcallout %}

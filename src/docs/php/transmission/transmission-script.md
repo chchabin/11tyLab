@@ -13,8 +13,8 @@ Les formulaires sont le moyen le plus pratique pour le visiteur de transmettre d
 
 Cette nouvelle valeur `POST` de l’attribut de méthode indique au navigateur d’envoyer les variables de formulaire de manière invisible à la page demandée, plutôt que de les incorporer dans la chaîne de requête de l’URL.
 
-À l’intérieur d’un formulaire, les balises HTML <input> permettent de définir des champs de saisie pour l’utilisateur.
-{% callout danger%}
+À l’intérieur d’un formulaire, les balises HTML &lt;input&gt; permettent de définir des champs de saisie pour l’utilisateur.
+{% callout "danger" %}
 **N’oubliez pas l’attribut name**  
 L’attribut name d’une balise `<input>` définit le nom de **la variable** qui contiendra la valeur saisie.  
 **Il est essentiel dans le formulaire.**  
@@ -69,7 +69,7 @@ Le tableau associatif `$_REQUEST` récupérera les valeurs qu’elles soient env
 **Débogage avec var_dump**  
 A des fins de débogage, on peut afficher le contenu de `$_POST` en ajoutant une instruction `var_dump($_POST)`.
 {% endcallout %}
-{% callout danger%}
+{% callout "danger" %}
 **L’auto appel**  
 Rien n’empêche une page PHP intégrant un formulaire d’être définie comme cible de ce formulaire par l’attribut `action` 
 (on parle parfois de *page ré-entrante*). Dans ce cas, cette page doit être capable aussi bien d’afficher le formulaire 

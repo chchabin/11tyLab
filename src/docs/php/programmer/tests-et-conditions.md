@@ -70,11 +70,11 @@ Toute expression renvoyant une valeur booléenne peut être utilisée comme cond
 | ===       | Égal à et de même type                      |
 | !==       | true : si Différent de, ou pas de même type |
 {% endbs-table %}
-{% callout danger%}
+{% callout "danger" %}
 ### Attention
 La plupart des langages de programmation utilisent le symbole = pour symboliser l’affectation et le symbole == pour l’égalité. Attention aux confusions avec le sens mathématique de l’opérateur =.
 {% endcallout %}
-{% callout danger%}
+{% callout "danger" %}
 ### Utilisez le double-égal : `== `
 N’oubliez pas de taper le double-égal (`==`). Une erreur courante parmi les programmeurs PHP débutants est de taper une condition comme celle-ci avec un seul signe égal :
 ```php
@@ -135,7 +135,7 @@ L'expression `(expr1) ? (expr2) : (expr3)` est évaluée à expr2 si expr1 est �
 Il est possible d'omettre la partie centrale de l'opérateur ternaire. L'expression `expr1 ?: expr3` retourne expr1 si expr1
 vaut TRUE, et expr3 sinon.
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 ### Empilage
 Il est recommandé de ne pas "empiler" les expressions ternaires. Le comportement de PHP lors de l'utilisation de plus d'un opérateur ternaire dans une seule instruction n'est pas évident comparé à d'autres langages. En effet, antérieur à PHP 8.0.0, les expressions ternaires étaient évaluées de gauche à droite, au lieu de droite à gauche comme la plupart des autres langages de programmation.
 {% endcallout %}
@@ -162,7 +162,7 @@ avec des tableaux.
 ### Définition
 L'expression `(expr1) ?? (expr2)` retourne expr2 si expr1 est NULL, et expr1 dans les autres cas. En particulier, cet opérateur n'émet pas de notice si la partie gauche n'existe pas, exactement comme `isset()`. Ceci est particulièrement utile pour les clés des tableaux.
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 ### Empilage
 L'opérateur de fusion null permet une imbrication simple
 ```php

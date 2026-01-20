@@ -42,7 +42,7 @@ code : 10 lib : lessive prix : 12 Quantité en stock : 1
 ```
 {% endcallout %}
 Vous voyez que les propriétés ne sont pas privées, vous pouvez y accéder par appel.
-{% callout danger%}
+{% callout "danger" %}
 #### Ne pas confondre instanciation et initialisation
 `Instancier`, c’est, créer un nouvel objet (opérateur `new`)  
 `Initialiser`, c’est, donner une valeur initiale à quelque chose (opérateur `=`)

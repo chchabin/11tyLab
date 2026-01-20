@@ -284,6 +284,13 @@
     - title: Git En Groupe
     - title: Gitlab
 
+- title: Intelligence Artificielle
+  section: commencer
+  icon: book-half
+  icon_color: yellow
+  pages:
+    - title: Utiliser une IA
+
 - title: sqlExpress
   section: commencer
   icon: book-half

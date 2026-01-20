@@ -14,12 +14,12 @@ Nous allons utiliser le modèle MVC pour rendre notre code plus flexible. Nous p
 {% endcallout%}
 
 ## Prérequis
-{% callout warning%}
+{% callout "warning" %}
 **Avant de commencer**
 Créez un répertoire TP04
 {% endcallout %}
 
-{% callout danger%}
+{% callout "danger" %}
 **Attention**  
 Vérifiez bien que vous êtes en UTF8.
 {% endcallout %}

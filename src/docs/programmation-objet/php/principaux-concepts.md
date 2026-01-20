@@ -8,7 +8,7 @@ toc : true
 date : "2022-09-02T18:43:38+02:00"
 draft : false
 ---
-{% callout warning%}
+{% callout "warning" %}
 **Bonnes pratiques**  
 - Maintenir les données privées.
 - Initialiser toujours les données.

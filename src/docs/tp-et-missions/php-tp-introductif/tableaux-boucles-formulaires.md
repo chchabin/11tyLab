@@ -14,13 +14,13 @@ Créer un menu bilingue : francais, anglais.
 {% endcallout%}
 
 ## Prérequis
-{% callout warning%}
+{% callout "warning" %}
 **Avant de commencer**
 - Créez un répertoire TP02
 - Copiez collez le fichier TPMenu.php du repertoire TP01
   {% endcallout %}
 
-{% callout danger%}
+{% callout "danger" %}
 **Attention**  
 Vérifiez bien que vous êtes en UTF8.
 {% endcallout %}

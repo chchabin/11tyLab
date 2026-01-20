@@ -24,7 +24,7 @@ Ce code source utilise ce qu’on appelle une **requête préparée**. Il s’ag
 le squelette de la requête (appel de la méthode `prepare` sur l’objet `$bdd`) en prévoyant ses différents paramètres, 
 indiqués par des `?` dans le code SQL. Ensuite, on exécute la requête préparée (méthode execute sur l’objet `$req`). 
 Lors de cet appel, on passe les paramètres nécessaires sous la forme d’un tableau.
-{% callout danger%}
+{% callout "danger" %}
  **Avertissement**  
 Le tableau des paramètres doit contenir autant d’élément qu’il y a de ? dans la requête préparée. L’ordre doit également être respecté.
 {% endcallout %}

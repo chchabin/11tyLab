@@ -208,7 +208,7 @@ document.getElementById("contenu").innerText="Bonjour";
 ```
 ### d - `style`
 L’attribut javascript `style` de l’objet Element du Document Object Model HTML (DOM HTML) permet de connaître et de modifier l’attribut STYLE d’une balise HTML. Plus de détails dans cette [page](https://developer.mozilla.org/fr/docs/Web/API/HTMLStyleElement).
-{% callout warning%}
+{% callout "warning" %}
 **ATTENTION**  
 La propriété style n’est pas prévues pour être lues. On ne pourra donc pas lire le CSS de l’élément par cette propriété
 {% endcallout %}

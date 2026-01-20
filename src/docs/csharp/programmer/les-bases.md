@@ -62,16 +62,16 @@ le compilateur prend son adresse comme point d’entrée. De cette façon, l’e
 
 **`Console.WriteLine("HelloWorld");`**  
 Pour l’instant, intéressons-nous à `WriteLine( )`, qui veut dire "écris ce que je te donne sur une ligne de la console". C’est magnifique, vous savez faire écrire une phrase ! Ne vous inquiétez pas après l’écriture viendront les calculs !
-{% callout danger%}
+{% callout "danger" %}
 **Attention !**  
 Les instructions se terminent par un point-virgule ; comme une phrase en français se termine par un point.
 {% endcallout %}
 ## 2 - Le bloc de code
-{% callout danger%}
+{% callout "danger" %}
 #### Attention !
 Les débutants ont tendance à copier le code avant de fermer les accolades, ce qui induit des recherches inutiles en débogage
 {% endcallout %}
-{% callout warning %}
+{% callout "warning" %}
 **Bonne pratique :**  
 avant de commencer à coder, soyez sûr que toutes les accolades existent de façon à générer un programme vide sans erreurs.
 {% endcallout %}

@@ -8,13 +8,13 @@ toc : true
 date : "2022-09-02T18:43:38+02:00"
 draft : false
 ---
-{% callout warning%}
+{% callout "warning" %}
 **Bonnes pratiques**  
 - Maintenir les données privées.
 - Initialiser toujours les données.
 - Ne fournissez de méthodes d'accès que si cela est nécessaire.
 {% endcallout %}
-  {% callout danger%}
+  {% callout "danger" %}
 #### **ATTENTION**
 La normalisation n'est pas définitive, elle peut encore évoluer. Vous pouvez consulter le site officiel pour connaitre 
 les évaluations.
@@ -61,7 +61,7 @@ const ex2 = new Exemple(20,30)
 console.log(Exemple.z) //Retourne 9
 ```
 {% endbt-collapse  %}
-{% callout danger%}
+{% callout "danger" %}
 #### **ATTENTION**
 Les méthodes ne commencent pas par le mot `function`.
 {% endcallout %}

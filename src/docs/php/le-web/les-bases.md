@@ -13,7 +13,7 @@ Le code PHP est écrit dans des fichiers source portant l’extension `.php`. Le
 
 {% figure-abs "images/php/bases-langage/web_php_htmlcss.png" "web_php_htmlcss.png" %}
 
-{% callout  warning%}
+{% callout  "warning"%}
 #### **Attention**
 Un fichier contenant du code PHP, mais portant l’extension .html sera renvoyé directement par le serveur sans exécution du code PHP qu’il contient.
 {% endcallout %}
@@ -29,7 +29,7 @@ Il est fortement conseillé d’adopter le standard HTML5 ainsi que le jeu de ca
   </body>
 </html>
 ```
-{% callout  warning%}
+{% callout  "warning" %}
 #### **Mise en évidence de la syntaxe**
 L’utilisation d’un éditeur avec coloration syntaxique permet de voir rapidement si quelque chose est une chaîne ou un code. Les chaînes seront affichées dans une couleur différente du code à traiter
 {% endcallout %}
@@ -68,7 +68,7 @@ En l’exécutant, nous obtiendrons le résultat suivant :
 Ce titre est écrit directement générée avec PHP  
 Celui-là est entièrement généré avec PHP  
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 #### **Avec ou sans `;` ?**
 Lorsque la balise php entoure une seule ligne de code, il n’est pas nécessaire de mettre un ; à la fin de la ligne
 Par contre, quand les lignes de code se suivent, il est nécessaire de terminer chaque ligne par un ;

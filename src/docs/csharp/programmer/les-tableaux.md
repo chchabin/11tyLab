@@ -84,7 +84,7 @@ Ce tableau peut donc se représenter comme ceci en fin de compte :
 
 {% figure-abs "images/csharp/tableauMultidimensionnel.png" "tableauMultidimensionnel" "100%" "100%" %}
 
-{% callout danger%}
+{% callout "danger" %}
 **Interdiction**  
 Par contre, il est interdit de faire :
 

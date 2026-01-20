@@ -12,7 +12,7 @@ draft : false
 #### Création et accès à la page catégories (2/3)
 Vous allez récrire l'application [Lafleur](https://github.com/chchabin/Lafleur-2021-php-MVC), initialement écrite enPHP, en javascript.
 {% endcallout %}
-{% callout warning%}
+{% callout "warning" %}
 #### Prérequis
 Créez un répertoire `db`
 

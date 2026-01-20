@@ -92,7 +92,7 @@ si l'url est `http://localhost:8888/` l'affichage sera `Accueil`
 si l'url est `http://localhost:8888/page` l'affichage sera `Ceci est une page`  
 **Affichage dynamique**  
 si l'url est `http://localhost:8888/page3` l'affichage sera `Ceci est la page 3`
-{% callout danger%}
+{% callout "danger" %}
 #### Attention au cas dynamique
 Vérifiez a priori ce qui est saisi par l'utilisateur afin d'éviter l'injection de code !
 {% endcallout %}

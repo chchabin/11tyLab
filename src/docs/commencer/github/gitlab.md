@@ -86,6 +86,6 @@ Pour rendre votre wiki public il faut :
 2. créer des liens sur les autres pages  
 \[nom du lien\](nom-de-la-page)
 {% endcallout%}
-{% callout warning%}
+{% callout "warning" %}
 Notez bien que les espaces sont remplacés par des - dans le nom de la page
 {% endcallout%}

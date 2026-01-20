@@ -40,7 +40,7 @@ public class B : A // la classe B dérive de la classe A
 { …… }
 ```
 
-{% callout warning%}
+{% callout "warning" %}
 # ⚠️
 Une classe héritée n’a pas accès aux champs et méthodes privés de la classe parente.
 

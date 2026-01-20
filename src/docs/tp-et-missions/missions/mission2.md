@@ -19,7 +19,7 @@ Ce document vous fournit des pistes à suivre pour vous organiser.
 
 La description des cas d’utilisation n’est pas suffisante pour définir les tâches qui devront être réalisées en
 parallèles. Vous devez définir des tâches précises, par exemple:
-{% callout danger%}
+{% callout "danger" %}
 - Maquettage de l’application (dessin *logique* des écrans attendus),
 - Modification de la base de données si besoin
 - Tests fonctionnels,

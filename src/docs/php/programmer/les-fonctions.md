@@ -62,7 +62,7 @@ Ensuite, nous fournissons à la fonction un nom (dans ce cas, multiplier). Les n
 mêmes règles que les noms de variables - ils doivent commencer par une lettre ou un trait de soulignement ( `_` ) et peuvent
 contenir des lettres, des chiffres et des traits de soulignement - sauf, bien sûr, qu’il n’y a pas de préfixe de signe dollar.
 Au lieu de cela, les noms de fonction sont toujours suivis d’un ensemble de parenthèses ( `()` ), qui peuvent ou non être vides.
-{% callout danger%}
+{% callout "danger" %}
 ### N’oubliez pas les parenthèses
 C’est une erreur courante des débutants d’oublier les parenthèses quand il n’y a pas d’argument
 {% endcallout %}
@@ -77,7 +77,7 @@ Vous pouvez considérer le code entre ces accolades comme un script PHP miniatur
 En plus de sortir de la fonction, l’instruction `return` vous permet de spécifier une valeur pour que la fonction retourne au code qui l’a appelée.  
 L’accolade fermante marque la fin de la déclaration de fonction.
 L’écriture d’une fonction seule ne fait rien. Aucun code à l’intérieur de la fonction n’est exécuté tant que la fonction n’est pas appelée.
-{% callout danger%}
+{% callout "danger" %}
 ### N’oubliez pas les arguments
 Sauf si vous l’avez spécifié dans la signature, les paramètres, spécifiés dans l’écriture de la fonction, sont obligatoires quand vous l’exécutez.
 {% endcallout %}
@@ -96,7 +96,7 @@ function multiplier(int $a,int $b) {
     return $a \* $b;
 }
 ```
-{% callout warning%}
+{% callout "warning" %}
 ### Compatibilité des indications de type
 L’indication de type pour les types de base (chaînes numériques, tableaux - tout ce qui n’est pas un objet) n’a été introduite que dans PHP 7. Il est possible que votre hébergeur soit toujours sur PHP 5, alors soyez prudent lorsque vous utilisez cette fonctionnalité !
 {% endcallout %}

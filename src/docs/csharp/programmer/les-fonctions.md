@@ -69,13 +69,13 @@ Elles peuvent aussi être indiquées sous forme d’instruction :
 
 {% figure-abs "images/csharp/signatureFonction.png" "signatureFonction" "100%" "100%" %}
 
-{% callout warning%}
+{% callout "warning" %}
 **Différence**  
 Une fonction ne se déclare jamais, elle est **appelée**.
 {% endcallout %}
 
 L’utilisateur d’une fonction n’a pas à connaitre le programme de la fonction ; seule la signature de la fonction le concerne.
-{% callout warning%}
+{% callout "warning" %}
 **Danger :**
 Il faut faire la différence entre les spécifications et l’appel de fonction.
 {% endcallout %}
@@ -126,7 +126,7 @@ int a, b, c, d;
             c = 5;
 d = maximum(a, b, c);
 ```
-{% callout warning%}
+{% callout "warning" %}
 **Bonnes pratiques**
 À chaque étape de la spécification, le code de la fonction doit **toujours être exécutable** même s’il ne donne pas encore le bon résultat.  
 Le jeu de tests ne sera vérifié qu’une fois l’implémentation correctement définie.

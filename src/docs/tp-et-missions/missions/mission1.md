@@ -13,7 +13,7 @@ draft : false
 
 La description des cas d’utilisation n’est pas suffisante pour définir les tâches qui devront être réalisées en
 parallèles. Vous devez définir des tâches précises, par exemple:
-{% callout danger%}
+{% callout "danger" %}
 - Maquettage de l’application (dessin *logique* des écrans attendus),
 - Modification de la base de données si besoin
 - Tests fonctionnels,
@@ -63,7 +63,7 @@ Il faut fixer des dates pour ces jalons*.
 1. créer la page HOME
 2. créer des liens sur les autres pages sous la forme  
    `[nom du lien](nom-de-la-page)`
-   {% callout warning%}
+   {% callout "warning" %}
    Notez bien que les espaces sont remplacés par des `-` dans le nom de la page
    {% endcallout%}
 ### Créer un gantt avec mermaid
@@ -109,7 +109,7 @@ Il s'agit d'une combinaison de markdown et de mermaid
 
 {% endbs-table %}
 backticks : accent grave ou {%kbd "ALT GR" %}+ {%kbd "7" %}
-{% callout warning%}
+{% callout "warning" %}
 Avant le code il faut écrire des backticks et mettre mermaid devant.  
 A la fin du code il faut 3 backticks.
 {% endcallout%}

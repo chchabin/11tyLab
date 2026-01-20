@@ -14,12 +14,12 @@ Créer un menu bilingue : francais, anglais.
 {% endcallout%}
 
 ## Prérequis
-{% callout warning%}
+{% callout "warning" %}
 **Avant de commencer**
 - Créez un répertoire TP01
   {% endcallout %}
 
-{% callout danger%}
+{% callout "danger" %}
 **Attention**  
 Vérifiez bien que vous êtes en UTF8.
 {% endcallout %}

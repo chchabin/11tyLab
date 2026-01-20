@@ -54,7 +54,7 @@ Au niveau du `for` la trace de la boucle est la suivante :
 |      4      |      4       |       true        |
 {% endbs-table %}
 A la sortie de la boucle la valeur de `i` est 3
-{% callout warning%}
+{% callout "warning" %}
 **Itérations**  
 Il faut bien compter le nombre de fois que l’on veut faire exécuter la boucle :
 {% endcallout %}
@@ -99,7 +99,7 @@ La variable `somme` est appelée variable de cumul, car elle additionne toutes l
 Avant chaque tour de boucle, la condition associée au while est évaluée : Si elle est vraie, les instructions du bloc `while`
 sont exécutées. Ensuite, la ligne du `while` est à nouveau exécutée et la condition vérifiée. 
 Si elle est fausse, les instructions du bloc ne sont pas exécutées et le programme continue juste après le bloc `while`.
-{% callout danger%}
+{% callout "danger" %}
 **Attention :** 
 Il faut absolument que la condition de la boucle while puisse devenir fausse. Dans le cas contraire, on obtient une boucle infinie qui ne s’arrête jamais.
 {% endcallout %}

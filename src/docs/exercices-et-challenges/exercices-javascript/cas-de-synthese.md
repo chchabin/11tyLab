@@ -51,10 +51,10 @@ Les dates des saisons sont les suivantes :
 - Du 15/06 au 06/09
 8. Écrire le code qui permet d'avoir ou pas la description de la photo dans la page `accueil.html` en clickant dessus :
    État à l'ouverture de la page :
-   {% figure-abs "images/exercices-et-challenges/descriptionOff.png" "descriptionOff" %}
+   {% figure-abs "images/exercices-et-challenges/descriptionOff.png" "descriptionOff" "30%" "30%" %}
 
    État aprés le click sur le lien :
-   {% figure-abs "images/exercices-et-challenges/descriptionOn.png" "descriptionOn" %}
+   {% figure-abs "images/exercices-et-challenges/descriptionOn.png" "descriptionOn" "30%" "30%" %}
 
 ## Résultat
 {% figure-abs "images/gif/laFolleParenthese.gif" "laFolleParenthese" %}

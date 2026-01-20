@@ -133,7 +133,7 @@ Lorsqu’un client envoie une requête au serveur Web hébergeant un site dynami
 
 {% figure-abs "images/php/intro-dev-web/web_site_dynamique.png" "web_site_dynamique.png" %}
 
-{% callout warning%}
+{% callout "warning" %}
 #### **Important**
 Le résultat renvoyé par le serveur Web et affiché par le client est **toujours** une page HTML.
 {% endcallout %}
