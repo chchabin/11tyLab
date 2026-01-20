@@ -1,6 +1,6 @@
 ---
 layout : "layouts/docs.njk"
-title : "Cas Synthese"
+title : "Cas Synthese Sol"
 description : ""
 group : "exercices-javascript"
 section : "exercices-et-challenges"

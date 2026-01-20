@@ -1,6 +1,6 @@
 ---
 layout : "layouts/docs.njk"
-title : "Gerer Des Data"
+title : "Gerer Des Data Sol"
 description : ""
 group : "exercices-javascript"
 section : "exercices-et-challenges"

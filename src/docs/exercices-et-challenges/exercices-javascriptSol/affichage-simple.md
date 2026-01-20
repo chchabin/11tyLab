@@ -1,6 +1,6 @@
 ---
 layout : "layouts/docs.njk"
-title : "Affichage Simple"
+title : "Affichage Simple Sol"
 description : "Entrainement"
 group : "exercices-javascript"
 section : "exercices-et-challenges"
@@ -278,7 +278,7 @@ function basculerEtatImage(e) {
 
 {% callout %}
 **Attention**  
-   Les variables ont une portée qui dépasse la portée de la fonction. La constante titre est définie en dehors de la
+   Les variables ont une portée qui dépasse la portée de la fonction. La constante, titre, est définie en dehors de la
 fonction, mais elle est utilisée à l'intérieur de la fonction.
 {% endcallout %}
 
@@ -344,3 +344,23 @@ Voici la page CSS `style.css`
 {%questions %}
 Créez la page `app.js` qui affiche le numéro de la cellule clickée dans la balise `p`.
 {% endquestions %}
+
+```javascript
+// 1. Sélection des éléments du DOM
+const grid = document.querySelector('.grid');
+const displayTxt = document.querySelector('.txt-info');
+
+// 2. Ajout de l'écouteur d'événement sur le parent (la grille)
+grid.addEventListener('click', (event) => {
+
+    // 3. Vérifier que l'élément cliqué est bien une cellule
+    if (event.target.classList.contains('cell')) {
+
+        // 4. Récupérer le contenu de la cellule
+        const cellNumber = event.target.textContent;
+
+        // 5. Afficher le numéro dans la balise <p>
+        displayTxt.textContent = `${cellNumber}`;
+    }
+});
+```

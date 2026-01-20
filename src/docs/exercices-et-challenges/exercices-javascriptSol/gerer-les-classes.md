@@ -1,6 +1,6 @@
 ---
 layout : "layouts/docs.njk"
-title : "Gerer Les Classes"
+title : "Gerer Les Classes Sol"
 description : ""
 group : "exercices-javascript"
 section : "exercices-et-challenges"
