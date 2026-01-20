@@ -153,6 +153,7 @@
   icon: palette2
   icon_color: orange
   pages:
+    - title: Bases
     - title: Variables Et Conditions
     - title: Boucles
     - title: Tableaux
