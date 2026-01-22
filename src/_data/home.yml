@@ -54,9 +54,6 @@
     - arefs:
         ref: docs/commencer/intelligence-artificielle/utiliser-une-ia/
         titre: TP Intelligence artificielle
-    - arefs :
-        ref : http://sen.arbezcarme.free.fr/site/index.php?article19/cours-cisco
-        titre : Cours-cisco
     - arefs:
         ref: content/download/SQL_les_mots_cles.pdf
         titre: Rappel sql
@@ -120,7 +117,7 @@
   target : b1
   liens :
     - arefs :
-        ref : https://www.typingclub.com/sportal
+        ref : https://www.typingclub.com/
         titre : Tapez comme un Pro sur le clavier
     - arefs:
         ref: https://www.typinglessons-online.com

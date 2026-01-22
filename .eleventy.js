@@ -4,6 +4,8 @@ const SITE_CONFIG = {
         : "http://localhost:8080/",
     pathPrefix: process.env.NODE_ENV === 'production' ? "/11tyLab/" : "/"
 };
+//http://localhost:8080/
+//http://chchabin.free.fr/
 const siteConfigs=require('./config/');
 // npm install js-yaml --save-dev
 const yaml = require('js-yaml');
