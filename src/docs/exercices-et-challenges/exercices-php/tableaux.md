@@ -34,6 +34,7 @@ echo "La quatrième valeur est $t[4]";
 | **le tableau a 5 éléments**                |       ☐       |       ☐       |         ☐          |
 | **la quatrième valeur est 4**              |       ☐       |       ☐       |         ☐          |
 {% endbs-table %}
+
 ## 2 - Afficher un tableau
 Dans le code ci-dessous, on désire que le tableau2 contienne les éléments du tableau1 inverse.
 
@@ -148,6 +149,7 @@ foreach ($tab  as $k) {
 | **les valeurs du tableau sont correctes** |       ☐       |       ☐       |         ☐          |
 | **les clés du tableau sont correctes**    |       ☐       |       ☐       |         ☐          |
 {% endbs-table %}
+
 **Quel code permet :**
 {% bs-table %}
 
@@ -156,6 +158,7 @@ foreach ($tab  as $k) {
 | **de faire une tabulation**    |   ☐    |   ☐    |         ☐          |
 | **de faire un saut de lignes** |   ☐    |   ☐    |         ☐          |
 {% endbs-table %}
+
 ## 7 - Afficher un tableau multidimensionnel
 Soit le tableau multidimensionnel suivant :
 ```php

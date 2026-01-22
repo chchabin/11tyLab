@@ -28,6 +28,7 @@ draft : false
 | 5      | Message d’erreur                                           | Le statut HTTP (200) change-t-il si l’utilisateur ne réussit pas son authentification ?                                                                                                                                               | `  `☐          |
 | 6      | Brute force                                                | L’application bloque-t-elle un utilisateur lors d’essais d’authentification excessifs ?                                                                                                                                               | `  `☐          |
 {% endbs-table %}
+
 ## 2 - Management des sessions
 {% bs-table %}
 
@@ -43,6 +44,7 @@ draft : false
 | 8      | Temps d’inactivité d’une session | La session d’un utilisateur expire-t-elle après x minutes d’inactivité ?                                            | `  `☐          |
 | 9      | Date limite absolue              | La session expire-t-elle à un moment donné ?                                                                        | `  `☐          |
 {% endbs-table %}
+
 ## 3 - Contrôle d’accès
 {% bs-table %}
 
@@ -51,6 +53,7 @@ draft : false
 | 1      | Liste des rôles     | La liste des rôles et des droits est-elle bien claire et documentée pour l’application ?                                        | `  `☐          |
 | 2      | Test de pénétration | Des tests de pénétration ont-ils été effectués pour vérifier le contournement de la segmentation des droits suivant les rôles ? | `  `☐          |
 {% endbs-table %}
+
 ## 4 - Validation des entrées
 {% bs-table %}
 
@@ -61,6 +64,7 @@ draft : false
 | 3      | Encodage              | L’encodage possible des entrées est-il connu et pris en compte ?                                                                                                                     | `  `☐          |
 | 4      | Contenu riche         | Les contenus riches tels les Wysiwyg sont-ils bien contrôlés avec des frameworks spécifiques (HTML Purifier, AntiSamy, Bleach, etc.) ?                                               | `  `☐          |
 {% endbs-table %}
+
 ## 5 - Encodage des sorties
 {% bs-table %}
 
@@ -70,6 +74,7 @@ draft : false
 | 2      | Se prévenir des injections SQL     | Les paramètres utilisés lors de l’envoi d’une requête SQL sont-ils bien contrôlés par des fonctions ou patterns adéquats ?             | `  `☐          |
 | 3      | Se prévenir des injections XML     | Tout comme pour les XSS, la réception des données XML est-elle contrôlée et encodée avec le passage du parser XML ?                    | `  `☐          |
 {% endbs-table %}
+
 ## 6 - Upload de fichiers
 {% bs-table %}
 
@@ -79,6 +84,7 @@ draft : false
 | 1      | Upload de fichiers | Les fichiers changent-ils de nom une fois stockés sur le serveur ?                                             | `  `☐          |
 | 1      | Upload de fichiers | Les fichiers spécifiques liés à l’administration système tels .htaccess, crossdomain.xml sont-ils contrôlés ;? | `  `☐          |
 {% endbs-table %}
+
 ## 7 - XSS
 {% bs-table %}
 
@@ -87,6 +93,7 @@ draft : false
 | 1      | Échappement des entrées | L’échappement des caractères spécifiques tels que les balises HTML, le code JavaScript est-il contrôlé ? | `  `☐          |
 | 2      | Content Security Policy | La Content Security Policy est-elle mise en place avec une whitelist des sources de confiance ?          | `  `☐          |
 {% endbs-table %}
+
 ## 8 - CSRF
 {% bs-table %}
 
@@ -95,6 +102,7 @@ draft : false
 | 1      | Jeton unique chiffré | Un système de jeton chiffré est-il incorporé dans le cheminement de l’envoi d’un formulaire ? | `  `☐          |
 | 2      | Captcha              | Un système de Captcha est-il proposé pour les formulaires avec des données sensibles ?        | `  `☐          |
 {% endbs-table %}
+
 ## 9 - Clickjacking
 {% bs-table %}
 
@@ -103,6 +111,7 @@ draft : false
 | 1      | Content Security Policy | La Content Security Policy est-elle mise en place avec une whitelist des sources de confiance afin d’éviter toute injection de frame frauduleuse (attention à la version des navigateurs supportés) ? | `  `☐          |
 | 2      | X-Frame-Options         | Si la CSP (Content Security Policy) n’est pas mise en place, les X-Frame-Options sont-elles configurées ?                                                                                             | `  `☐          |
 {% endbs-table %}
+
 ## 10 - Enregistrement des événements
 {% bs-table %}
 
@@ -113,6 +122,7 @@ draft : false
 | 3      | Événements                 | Les événements, en général, sont-ils régulièrement consultés ?                                                                          | `  `☐          |
 | 4      | Attaques                   | Lors d’une attaque cybercriminelle, est-on capable de réagir avec l’aide des événements ?                                               | `  `☐          |
 {% endbs-table %}
+
 ## 11 - RGPD
 {% bs-table %}
 

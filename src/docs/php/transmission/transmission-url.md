@@ -11,7 +11,7 @@ draft : false
 ## 1 - Créer une URL
 Une URL représente l’adresse d’une page web et commence par http:// ou https://. Lorsqu’on fait un lien vers une autre page, il est possible d’ajouter des paramètres sous la forme `bonjour.php?nom=Dupont&prenom=Jean` qui seront transmis à la page.
 
-{% figure-abs "images/php/transmission/url_get_parameters.png" "url_get_parameters.png" %}
+{% figure-abs "images/php/transmission/url_get_parameters.png" "url_get_parameters.png" "100%" "100%" %}
 
 Ici, l’URL accède d’abord au repertoire monsite du serveur puis au fichier bonjour.php. Dans ce fichier, sont envoyées 2 variables :
 
@@ -100,7 +100,7 @@ Par exemple, le formulaire suivant envoie en plus du nom et du prénom le nom du
 ```
 À l’affichage, nous obtiendrons la même chose que précédemment :
 
-{% figure-abs "images/php/transmission/formulaire.png" "formulaire" %}
+{% figure-abs "images/php/transmission/formulaire.png" "formulaire" "100%" "100%" %}
 
 L’URL lorsque le formulaire est saisi sera :
 ```html

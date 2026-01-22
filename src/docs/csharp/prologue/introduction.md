@@ -92,6 +92,7 @@ Pour plus de détails, vous pouvez consulter ce [site](https://semver.org/lang/f
 | ~                                            | ~1.0.0           | 1.0.x                              | >=1.0.0 <1.1.0                 |
 | \*                                           | \*               | x.x.x                              | >=0.0.1                        |
 {% endbs-table %}
+
 ### d - Phases d'un projet
 En conception de programme, la terminologie des phases de développement indique l’état d’avancement à travers les étapes dans le respect des spécifications élaborées aux étapes précédentes et ce qui reste à accomplir.
 Une phase de développement est associée à une des étapes d’un cycle de développement.

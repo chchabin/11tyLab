@@ -35,7 +35,7 @@ Si vous connaissez phpmyadmin (c’est celui qui sera en démonstration), lancez
 Voici ce que vous obtenez en créant la base :
 {% endcallout%}
 
-{% figure-abs "images/exercices-et-défis/tp/creationBase.PNG" "creationBase" %}
+{% figure-abs "images/exercices-et-défis/tp/creationBase.PNG" "creationBase" "100%" "100%" %}
 
 
 ## 2 - Execution du script
@@ -54,4 +54,4 @@ Pour lancer le script, il suffit
 Voici ce que vous obtenez en voulant lancer le script :
 {% endcallout%}
 
-{% figure-abs "images/exercices-et-défis/tp/scriptBase.PNG" "scriptBase" %}
+{% figure-abs "images/exercices-et-défis/tp/scriptBase.PNG" "scriptBase" "100%" "100%" %}

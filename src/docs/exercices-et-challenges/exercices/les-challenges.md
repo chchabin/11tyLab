@@ -166,24 +166,28 @@ fonction afficherTableau(tNotes :tableau DE réel) :void
 |-----------------|--------------------------|--------------------------------------|----------------------|
 | distributionMin | Affiche la note minimale | tNotes : tableau DE réel → les notes | void                 |
 {% endbs-table %}
+
 {% bs-table %}
 
 | **Nom**         | **Rôle**                 | **Paramètres**                       | **Valeur de retour** |
 |-----------------|--------------------------|--------------------------------------|----------------------|
 | distributionMax | Affiche la note maximale | tNotes : tableau DE réel → les notes | void                 |
 {% endbs-table %}
+
 {% bs-table %}
 
 | **Nom**            | **Rôle**                                 | **Paramètres**                       | **Valeur de retour** |
 |--------------------|------------------------------------------|--------------------------------------|----------------------|
 | distributionJalon5 | Affiche le nombre de notes inférieur à 5 | tNotes : tableau DE réel → les notes | void                 |
 {% endbs-table %}
+
 {% bs-table %}
 
 | **Nom**            | **Rôle**                                                 | **Paramètres**                       | **Valeur de retour** |
 |--------------------|----------------------------------------------------------|--------------------------------------|----------------------|
 | distributionEcart4 | Affiche le nombre de notes dans un intervalle de 4 notes | tNotes : tableau DE réel → les notes | void                 |
 {% endbs-table %}
+
 {% bt-collapse "notes3", info, "Indice pour distributionEcart4" %}
 ```
 créez un tableau stat[0,...5] : tableau DE entier  

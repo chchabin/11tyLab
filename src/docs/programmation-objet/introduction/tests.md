@@ -123,6 +123,7 @@ Sans le terme "unitaire" et sans ambiguïté
 | Loi n° 2     | Il faut écrire une seule assertion à la fois, qui fait échouer le test ou qui échoue à la compilation.              |
 | Loi n° 3     | Il faut écrire le minimum de code de production pour que l'assertion du test actuellement en échec soit satisfaite. |
 {% endbs-table %}
+
 ### Application
 Concrètement, cela signifie que :
 - L’écriture des tests (utilisant une classe de test) est écrite au préalable

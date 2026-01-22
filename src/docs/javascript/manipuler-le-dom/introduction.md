@@ -40,7 +40,7 @@ et de l’arbre de rendu, mais techniquement, ils n’appartiennent pas au DOM p
 source HTML, qui ne comprend pas les styles appliqués aux éléments.
 Pour afficher la console dans Chrome saisir `ctrl + maj + i`
 
-{% figure-abs "images/javascript/Pseudo-element-in-devtools-inspector-compressor.png", "Pseudo-element-in-devtools-inspector-compressor.png" %}
+{% figure-abs "images/javascript/Pseudo-element-in-devtools-inspector-compressor.png", "Pseudo-element-in-devtools-inspector-compressor.png" "100%" "100%" %}
 
 ## 2 - Les éléments du DOM
 ### Window

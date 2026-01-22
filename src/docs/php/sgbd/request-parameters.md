@@ -50,7 +50,7 @@ $req->execute();
 
 La technique ci-dessus rend la base vulnérable aux attaques de type "injection SQL". L’injection SQL consiste à faire exécuter des requêtes SQL imprévues par le SGBDR, ce qui peut conduire à de graves problèmes de sécurité.
 
-{% figure-abs "images/php/sgbd/sql_injection.png" "sql_injection" %}
+{% figure-abs "images/php/sgbd/sql_injection.png" "sql_injection" "100%" "100%" %}
 
 Ce risque de sécurité n’existe pas lorsqu’on utilise des requêtes préparées,
 {% callout %}

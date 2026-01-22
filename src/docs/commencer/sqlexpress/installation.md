@@ -18,15 +18,15 @@ draft : false
 **a - choisir le mode Personnaliser**
 {% figure-abs "images/sqlexpress/sqlexpress01.png" "Personnaliser" "50%" "50%" %}
 **b - choisir Installation**
-{% figure-abs "images/sqlexpress/sqlexpress02.png" "Installation"  "50%" "50%"%}
+{% figure-abs "images/sqlexpress/sqlexpress02.png" "Installation" "50%" "50%"%}
 **c - désactiver Azure**
-{% figure-abs "images/sqlexpress/sqlexpress03.png" "Azure"  "50%" "50%"%}
+{% figure-abs "images/sqlexpress/sqlexpress03.png" "Azure" "50%" "50%"%}
 **d - sélectionner les fonctionnalités utiles**
-{% figure-abs "images/sqlexpress/sqlexpress04.png" "fonctionnalités"  %}
+{% figure-abs "images/sqlexpress/sqlexpress04.png" "fonctionnalités" "100%" "100%" %}
 **e - mettre votre nom comme nom d'instance**
-{% figure-abs "images/sqlexpress/sqlexpress05.png" "instance"  "50%" "50%"%}
+{% figure-abs "images/sqlexpress/sqlexpress05.png" "instance" "50%" "50%"%}
 **f - choisir l'authentification windows**
-{% figure-abs "images/sqlexpress/sqlexpress05.png" "authentification"  "50%" "50%"%}
+{% figure-abs "images/sqlexpress/sqlexpress05.png" "authentification" "50%" "50%"%}
 
 ## 3 - Installer SSMS
 Il s'agit d'une interface qui, comme phpMyAdmin, permet de travailler plus facilement avec SqlExpress
@@ -42,9 +42,9 @@ Il s'agit d'une interface qui, comme phpMyAdmin, permet de travailler plus facil
 **b - choisir le mode d'authentification sql server et windows**
 {% figure-abs "images/sqlexpress/ssms07.png" "server" "50%" "50%" %}
 **c - Lancer le gestionnaire de configuration**
-{% figure-abs "images/sqlexpress/ssms08.png" "gestionnaire conf"  %}
+{% figure-abs "images/sqlexpress/ssms08.png" "gestionnaire conf" "50%" "50%" %}
 **d - clicker sur la connection réseau et clique droit sur TCPIP, puis Activer le protocole**
-{% figure-abs "images/sqlexpress/ssms09.png" "activer ip" %}
+{% figure-abs "images/sqlexpress/ssms09.png" "activer ip" "50%" "50%" %}
 **e - clicker sur l'onglet Adresse IP et mettre le protocole au port 1433**
 {% figure-abs "images/sqlexpress/ssms10.png" "port" "50%" "50%" %}
 

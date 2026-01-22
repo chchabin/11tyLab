@@ -65,6 +65,7 @@ Pour connaitre les paramètres et les types d’envoi, il faut connaitre les sp�
 |---------|--------------------------------------------|---------------|----------------------|
 | Maximum | Retourne la valeur maximum entre 3 entiers | Les 3 entiers | La valeur du maximum |
 {% endbs-table %}
+
 Elles peuvent aussi être indiquées sous forme d’instruction :
 
 {% figure-abs "images/csharp/signatureFonction.png" "signatureFonction" "100%" "100%" %}

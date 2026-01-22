@@ -30,6 +30,7 @@ en respectant les contraintes suivantes :
 | Chambre double  |   	75 € |
 | Chambre triple  |   	90 € |
 {% endbs-table %}
+
 6. Écrire le code qui permet au fichier `simulation.html` d'afficher les données de `chambreSaison.json`
 7. Affichez les informations du formulaire et le montant à payer sachant les tarifs suivants :
    {% bs-table %}

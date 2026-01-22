@@ -20,7 +20,7 @@ Nous allons donc étudier comment interagir avec un SGBDR depuis une page PHP. P
 
 Le schéma ci-dessous décrit l’architecture que nous allons mettre en œuvre. Il s’agit d’un exemple d’**architecture trois tiers** (client, serveur Web, SGBD). Le rôle de PDO va être de faire le lien entre les pages PHP du serveur et les données stockées dans le SGBDR.
 
-{% figure-abs "images/php/sgbd/archi-pdo.png" "archi-pdo.png" %}
+{% figure-abs "images/php/sgbd/archi-pdo.png" "archi-pdo.png" "100%" "100%" %}
 
 ## 2 - Configuration de la connexion avec `PDO`
 La connexion à une base de données depuis un fichier source PHP est réalisée de manière orientée objet, en instanciant un objet de la classe PDO par le biais de son constructeur.

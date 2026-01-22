@@ -21,6 +21,7 @@ Reliez les données à leur casse.
 | btnRetour          | ☐ |   |   |                    |
 
 {% endbs-table %}
+
 ## 2 - Calcul du prix unitaire à partir d’un montant TTC
 Soit la formule :
 `HT = TTC / (TVA x qt)`

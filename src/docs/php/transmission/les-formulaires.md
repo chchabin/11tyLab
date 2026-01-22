@@ -46,7 +46,7 @@ La balise HTML `<form>` possède deux attributs importants :
 
 À l’affichage, nous obtiendrons :
 
-{% figure-abs "images/php/transmission/formulaire.png" "formulaire" %}
+{% figure-abs "images/php/transmission/formulaire.png" "formulaire" "100%" "100%" %}
 
 Sans css la mise en forme est un peu brute.
 ## 3 - GET ou POST ?

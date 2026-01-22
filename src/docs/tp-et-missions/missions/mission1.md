@@ -108,6 +108,7 @@ Il s'agit d'une combinaison de markdown et de mermaid
 | `critique`                      | tâche critique                                                            |
 
 {% endbs-table %}
+
 backticks : accent grave ou {%kbd "ALT GR" %}+ {%kbd "7" %}
 {% callout "warning" %}
 Avant le code il faut écrire des backticks et mettre mermaid devant.  

@@ -39,6 +39,7 @@ Le nom d’une variable est appelé identificateur.
 | ulong   | 64 bits non signés | 0 à 18446744073709551615        | 0                 |
 | ushort  | 16 bits non singés | 0 à 65535                       | 0                 |
 {% endbs-table %}
+
 ## 2 - Déclarer et initialiser les variables
 {% callout %}
 **Ce processus se passe en trois étapes :**
@@ -54,6 +55,7 @@ Exemple :
 | int             | nombreDeVisiteurs | 5000        |
 | string          | ours              | Grizzly     |
 {% endbs-table %}
+
 ```csharp
 int nombreDeVisiteurs = 5000;
 ```
@@ -94,6 +96,7 @@ Il existe environ une dizaine de caractères spéciaux dont voici les principaux
 | `\’` | permet de créer un caractère contenant la valeur du quote. |
 | `\"` | affiche un guillemet.                                      |
 {% endbs-table %}
+
 ## 4 - Saisie de variables
 **En mode Console** la saisie des variables se fait grâce à l’instruction
 ```csharp

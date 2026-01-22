@@ -73,6 +73,7 @@ L'utilisation de `addEventListener()` est la méthode recommandée pour gérer l
 | unload    | Quand on ferme la fenêtre, peut être ignoré par certain navigateur.            |
 | scroll    | Quand on déplace la barre de scroll.<br>sur window ou un element avec overflow |
 {% endbs-table %}
+
 ## 2 - l'objet event
 ### a - `addEventListener`
 La méthode `addEventListener(nomEvent, nomFonction, typePropagation)` appelée par un élément écoute un événement sur cet élément. 

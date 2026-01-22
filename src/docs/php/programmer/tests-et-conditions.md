@@ -70,6 +70,7 @@ Toute expression renvoyant une valeur booléenne peut être utilisée comme cond
 | ===       | Égal à et de même type                      |
 | !==       | true : si Différent de, ou pas de même type |
 {% endbs-table %}
+
 {% callout "danger" %}
 ### Attention
 La plupart des langages de programmation utilisent le symbole = pour symboliser l’affectation et le symbole == pour l’égalité. Attention aux confusions avec le sens mathématique de l’opérateur =.

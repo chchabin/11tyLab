@@ -15,7 +15,7 @@ Une URL représente l'adresse d'une page web et commence par `http://` ou `https
 Lorsqu'on fait un lien vers une autre page, il est possible d'ajouter des paramètres sous la forme 
 `bonjour.php?nom=Dupont&prenom=Jean` qui seront transmis à la page. 
 
-{% figure-abs "images/php/transmission/url.png" "url" %}
+{% figure-abs "images/php/transmission/url.png" "url" "100%" "100%" %}
 
 Dans ce cas, la page `bonjour.php` recevra ces paramètres dans la variable superglobale `$_GET` et défini automatiquement par PHP :
 
@@ -51,6 +51,7 @@ Cette url est récupérée dans un tableau `$_REQUEST`. Ce tableau fournit deux 
 | `$_REQUEST[‘action’]` | accueil    |
 
 {% endbs-table %}
+
 ### Le répartiteur
 
 Le fichier `index.php` fait fonction de répartiteur.  
@@ -70,7 +71,7 @@ contrôleur. C'est le contrôleur qui a pour rôle de :
 - traiter les données,
 - appeler les vues permettant d'afficher les données récupérées, calculées, ou d'afficher les messages à destination de l'utilisateur. 
 
-{% figure-abs "images/php/transmission/mvc.png" "mvc" %}
+{% figure-abs "images/php/transmission/mvc.png" "mvc" "100%" "100%" %}
 
 ### Accès aux données
 

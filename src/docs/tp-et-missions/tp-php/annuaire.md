@@ -87,6 +87,7 @@ La maquette de résultat doit avoir cette apparence :
 | **Exceptions :**                                                                 |
 
 {% endbs-table %}
+
 {%questions %}
 **Ce qui vous est demandé de faire :**
 1. dans le fichier `m_model.php` créez la fonction `insertMembre()` pour insérer un nouveau membre dans la base de données.
@@ -164,6 +165,7 @@ La maquette de résultat correspond à celle, de celle de saisie d'un membre
 | **Exceptions :**                                                                       |
 
 {% endbs-table %}
+
 {%questions %}
 **Ce qui vous est demandé de faire :**
 1. dans le fichier `m_model.php` créez la fonction `getUnMembre()` qui prendra en paramètre l'id du membre,

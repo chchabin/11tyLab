@@ -20,6 +20,7 @@ Quels sont les retours attendus ?
 | function afficher(string $txt=’’): int | ☐ |  | ☐ | double     |
 | function convert(array $num): array    | ☐ |  | ☐ | array      |
 {% endbs-table %}
+
 ### 2 - la déclaration des paramètres
 La déclaration, des paramètres ou des valeurs de retour, est-elle correcte ?
 {% bs-table %}
@@ -33,6 +34,7 @@ La déclaration, des paramètres ou des valeurs de retour, est-elle correcte ?
 | function convert(string $num[]): string        |      ☐       |        ☐        |
 | function produire(void): array                 |      ☐       |        ☐        |
 {% endbs-table %}
+
 ### 3 - retour
 Qu’allez vous obtenir à l’affichage ?
 ```php

@@ -19,6 +19,7 @@ Ces opérateurs ont déjà été vus dans le chapitre consacré aux variables, i
 | --$x    | Pré-décrémente  | Décrémente $x de 1, puis retourne $x. |
 | $x--    | Post-décrémente | Retourne $x, puis décrémente $x de 1. |
 {% endbs-table %}
+
 ## 2 - Les opérateurs d'affectation combinés
 Ces opérateurs ont déjà été vus dans le chapitre consacré aux variables, ici, nous rappelons leur grande utilité.
 {% bs-table %}
@@ -33,6 +34,7 @@ Ces opérateurs ont déjà été vus dans le chapitre consacré aux variables, i
 | %=        | Modulo puis affectation         | $x %= $y  | $x = $x % $y  |
 | .=        | Concaténation puis affectation  | $x .= $y  | $x = $x . $y  |
 {% endbs-table %}
+
 ## 3 - L'opérateur ternaire
 La syntaxe est la suivante :
 ```php

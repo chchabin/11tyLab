@@ -53,6 +53,7 @@ Au niveau du `for` la trace de la boucle est la suivante :
 |      3      |      3       |       false       |
 |      4      |      4       |       true        |
 {% endbs-table %}
+
 A la sortie de la boucle la valeur de `i` est 3
 {% callout "warning" %}
 **Itérations**  
@@ -92,6 +93,7 @@ Au niveau du `while` la trace de la boucle est la suivante :
 |      4      |       4       |        10         |       false        |
 |      5      |       5       |        10         |        true        |
 {% endbs-table %}
+
 Le compteur, la variable i, est à 5 ce qui ne remplit plus la condition est fait sortir le programme de la boucle
 
 La variable `somme` est appelée variable de cumul, car elle additionne toutes les valeurs de `i` rentrées dans la boucle, soit `0 + 1 + 2 + 3 + 4`
@@ -136,6 +138,7 @@ Cela donne le tableau à double entrée suivant :
 | 3   |   0   |   1   |   2   |   3   |   4   |
 | 4   |   0   |   1   |   2   |   3   |   4   |
 {% endbs-table %}
+
 Plusieurs combinaisons sont possibles en fonction de `i` et `j`. Par exemple au lieu d’avoir la condition `i<fin`, nous pouvons avoir i<j, en changeant des éléments du code de la boucle.
 {% callout %}
 **Info**  
@@ -186,6 +189,7 @@ La boucle va permettre l’addition des valeurs de `i` comme le montre le tablea
 | Itération 5                    |   4   |  10 (6+4) |
 | Valeurs fin d’itération        |   5   |        10 |
 {% endbs-table %}
+
 Ce petit bout de code affichera :
 ```csharp
 La somme vaut : 10

@@ -203,6 +203,7 @@ echo "totalht : $totalht";
 | on ne peut pas sortir de la boucle   |       ☐       |       ☐       |       ☐       |
 | on ne peut pas entrer dans la boucle |       ☐       |       ☐       |       ☐       |
 {% endbs-table %}
+
 **Si l’utilisateur saisit les chiffres 10, 20 et 0, que contiendra la variable TOTALHT à la fin de l’exécution de chacune des versions :**
 {% bs-table %}
 

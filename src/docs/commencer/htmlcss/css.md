@@ -60,6 +60,7 @@ Les autres éléments importants de la syntaxe sont :
 | E::after                 | Insert quelque chose aprés chaque selecteur E                                                                                                                              | p::after                                                                                        |
 
 {% endbs-table %}
+
 [plus de détails](https://www.w3schools.com/cssref/css_selectors.php)
 
 ## 2 - Poids des sélecteurs

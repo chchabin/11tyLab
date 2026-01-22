@@ -15,7 +15,7 @@ draft : false
 {% endcallout %}
 Nous allons modifier le code HTML de façon à obtenir le menu suivant :
 
-{% figure-abs "images/htmlcss/flexMENU.png" "flexMENU" %}
+{% figure-abs "images/htmlcss/flexMENU.png" "flexMENU" "100%" "100%" %}
 
 Vous copiez le code suivant dans le body.
 {% bt-collapse "idc" %}
@@ -85,7 +85,7 @@ Dans la page css, ajoutez le code suivant :
 {% endcallout %}
 Nous allons modifier le code HTML de façon à obtenir le template suivant :
 
-{% figure-abs "images/htmlcss/flexForm.png" "flexForm" %}
+{% figure-abs "images/htmlcss/flexForm.png" "flexForm" "100%" "100%" %}
 
 Vous copiez le code suivant dans le body.
 {% bt-collapse "ida" %}

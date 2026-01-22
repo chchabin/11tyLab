@@ -9,7 +9,7 @@ date : "2022-08-19T05:46:40+02:00"
 draft : false
 ---
 
-{% figure-abs "images/php/intro-dev-web/dev-web.png" "dev-web" %}
+{% figure-abs "images/php/intro-dev-web/dev-web.png" "dev-web" "100%" "100%" %}
  
 **Note** : ce chapitre s’inspire de la [documentation du framework PHP Symfony](http://symfony.com/doc/current/book/from_flat_php_to_symfony2.html).
 ## 1 - Le fonctionnement du Web
@@ -36,7 +36,7 @@ D’autres types de logiciels que les navigateurs peuvent jouer le rôle de clie
 ### c - La communication entre client et serveur
 La compréhension des échanges, ayant lieu entre un client et un serveur Web lors de la consultation d’un site, est essentielle. Il s’agit d’un mécanisme de type **requête/réponse**.
 
-{% figure-abs "images/php/intro-dev-web/web_http_echange.png" "web_http_echange" %}
+{% figure-abs "images/php/intro-dev-web/web_http_echange.png" "web_http_echange" "100%" "100%" %}
 
 
 1. L’échange est initié par le client, qui envoie au serveur une requête pour consulter une ressource Web.
@@ -51,7 +51,7 @@ HTTP est fondamentalement un protocole très simple, basé sur des commandes tex
 ### a - Anatomie d’une requête HTTP
 Prenons comme exemple la première étape de l’échange décrit plus haut.
 
-{% figure-abs "images/php/intro-dev-web/web_http_requete.png" "web_http_requete" %}
+{% figure-abs "images/php/intro-dev-web/web_http_requete.png" "web_http_requete" "100%" "100%" %}
 
 La requête HTTP envoyée par le navigateur prend une forme similaire à celle-ci :
 ```batch
@@ -76,7 +76,7 @@ Les méthodes HTTP, les plus fréquemment utilisées sont `GET` (pour récupére
 Lorsqu’il reçoit une requête HTTP, le serveur Web y puise les informations nécessaires pour construire la réponse, puis
 la renvoie au client. Continuons avec notre exemple précédent.
 
-{% figure-abs "images/php/intro-dev-web/web_http_echange.png" "web_http_echange.png" %}
+{% figure-abs "images/php/intro-dev-web/web_http_echange.png" "web_http_echange.png" "100%" "100%" %}
 
 La réponse HTTP renvoyée du serveur au client prend l’aspect ci-dessous.
 ```html
@@ -107,7 +107,7 @@ Les codes de retour HTTP peuvent être classés par familles en fonction du prem
 |**5xx**|Erreur provenant du serveur|500 : erreur interne du serveur<br>503 : service temporairement indisponible|
 {% endbs-table %}
 
-{% figure-abs "images/php/intro-dev-web/http_error_404.jpg" "http_error_404.jpg" %}
+{% figure-abs "images/php/intro-dev-web/http_error_404.jpg" "http_error_404.jpg" "100%" "100%" %}
 
 Vous trouverez sur [Wikipédia](http://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol) plus de détails sur le protocole HTTP.
 ## 3 - L’évolution vers des sites dynamiques
@@ -121,7 +121,7 @@ La consultation d’un site Web statique met en jeu deux logiciels :
 
 Lorsqu’un client envoie une requête au serveur Web hébergeant un site statique, le serveur se contente de renvoyer la ressource demandée. Les pages HTML affichées ne peuvent pas évoluer automatiquement, d’où le terme "statique".
 
-{% figure-abs "images/php/intro-dev-web/web_site_statique.png" "web_site_statique.png" %}
+{% figure-abs "images/php/intro-dev-web/web_site_statique.png" "web_site_statique.png" "50%" "50%" %}
 
 L’accès à un site Web statique est un exemple d’architecture **client/serveur**,
 
@@ -131,7 +131,7 @@ L’explosion de la popularité du Web au début des années 2000 a provoqué l�
 
 Lorsqu’un client envoie une requête au serveur Web hébergeant un site dynamique, le serveur prépare la page HTML correspondant à cette requête, puis la renvoie au client pour affichage. Les pages Web affichées au visiteur ne sont pas figées comme dans le cas d’un site statique, mais **générées** au moment de leur consultation.
 
-{% figure-abs "images/php/intro-dev-web/web_site_dynamique.png" "web_site_dynamique.png" %}
+{% figure-abs "images/php/intro-dev-web/web_site_dynamique.png" "web_site_dynamique.png" "50%" "50%" %}
 
 {% callout "warning" %}
 #### **Important**
@@ -141,7 +141,7 @@ Contrairement à un site statique, un site dynamique ouvre la voie à des intera
 ### c - Les langages serveur du Web dynamique
 Pour créer un site Web dynamique. Il faut obligatoirement utiliser un langage capable de *générer* des pages HTML. Le diagramme ci-dessous rassemble les principaux langages capables de réaliser cette tâche.
 
-{% figure-abs "images/php/intro-dev-web/évolution-2020-2021-303x370.jpeg" "évolution-2020-2021-303x370"  %}
+{% figure-abs "images/php/intro-dev-web/évolution-2020-2021-303x370.jpeg" "évolution-2020-2021-303x370"  "50%" "50%"  %}
 
 On constate que la technologie la plus populaire est PHP, suivie de loin par ASP.NET (Microsoft) et Java (ORACLE). Les technologies ASP.NET et Java sont plus souvent employées pour des sites complexes avec d’importants besoins en matière de performances et de montée en charge. Ces sites sont assez peu nombreux, d’où la domination globale de PHP.
 {% callout %}

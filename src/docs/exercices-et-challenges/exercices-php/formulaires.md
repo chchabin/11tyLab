@@ -45,6 +45,7 @@ Voici du code HTML sans mise en forme css
 | Un des champs contient déjà une valeur                                    |       ☐       |       ☐       |         ☐          |
 | Toutes les valeurs saisies se retrouvent dans le fichier action\_page.php |       ☐       |       ☐       |         ☐          |
 {% endbs-table %}
+
 ### 2 - la Récupération des données
 Voici le code d’un formulaire :
 

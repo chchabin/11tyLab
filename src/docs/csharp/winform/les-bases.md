@@ -46,6 +46,7 @@ chiffres, _ ou -
 | etc.          | etc.        |
 
 {% endbs-table %}
+
 Plus de détails sur [gist](https://gist.github.com/andyyou/3052671)
 {% callout %}
 Exemples : BtnQuitter, BtnFin, BtnRecherche, BtnMiseAJor LblNom, LblAdresse, Lbl_Numero, TxtNom, TxtNomClient, TxtQuantite, LstClients

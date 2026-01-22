@@ -48,7 +48,7 @@ personne.email='sionne@free.fr'
 #### Résultat :
 En faisant un `console.log(personne)` vous obtenez:
 {% endcallout %}
-{% figure-abs "images/javascript/objet2.png" "objet2.png" %}
+{% figure-abs "images/javascript/objet2.png" "objet2.png" "100%" "100%" %}
 
 Pour accéder aux valeurs, plusieurs choix sont possibles :
 ```javascript

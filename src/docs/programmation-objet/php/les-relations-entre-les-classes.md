@@ -30,6 +30,7 @@ draft : false
 | 8      | **Multiplicité**              | Indique combien des objets à cette extrémité peuvent être liés à chaque objet à l’autre extrémité. Dans l’exemple, chaque commande doit être liée à exactement un menu. <br>**\**\* signifie qu’il n’existe aucune limite supérieure au nombre de liens qui peuvent être apportées.                                  |
 | 9      | **Généralisation**            | Le *spécifique* classifieur hérite une partie de sa définition à partir de la *général* classifieur. Le classifieur général se trouve à l’extrémité fléchée du connecteur. Les attributs, associations et opérations sont hérités par le classifieur spécifique.                                                     |
 {% endbs-table %}
+
 ## 2 - Dépendances entre les classes
 [*source James RAVAILLE*](http://blog.algowin.fr/author/blogdotnet/)
 
@@ -65,6 +66,7 @@ Il s’agit d’un nombre entier ou d’un intervalle de valeurs.
 | 1..\*       | De 1 à plusieurs instances             |
 | n           | Exactement n instances                 |
 {% endbs-table %}
+
 En UML, elle est :
 
 - notée avec le rôle,

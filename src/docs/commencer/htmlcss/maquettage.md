@@ -16,13 +16,13 @@ La mise en page est quelque chose de difficile à dominer, car il existe de nomb
 ## 2 - Structure de la maquette
 Le format standard d’une page web peut être présenté selon l’image ci-dessous
 
-{% figure-abs "images/htmlcss/html5_structure.png" "layoutWeb" %}
+{% figure-abs "images/htmlcss/html5_structure.png" "layoutWeb" "100%" "100%" %}
 
 Avant le HTML 5 toutes les balises portaient le nom div. Depuis ont été rajoutées les balises sémantiques que nous avons dans l’image
 
 Pour des écrans plus petits l’organisation change, comme le montre l’image suivante :
 
-{% figure-abs "images/htmlcss/HolyGrailLayout.png", "layoutWebResponsive" %}
+{% figure-abs "images/htmlcss/HolyGrailLayout.png", "layoutWebResponsive" "100%" "100%" %}
 
 ## 3 - Le template flexbox
 {% callout%}
@@ -35,7 +35,7 @@ Pour des écrans plus petits l’organisation change, comme le montre l’image 
 {% endcallout%}
 Nous allons modifier le code HTML de façon à obtenir le template suivant :
 
-{% figure-abs "images/htmlcss/flexTemplate.png" "template" %}
+{% figure-abs "images/htmlcss/flexTemplate.png" "template" "100%" "100%" %}
 
 Vous copiez le code suivant dans le body.
 {% bt-collapse "ida" %}
@@ -92,7 +92,7 @@ Dans la page css, ajoutez le code suivant :
 {% endcallout%}
 Nous allons modifier le code HTML de façon à obtenir le template suivant :
 
-{% figure-abs "images/htmlcss/maquetteGrid.png" "maquetteGrid" %}
+{% figure-abs "images/htmlcss/maquetteGrid.png" "maquetteGrid" "100%" "100%" %}
 
 Vous copiez le code suivant dans le body.
 {% bt-collapse "idc" %}

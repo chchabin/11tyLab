@@ -36,6 +36,7 @@ Les différents types dans PHP
 | ressource | https://www.php.net/manual/fr/language.types.resource.php |
 | NULL      | $var = NULL ;                                             |
 {% endbs-table %}
+
 Après sa définition, une variable PHP est utilisable à n’importe quel endroit de la page, même dans un autre bloc de code.
 ```php
 <?php $message = 'Bonjour tout le monde !';?>
@@ -56,6 +57,7 @@ elle permet d’afficher des caractères qui servent à délimiter les chaines.
 | \’        | permet de créer un caractère contenant la valeur du quote. |
 | \\"       | affiche un guillemet.                                      |
 {% endbs-table %}
+
 Exemple :
 ```php
 <p>
@@ -106,6 +108,7 @@ $testVariable = 5 % 3;  // assigne la valeur 2 le reste de la division
 | %=            | Modulo puis affectation         | $x %= $y    | $x = $x % $y    |
 | .=            | Concaténation puis affectation  | $x .= $y    | $x = $x . $y    |
 {% endbs-table %}
+
 ### c - Les opérateurs d’incrémentation et décrémentation
 {% bs-table %}
 
@@ -116,6 +119,7 @@ $testVariable = 5 % 3;  // assigne la valeur 2 le reste de la division
 | --$x        | Pré-décrémente  | Décrémente $x de 1, puis retourne $x. |
 | $x--        | Post-décrémente | Retourne $x, puis décrémente $x de 1. |
 {% endbs-table %}
+
 ## 8 - Résumé
 ```php
 $var1 = 'PHP';          // assigne la valeur 'PHP' à $var1

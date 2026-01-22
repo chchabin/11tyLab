@@ -301,6 +301,7 @@ Nous prendrons en compte qu'un nombre limité de mouvements :
 | Retrait distributeur | dab  | En débit    |
 | Retrait en guichet   | ret  | En débit    |
 {% endbs-table %}
+
 L'objectif de la nouvelle application est de gérer les mouvements. 
 
 Les données de la classe `Type` :

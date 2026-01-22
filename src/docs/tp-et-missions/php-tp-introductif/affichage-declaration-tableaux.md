@@ -163,6 +163,7 @@ Changer la langue du menu avec une zone de liste. Voici le tableau des correspon
 | qui sommes-nous ? | about us    |
 | langue            | language    |
 {% endbs-table %}
+
 Création au niveau de la déclaration de variables de 2 tableaux $menu01 et $menu02 à partir du tableau précédent :
 
 {% bt-collapse "I5" %}

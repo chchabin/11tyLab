@@ -47,6 +47,7 @@ Une API REST doit respecter un certain nombre de contraintes :
 | Modifier un article en particulier  | PUT     | https://monsite.fr/api/posts/8         |
 | Supprimer un article en particulier | DELETE  | https://monsite.fr/api/posts/8         |
 {% endbs-table %}
+
 #### Authentification
 Certaines API nécessitent une authentification soit pour limiter l’accès à des données, soit pour en plus, rendre l’accès payant. Le plus souvent, c’est le protocole OAuth qui est utilisé. C’est un protocole libre qui permet d’autoriser un site web, un logiciel ou une application (dite « consommateur ») à utiliser l’API sécurisée d’un autre site web (dit « fournisseur ») pour le compte d’un utilisateur. L’authentification se fait à l’aide d’un jeton (access token).
 Voici quelques exemples avec L’API de github. Ils utilisent curl qui est un outil pour transférer des données en utilisant plusieurs protocoles dont HTTP.
@@ -58,6 +59,7 @@ Voici quelques exemples avec L’API de github. Ils utilisent curl qui est un ou
 | Transfert du token par l’URI       | curl https://api.github/?access\_token= OAUTH-TOKEN                   |
 | Génération du token par paramètres | curl 'https://api.github/whatever?client\_id=xxxx&client\_secret=yyy' |
 {% endbs-table %}
+
 ## 2 - Introduction node.js
 Qu’est-ce que node.js
 

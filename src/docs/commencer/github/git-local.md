@@ -22,16 +22,16 @@ draft : false
 Pour mettre votre projet sur GitHub, vous devez créer un référentiel dans lequel il pourra être installé.
 Cliquez sur le "`+`" dans le coin supérieur droit, pour faire apparaître l’option New repository
 
-{% figure-abs "images/github/github_creerFichier.png", "github_creerFichier"  %}
+{% figure-abs "images/github/github_creerFichier.png", "github_creerFichier" "100%" "100%"   %}
 
 Choisissez un nom simple pour votre dépôt, choisissez si vous souhaitez créer un dépôt public ou privé, initialiser un readme.
 
-{% figure-abs "images/github/github_newRepo.png" "github_newRepo.PNG"  %}
+{% figure-abs "images/github/github_newRepo.png" "github_newRepo.PNG" "100%" "100%"  %}
 
 ## 2 - Créer son dépôt en local
 Il s’agit maintenant de cloner le dépôt distant sur le dépôt local.
 
-{% figure-abs "images/github/github_clone.png" "github_clone"  %}
+{% figure-abs "images/github/github_clone.png" "github_clone"  "100%" "100%" %}
 
 Vous devez récupérer l’adresse du lien HTTPS, et saisir :
 ```bash
@@ -74,7 +74,7 @@ git log
 ```
 Pour chaque commit, la première ligne correspond au sha du commit.
 
-{% figure-abs "images/github/github_log.png" "github_log.png" %}
+{% figure-abs "images/github/github_log.png" "github_log.png" "100%" "100%" %}
 
 Ici, `756b85e921aced5d41d538eaf2eff65e03d4be0f` correspond au `sha-1` du commit
 

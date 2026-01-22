@@ -25,6 +25,7 @@ Dire si les instructions sont valides et dans ce cas ce qu’elles font.
 | string a = Convert.ToInt16(Console.ReadLine()); |          |
 | int a = Convert.ToInt16(Console.ReadLine());    |          |
 {% endbs-table %}
+
 ### 2 - Que fait ce programme ?
 Soit le programme suivant :
 ```csharp
@@ -150,6 +151,7 @@ if (ca > 20000)
 | Version 2 |  ☐  |  ☐  |  ☐  |
 | Version 3 |  ☐  |  ☐  |  ☐  |
 {% endbs-table %}
+
 **Selon vous, quelle est la meilleure version ?**  
 ☐ Version 1  
 ☐ Version 2  

@@ -11,16 +11,16 @@ draft : false
 ## Vérifier que git est opérationnel avec Laragon
 Ouvrez Laragon, Cliquez sur Terminal :
 
-{% figure-abs "images/github/laragon_accueil.png", "laragon_accueil.PNG" %}
+{% figure-abs "images/github/laragon_accueil.png", "laragon_accueil.PNG" "100%" "100%" %}
 
 Saisir git et vous devez voir apparaitre les messages suivants :
 
-{% figure-abs "images/github/laragon_git.png" "laragon_git.PNG"  %}
+{% figure-abs "images/github/laragon_git.png" "laragon_git.PNG" "100%" "100%"  %}
 
 ## Installer git
 Vous pouvez installer git depuis Laragon en suivant le chemin :
 
-{% figure-abs "images/github/laragon_install.png" "laragon_install.PNG"  %}
+{% figure-abs "images/github/laragon_install.png" "laragon_install.PNG" "100%" "100%"  %}
 
 ## Utiliser git
 vous pouvez utiliser git :

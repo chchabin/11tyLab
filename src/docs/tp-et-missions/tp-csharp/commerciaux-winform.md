@@ -86,7 +86,8 @@ try
 | 4       | Le système enregistre ce nouveau commercial                                                            |
 
 {% endbs-table %}
-### a- création du formulaire
+
+### a - création du formulaire
 {% questions %}
 1. Créez les formulaires `FrmAjoutCommercial `
 2. Ajouter les objets à `FrmAjoutCommercial` selon le schéma suivant. Nommez-les en fonction de leur type, par exemple `lblNom` pour le label nom et
@@ -169,6 +170,7 @@ leService.AjouterCommercial(cm);
 | 4       | Le système enregistre cette nouvelle note de frais                      |
 
 {% endbs-table %}
+
 **Scénario Alternatif**
 {% bs-table %}
 
@@ -182,6 +184,7 @@ leService.AjouterCommercial(cm);
 |         | Le système affiche le nombre de km à saisir              |
 
 {% endbs-table %}
+
 ### a- création du formulaire
 {% questions %}
 1. Créez les formulaires `FrmAjoutNote `

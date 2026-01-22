@@ -20,6 +20,7 @@ Quels sont les retours attendus ?
 | void[] afficher(string txt)    | ☐ |   | ☐ | double     |
 | double[] convert(string[] num) | ☐ |   |   |            |
 {% endbs-table %}
+
 ### 2 - la déclaration des paramètres
 La déclaration, des paramètres ou des valeurs de retour, est-elle correcte ?
 {% bs-table %}
@@ -33,6 +34,7 @@ La déclaration, des paramètres ou des valeurs de retour, est-elle correcte ?
 | double[] convert(string num[])     |     ☐      |       ☐        |
 | double[] produire(void)            |     ☐      |       ☐        |
 {% endbs-table %}
+
 ### 3 - retour
 Qu’allez vous obtenir à l’affichage ?
 ```csharp
