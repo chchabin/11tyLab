@@ -63,6 +63,7 @@ $action = $_REQUEST['action'];
 $selected=isset($_SESSION)?$_SESSION['selected']:'Français';
 ```
 {% endbt-collapse %}
+
 {% questions %}
 **En vous aidant de la documentation php, répondez aux questions suivantes :**
 1. Que signifie cette condition : `!isset($_REQUEST[’langue’])&&!isset($_SESSION[’selected’]` ?
@@ -96,6 +97,7 @@ $lang=$_SESSION['lang'];
 include('v_nav.php');
 ```
 {% endbt-collapse %}
+
 {% questions %}
 **En vous aidant de la documentation php, répondez aux questions suivantes :**
 1. Pourquoi avons-nous cette ligne : `$lang=$_SESSION[’lang’];` ?

@@ -40,6 +40,7 @@ SELECT * FROM context.eleves el
 (...)
 ```
 {% endbt-collapse %}
+
 ### Clause `where`
 Nous pouvons avoir aussi :
 ```csharp
@@ -63,6 +64,7 @@ WHERE el.creditHoraire >10
 ...
 ```
 {% endbt-collapse %}
+
 ### Types anonymes
 Voici une nouvelle formulation.
 ```csharp
@@ -95,6 +97,7 @@ WHERE el.creditHoraire >10
 (...)
 ```
 {% endbt-collapse %}
+
 ### Clause `orderby`
 Cette instruction se place avant le `select`.
 ```csharp
@@ -147,6 +150,7 @@ ORDER BY el.creditHoraire DESC
 ...
 ```
 {% endbt-collapse %}
+
 ### L'opération de manipulation d'ensemble `DISTINCT`
 - DISTINCT : supprime les doublons
   Voici des exemples d'application :
@@ -168,8 +172,9 @@ ORDER BY el.creditHoraire DESC
 ...
 ```
 {% endbt-collapse %}
+
 ## JOINTURE
-### Relation explicites
+### Relation explicite
 L’idée ici est de récupérer des éléments suivants une jointure SQL en utilisant la syntaxe `from` :
 ```csharp
 var query =  from e in context.lecons

@@ -54,6 +54,7 @@ avancer()
 fin objet
 ```
 {% endbt-collapse %}
+
 Un autre objet serait ma clio immatriculée 4357 NBG 93
 {% bt-collapse "notes2" %}
 ```batch
@@ -67,6 +68,7 @@ avancer()
 fin objet
 ```
 {% endbt-collapse %}
+
 {% callout %}
 **Remarque**
 Les objets ne diffèrent que par leurs attributs (en bleu ici).
@@ -103,6 +105,7 @@ avancer()
 fin classe
 ```
 {% endbt-collapse %}
+
 ## 4 - Les classes et leur jardin secret
 {% callout %}
 **Encapsulation**  

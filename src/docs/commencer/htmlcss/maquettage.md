@@ -81,6 +81,7 @@ Dans la page css, ajoutez le code suivant :
    }
 ```
 {% endbt-collapse %}
+
 ## 4 - Le template grid
 {% callout%}
 **Documentation sur la technique grid :**  

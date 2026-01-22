@@ -162,6 +162,7 @@ $tabPays=array(
     );
 ```
 {% endbt-collapse %}
+
 {% col-n %}
 #### Version 1
 
@@ -233,6 +234,7 @@ $tabPays=array(
     );
 ```
 {% endbt-collapse %}
+
 {% col-n %}
 #### Version 1
 

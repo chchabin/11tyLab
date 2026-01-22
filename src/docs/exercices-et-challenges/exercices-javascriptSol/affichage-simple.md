@@ -103,6 +103,7 @@ Voici une page HTML qui affiche une image
 </html>
 ```
 {% endbt-collapse %}
+
 Cette page fait appel au fichier `app.js` qui contiendra notre code javascript
 {% bt-collapse "exo2js" %}
 ```javascript
@@ -151,6 +152,7 @@ Voici une page HTML qui affiche deux images
 </html>
 ```
 {% endbt-collapse %}
+
 Cette page fait appel au fichier `app.js` qui contiendra notre code javascript. 
 Nous traitons l'événement `Appuyer Sur Un Bouton`.
 {% bt-collapse "exo3js" %}

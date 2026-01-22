@@ -72,6 +72,7 @@ echo Visite::$prixVisite; // Notez le $ devant le nom de la variable
 echo "Visite::maMethode() Visite::$prixVisite";  // Affiche Le prix de la visite est de 10        
 ```
 {% endbt-collapse %}
+
 {% callout %}
 **Appel en dehors de la classe.**
 L’opérateur `::` doit être utilisé lorsqu’une propriété ou une fonction statique est appelée en dehors de la classe.
@@ -100,6 +101,7 @@ class Visite
 echo Visite::maMethode()  // Affiche Le prix de la visite est de 20
 ```
 {% endbt-collapse %}
+
 {% callout %}
 **Appel à l’intérieur de la classe.**  
 L’opérateur self doit être utilisé lorsqu’une propriété ou une fonction statique est appelée à l’intérieur de la classe.

@@ -98,6 +98,7 @@ class Visite
 }
 ```
 {% endbt-collapse %}
+
 Pour réaliser ce lien (c.-à-d., valoriser le champ privé patient dans la classe Visite), deux solutions :
 
 - À la construction d’une visite
@@ -110,6 +111,7 @@ Pour réaliser ce lien (c.-à-d., valoriser le champ privé patient dans la clas
 }
 ```
 {% endbt-collapse %}
+
 - Avec un setter après la construction
 {% bt-collapse "notes4" %}
 ```php
@@ -119,6 +121,7 @@ Pour réaliser ce lien (c.-à-d., valoriser le champ privé patient dans la clas
 }
 ```
 {% endbt-collapse %}
+
 ## 5 - Interprétation des modèles UML : les relations 1,n
 Reprenons l’exemple d’une application qui enregistre les visites d’un cabinet de plusieurs médecins. Nous allons maintenant tenir compte du nombre de visites faites par un médecin.
 Considérons le schéma UML suivant :
@@ -158,6 +161,7 @@ class Medecin
 }
 ```
 {% endbt-collapse %}
+
 L’instanciation peut se faire n’importe où dans la classe, mais il est plus pratique de la faire dans le constructeur.
 {% bt-collapse notes8 %}
 ```php

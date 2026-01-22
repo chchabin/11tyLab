@@ -77,6 +77,7 @@ Dans la page css, ajoutez le code suivant :
 }
 ```
 {% endbt-collapse %}
+
 ## 2 - Formulaire flex
 {% callout %}
 **Documentation sur la technique flex :[](https://www.alsacreations.com/tuto/lire/1493-css3-flexbox-layout-module.html)**  
@@ -120,6 +121,7 @@ Vous copiez le code suivant dans le body.
 </div>
 ```
 {% endbt-collapse %}
+
 Dans la page css, ajoutez le code suivant :
 {% bt-collapse "idb" %}
 ```css

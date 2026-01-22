@@ -55,6 +55,7 @@ $form02 = 'Sign in';
 $lang = $menu01;
 ```
 {% endbt-collapse %}
+
 Vous allez maintenant créer le fichier qui contiendra l’en-tête HTML : `TPEntete.php`
 
 {% bt-collapse "I2" %}

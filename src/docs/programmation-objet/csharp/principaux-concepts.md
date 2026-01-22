@@ -57,6 +57,7 @@ using System;
     }
 ```
 {% endbt-collapse %}
+
 L’utilisation d’un constructeur se fait au moment de l’instanciation de l’objet (opérateur `new`), en passant en paramètres les futures valeurs des attributs de l’objet créé (s’il y en a).
 {% bt-collapse "notes2" %}
 ```csharp
@@ -72,6 +73,7 @@ namespace demonstration
  }
 ```
 {% endbt-collapse  %}
+
 {% callout "danger" %}
 #### **ATTENTION**
 1 - Le constructeur doit porter le même nom que la classe.
@@ -164,6 +166,7 @@ using System;
     }
 ```
 {% endbt-collapse %}
+
 ## 4 - Mutateurs.
 {% callout %}
 **Définition**  
@@ -211,6 +214,7 @@ using System;
     }
 ```
 {% endbt-collapse  %}
+
 ## 5 - Redéfinition de `ToString`
 {% callout %}
 **Définition**  
@@ -260,6 +264,7 @@ using System;
     }
 ```
 {% endbt-collapse %}
+
 L’appel de la méthode `ToString` se fera de la façon suivante :
 {% bt-collapse notes7 %}
 ```csharp
@@ -275,6 +280,7 @@ namespace demonstration
 }
 ```
 {% endbt-collapse %}
+
 et affichera :
 {% bt-collapse notes18%}
 ```csharp

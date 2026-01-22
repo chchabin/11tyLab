@@ -11,7 +11,7 @@ draft : false
 ## 1 - Lecture des diagrammes de classes
 [*source microsoft*](https://docs.microsoft.com/fr-fr/visualstudio/modeling/uml-class-diagrams-reference?view=vs-2015)
 
-{% figure-abs "images/csharp/uml-classovreading.png" "resumeUML" %}
+{% figure-abs "images/csharp/uml-classovreading.png" "resumeUML" "100%" "100%" %}
 
 {% bs-table %}
 
@@ -35,7 +35,7 @@ draft : false
 
 En conception et programmation orientée objet, il existe différentes manières « d’associer » les classes entre elles :
 
-{% figure-abs "images/csharp/015-Conception-Dependances-entre-classes-1.png" "Dependances-entre-classes" %}
+{% figure-abs "images/csharp/015-Conception-Dependances-entre-classes-1.png" "Dependances-entre-classes" "100%" "100%" %}
 
 **L’association**  
 L’association entre deux classes permet d’indiquer qu’une classe est en liaison avec une autre. Par exemple, si un client peut passer des commandes, alors il est nécessaire d’associer les classes Client et Commande, afin de pouvoir connaître les commandes d’un client et le client d’une commande.
@@ -64,25 +64,26 @@ Il s’agit d’un nombre entier ou d’un intervalle de valeurs.
 | \*          | De zéro à plusieurs instances          |
 | 1..\*       | De 1 à plusieurs instances             |
 | n           | Exactement n instances                 |
-{% endbs-table %}
+{% endbs-table %}0
 En UML, elle est :
 
 - notée avec le rôle,
 - par défaut 1 (non notée),
 - sans précisions, elle est bidirectionnelle.
+
 ## 4 - Interprétation des modèles UML : les relations 1,1
 Prenons l’exemple d’une application qui enregistre les visites d’un cabinet de plusieurs médecins.
 Considérons le schéma UML suivant :
-#
-{% figure-abs "images/csharp/relation11Uml.png" "Relation 1-1-UML"  %}
-#
+
+{% figure-abs "images/csharp/relation11Uml.png" "Relation 1-1-UML" "50%" "50%"  %}
+
 - Un patient a eu 0 ou une visite
 - une visite concerne un patient
 
 Ceci donne pour le modèle objet, la situation suivante :
-#
-{% figure-abs "images/csharp/relation11.png" "Relation 1-1"  %}
-#
+
+{% figure-abs "images/csharp/relation11.png" "Relation 1-1" "50%" "50%"  %}
+
 À partir d’une instance de classe Visite, il est possible d’accéder à un patient. Par contre, à partir d’une instance de classe Patient rien ne permet de retrouver la visite qui a été effectuée
 {% callout %}
 **Définition**  
@@ -98,6 +99,7 @@ public class Visite
 }
 ```
 {% endbt-collapse %}
+
 Pour réaliser ce lien (c.-à-d., valoriser le champ privé patient dans la classe Visite), deux solutions :
 
 - À la construction d’une visite
@@ -110,6 +112,7 @@ public Visite(…,…,…, Patient p)
 }
 ```
 {% endbt-collapse %}
+
 - Avec un setter après la construction
 {% bt-collapse "notes4" %}
 ```csharp
@@ -119,18 +122,19 @@ public void setPatient(Patient p)
 }
 ```
 {% endbt-collapse %}
+
 ## 5 - Interprétation des modèles UML : les relations 1,n
 Reprenons l’exemple d’une application qui enregistre les visites d’un cabinet de plusieurs médecins. Nous allons maintenant tenir compte du nombre de visites faites par un médecin.
 Considérons le schéma UML suivant :
 
-{% figure-abs "images/csharp/relation1nUml.png" "Relation 1-n-UML"  %}
+{% figure-abs "images/csharp/relation1nUml.png" "Relation 1-n-UML" "50%" "50%"  %}
 
 - Un médecin a fait aucune ou plusieurs visites
 - une visite concerne un médecin
 
 Ceci donne pour le modèle objet, la situation suivante :
 #
-{% figure-abs "images/csharp/relation1n.png" "Relation 1-n"  %}
+{% figure-abs "images/csharp/relation1n.png" "Relation 1-n" "70%" "70%"  %}
 #
 L’association est navigable du médecin vers les visites. Il y aura donc plusieurs références à Visite dans la classe `Medecin`, mais pas de référence à `Medecin` dans la classe `Visite`.
 L’attribut ajouté dans `Medecin` doit permettre de stocker un nombre quelconque d’instances de Visite.
@@ -160,6 +164,7 @@ public class Medecin
 }
 ```
 {% endbt-collapse %}
+
 L’instanciation peut se faire n’importe où dans la classe, mais il est plus pratique de la faire dans le constructeur.
 {% bt-collapse notes8 %}
 ```csharp
@@ -170,6 +175,7 @@ public Medecin(...,...,...)
 }
 ```
 {% endbt-collapse %}
+
 ## 6 - Les listes typées
 La déclaration et l’instanciation des listes typées sont faites dans le paragraphe précédent.
 La liste typée fournit de nombreux services :
@@ -191,6 +197,7 @@ public void ajouterVisite(Visite v)
 }
 ```
 {% endbt-collapse %}
+
 Pour ajouter un nouvel élément lorsque celui-ci n’est pas construit :
 {% bt-collapse notes10 %}
 ```csharp
@@ -201,6 +208,7 @@ public void ajouterVisite(...,...,...)
 }
 ```
 {% endbt-collapse %}
+
 ## 7 - Boucle de parcours d’une liste
 On peut utiliser une boucle particulière dans le cas où on parcourt tous les éléments :
 {% bt-collapse notes11 %}
@@ -211,4 +219,5 @@ foreach(Visite v in this.mesVisites)
 }
 ```
 {% endbt-collapse %}
+
 Ici, la boucle va lire chaque objet de la liste mesVisites et l’inclure dans l’objet v pour en extraire la méthode ToString

@@ -52,6 +52,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse %}
+
 L’utilisation d’un constructeur se fait au moment de l’instanciation de l’objet (opérateur new), en passant en 
 paramètres les futures valeurs des attributs de l’objet créé (s’il y en a).
 {% bt-collapse "notes2" %}
@@ -61,6 +62,7 @@ const ex2 = new Exemple(20,30)
 console.log(Exemple.z) //Retourne 9
 ```
 {% endbt-collapse  %}
+
 {% callout "danger" %}
 #### **ATTENTION**
 Les méthodes ne commencent pas par le mot `function`.
@@ -113,6 +115,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse %}
+
 L'appel de la méthode sera :
 ```javascript
 console.log(ex2.valX) //Retourne la valeur de x
@@ -154,7 +157,8 @@ class Exemple {
             }           
 }
 ```
-{% endbt-collapse  %}
+{% endbt-collapse %}
+
 L'appel de la méthode sera :
 ```javascript
 ex2.valX=5 
@@ -183,6 +187,7 @@ class Heritexemple extends Exemple {
 }
 ```
 {% endbt-collapse  %}
+
 L'appel sera :
 ```javascript
 console.log(Heritexemple.f1(6,8))

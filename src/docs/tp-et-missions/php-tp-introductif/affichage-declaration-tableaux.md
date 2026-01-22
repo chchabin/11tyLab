@@ -56,6 +56,7 @@ Copiez le code suivant dans un fichier que vous allez appeler TPMenu.php :
 </html>
 ```
 {% endbt-collapse %}
+
 Il s’agit d’une page HTML, même si l’extension du nom est en php, qui utilise le framework css Bootstrap. Vous n’avez pas à vous occuper du design, bootstrap le fait pour vous !
 {% callout success%}
 #### Résultat
@@ -197,6 +198,7 @@ for ($i= 0; $i < count($lang); $i++) { ?>
 <?php } //fin de la boucle ?>
 ```
 {% endbt-collapse %}
+
 3. Au début de la page, remplacez ```php$lang=array();``` par ```php$lang=$menu01;```
    {% callout success%}
 #### Résultat de menu en français

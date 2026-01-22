@@ -134,6 +134,7 @@ class PdoTd
 }
 ```
 {% endbt-collapse %}
+
 Pour instancier la classe, modifiez le fichier index.php, de la façon suivante :
 {% bt-collapse "I2" %}
 ```php
@@ -173,6 +174,7 @@ il faut ainsi obtenir les catégories du modèle. Vous allez remplacer le code e
 }
 ```
 {% endbt-collapse %}
+
 ## Exercice 4 - La création de la vue
 Vous avez remarqué que les requêtes renvoient des tableaux. Il faut donc pourvoir les parcourir pour les afficher.
 Vous allez créer un fichier v_produit.php, et saisir le code est le suivant :
@@ -202,6 +204,7 @@ Vous allez créer un fichier v_produit.php, et saisir le code est le suivant :
 </div>
 ```
 {% endbt-collapse %}
+
 Voici le résultat obtenu :
 {% callout success%}
 #### Résultat

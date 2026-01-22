@@ -54,12 +54,14 @@ Si le name fait référence à plusieurs balises, le retour sera un tableau d’
 <input type="radio" name="rate" value="Very Good"><!--Very Good-->
 ```
 {% endbt-collapse  %}
+
 L’appel
 {% bt-collapse notes2 %}
 ```javascript
 const rates = document.getElementsByName("rate")
 ```
 {% endbt-collapse %}
+
 renverra un **tableau** d’objets (une nodelist pour être plus précis) qu’il faudra itérer avec un `forEach` par exemple.
 ### c - `getElementsByClassName`
 L’instruction `getElementsByClassName` permet de cibler tous les éléments de notre document portant une 

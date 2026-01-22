@@ -35,6 +35,7 @@ using System;
     }
 ```
 {% endbt-collapse %}
+
 La définition d’une classe commence par le mot-clé class. On trouve ensuite la définition des champs (attributs) et des méthodes de la classe. Les méthodes utilisent (et modifient) les valeurs des attributs.
 {% callout "warning" %}
 **Vocabulaire : attributs**  
@@ -82,6 +83,7 @@ using System;
     }
 ```
 {% endbt-collapse %}
+
 La déclaration permet de créer une nouvelle variable, appelée ex1 dans l’exemple ci-dessus. À ce stade, aucune réservation de mémoire n’a eu lieu pour cet objet. Il est donc inutilisable.
 
 Le type de la variable ex1 est `Exemple` : le type d’un objet est sa classe.

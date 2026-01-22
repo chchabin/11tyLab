@@ -52,6 +52,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse %}
+
 Une autre façon d’écrire le constructeur pour qu’il prenne en compte des surcharges serait :
 {% bt-collapse "notes1b" %}
 ```php
@@ -87,6 +88,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse %}
+
 L’utilisation d’un constructeur se fait au moment de l’instanciation de l’objet (opérateur `new`), en passant en paramètres les futures valeurs des attributs de l’objet créé (s’il y en a).
 {% bt-collapse "notes2" %}
 ```php
@@ -194,6 +196,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse %}
+
 ## 4 - Mutateurs
 {% callout %}
 **Définition**  
@@ -245,6 +248,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse  %}
+
 ## 5 - la méthode magique `__toString()`
 Cette méthode doit renvoyer une chaîne de caractères et est automatiquement sollicitée par `print($objet);` ou par `echo $objet;`.
 {% bt-collapse notes6 %}
@@ -286,6 +290,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse  %}
+
 L’appel se fait de cette façon :
 {% bt-collapse notes7 %}
 ```php
@@ -354,6 +359,7 @@ class Exemple {
 }
 ```
 {% endbt-collapse %}
+
 L’appel se fait de cette façon :
 {% bt-collapse notes9 %}
 ```php

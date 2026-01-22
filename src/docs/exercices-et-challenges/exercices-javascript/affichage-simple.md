@@ -243,6 +243,7 @@ Voici la page CSS `style.css`
 }
 ```
 {% endbt-collapse %}
+
 {%questions %}
 Créez la page `app.js` qui affiche le numéro de la cellule clickée dans la balise `p`.
 {% endquestions %}
