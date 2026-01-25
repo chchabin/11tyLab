@@ -230,19 +230,19 @@ Reprenez votre code et reprogrammez votre application avec une classe.
 
 ## 6 - Passage de variables
 On désire construire les 3 formulaires suivants qui s’enchaînent :
-{% figure-abs "images/exercices-et-challenges/passVarNom.png" "passVarNom.png" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/passVarNom.png" "passVarNom.png" "50%" "50%" %}
 
 ⬇️
 
-{% figure-abs "images/exercices-et-challenges/passVarPrenom.png" "passVarPrenom.png" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/passVarPrenom.png" "passVarPrenom.png" "50%" "50%" %}
 
 ⬇️
 
-{% figure-abs "images/exercices-et-challenges/passVarAdresse.png" "passVarAdresse.png" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/passVarAdresse.png" "passVarAdresse.png" "50%" "50%" %}
 
 ⬇️ Un dernier formulaire présente un état des trois précédentes saisies :
 
-{% figure-abs "images/exercices-et-challenges/passVarRecap.png" "passVarRecap.png" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/passVarRecap.png" "passVarRecap.png" "50%" "50%" %}
 
 {%questions %}
 **Écrire 3 versions différentes de cet exercice :**
