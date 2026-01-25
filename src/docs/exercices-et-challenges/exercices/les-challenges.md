@@ -198,7 +198,7 @@ etc.
 {% endbt-collapse %}
 L’affichage doit ressembler à :
 
-{% figure-abs "images/exercices-et-challenges/distrib.png" "distrib.PNG" %}
+{% figure-abs "images/exercices-et-challenges/distrib.png" "distrib.PNG" "100%" "100%" %}
 
 ### c - Histogramme horizontal
 Ajoutez la fonction qui permet d’afficher un histogramme horizontal.
@@ -209,7 +209,7 @@ Ajoutez la fonction qui permet d’afficher un histogramme horizontal.
 Le nombre d’étoiles correspond au nombre de valeurs.  
 L’affichage doit ressembler à :
 
-{% figure-abs "images/exercices-et-challenges/histoH.png" "histoH.PNG" %}
+{% figure-abs "images/exercices-et-challenges/histoH.png" "histoH.PNG" "100%" "100%" %}
 
 ### d - Histogramme vertical
 Ajoutez la fonction qui permet d’afficher un histogramme vertical.
@@ -220,7 +220,7 @@ Ajoutez la fonction qui permet d’afficher un histogramme vertical.
 Le nombre d’étoiles correspond au nombre de valeurs.  
 L’affichage doit ressembler à :
 
-{% figure-abs "images/exercices-et-challenges/histoV.png" "histoV.png" %}
+{% figure-abs "images/exercices-et-challenges/histoV.png" "histoV.png" "100%" "100%" %}
 
 {%questions %}
 #### Défi
@@ -230,19 +230,19 @@ Reprenez votre code et reprogrammez votre application avec une classe.
 
 ## 6 - Passage de variables
 On désire construire les 3 formulaires suivants qui s’enchaînent :
-{% figure-abs "images/exercices-et-challenges/passVarNom.png" "passVarNom.png"  %}
+{% figure-abs "images/exercices-et-challenges/passVarNom.png" "passVarNom.png" "100%" "100%" %}
 
 ⬇️
 
-{% figure-abs "images/exercices-et-challenges/passVarPrenom.png" "passVarPrenom.png"  %}
+{% figure-abs "images/exercices-et-challenges/passVarPrenom.png" "passVarPrenom.png" "100%" "100%" %}
 
 ⬇️
 
-{% figure-abs "images/exercices-et-challenges/passVarAdresse.png" "passVarAdresse.png"  %}
+{% figure-abs "images/exercices-et-challenges/passVarAdresse.png" "passVarAdresse.png" "100%" "100%" %}
 
 ⬇️ Un dernier formulaire présente un état des trois précédentes saisies :
 
-{% figure-abs "images/exercices-et-challenges/passVarRecap.png" "passVarRecap.png"  %}
+{% figure-abs "images/exercices-et-challenges/passVarRecap.png" "passVarRecap.png" "100%" "100%" %}
 
 {%questions %}
 **Écrire 3 versions différentes de cet exercice :**
