@@ -94,9 +94,10 @@ Ce menu est programmé grâce à aux instructions `switch case`
 Le code est écrit en algorithmique pour faciliter son adaptation dans différents langages.
 {% bs-table %}
 
-| **Nom**        | **Rôle**                     | **Paramètres**                                                        | **Valeur de retour**                 |
-|----------------|------------------------------|-----------------------------------------------------------------------|--------------------------------------|
-| chargerTableau | Charge le tableau de données | nbr : entier → le nombre de notes<br>valSup : réel → la note maximale | tNotes : tableau DE réel → les notes |
+| **Nom**        | **Rôle**                     | **Paramètres**                    | **Valeur de retour**                 |
+|----------------|------------------------------|-----------------------------------|--------------------------------------|
+| chargerTableau | Charge le tableau de données | nbr : entier → le nombre de notes | tNotes : tableau DE réel → les notes |
+|                |                              | valSup : réel → la note maximale  |                                      |
 {% endbs-table %}
 
 {% bt-collapse "notes0" %}
@@ -203,10 +204,15 @@ L’affichage doit ressembler à :
 ### c - Histogramme horizontal
 Ajoutez la fonction qui permet d’afficher un histogramme horizontal.
 
+{% bs-table %}
+
 | **Nom**               | **Rôle**                                              | **Paramètres**                       | **Valeur de retour** |
 |-----------------------|-------------------------------------------------------|--------------------------------------|----------------------|
 | histogrammeHorizontal | Affiche les notes sous forme d’histogramme horizontal | tNotes : tableau DE réel → les notes | void                 |
-Le nombre d’étoiles correspond au nombre de valeurs.  
+
+{% endbs-table %}
+
+<mark>Le nombre d’étoiles correspond au nombre de valeurs. </mark>
 L’affichage doit ressembler à :
 
 {% figure-abs "images/exercices-et-challenges/histoH.png" "histoH.PNG" "100%" "100%" %}
@@ -214,10 +220,15 @@ L’affichage doit ressembler à :
 ### d - Histogramme vertical
 Ajoutez la fonction qui permet d’afficher un histogramme vertical.
 
+{% bs-table %}
+
 | **Nom**             | **Rôle**                                            | **Paramètres**                       | **Valeur de retour** |
 |---------------------|-----------------------------------------------------|--------------------------------------|----------------------|
 | histogrammeVertical | Affiche les notes sous forme d’histogramme vertical | tNotes : tableau DE réel → les notes | void                 |
-Le nombre d’étoiles correspond au nombre de valeurs.  
+
+{% endbs-table %}
+
+<mark>Le nombre d’étoiles correspond au nombre de valeurs. </mark> 
 L’affichage doit ressembler à :
 
 {% figure-abs "images/exercices-et-challenges/histoV.png" "histoV.png" "100%" "100%" %}
