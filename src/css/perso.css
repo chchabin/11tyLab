@@ -1,8 +1,17 @@
-.white{color:white;}
-.toc ol {
-    list-style-type: none; /* Supprime les chiffres ou les puces */
-    padding-left: 0; /* Optionnel : supprime le padding par défaut */
+body {
+    position: relative;
 }
-figure .card {
-    --bs-card-border-width: 0;
+
+.bd-toc nav ol ol {
+    padding-left: 1.5rem;
+    /* Increase indentation */
+}
+
+/* Style for the active title in TOC */
+.bd-toc .nav-link.active {
+    color: white !important;
+    background-color: var(--bd-violet) !important;
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
 }
