@@ -15,6 +15,5 @@ See the Pen [traversy crash course javascript](https://codepen.io/binosor/pen/GR
 
 {% callout %}
 Voici quelques exercices qui vous permettrons de faire le cas de synthèse.
-
-[Liens sur le cas de synthèse]({% aref "docs/exercices-et-challenges/exercices-javascript/cas-de-synthese"%})
 {% endcallout %}
+{% aref "docs/exercices-et-challenges/exercices-javascript/cas-de-synthese" "🔗 Liens sur le cas de synthèse" %}

@@ -49,7 +49,6 @@ On vous fournit le programme suivant qui calcule le montant TTC en fonction d’
 ```
 {% col-n %}
 #### Version 1
-
 ```csharp
 stva = Console.ReadLine();
 tva = Convert.ToDouble(stva);
@@ -169,11 +168,11 @@ Soit le programme suivant qui calcule le montant de la prime de représentants e
     {
         if (km < 500)
         {
-            prime = (km - 100) \* 0.10 + 500;
+            prime = (km - 100) * 0.10 + 500;
         }
         else
         {
-            prime = (km - 500) \* 0.20 + 540;
+            prime = (km - 500) * 0.20 + 540;
         }
     }
 ```

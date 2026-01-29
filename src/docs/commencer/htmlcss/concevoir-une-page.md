@@ -8,14 +8,17 @@ toc : true
 date : "2022-08-19T07:14:48+02:00"
 draft : false
 ---
-{% callout warning %}
+{% callout "warning" %}
 #### Documentation :
 [HTML documentation Mdn](https://developer.mozilla.org/fr/docs/Web/HTML/Reference)   
 [CSS documentation Mdn](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)  
-[Documentation EMMET (raccourcis HTML)](https://docs.emmet.io/cheat-sheet/)  
-[memento html]({% aref "download/memento.pdf" %})  
-[memento css]({% aref "download/memento_css21.pdf" %})
+[Documentation EMMET (raccourcis HTML)](https://docs.emmet.io/cheat-sheet/)
+
 {% endcallout %}
+
+{% aref "download/memento.pdf" "🔗 memento html" %}
+{% aref "download/memento_css21.pdf" "🔗 memento css" %}
+
 {% callout %}
 #### Valider ses pages HTML et CSS :
 [HTML Validator](https://validator.w3.org/#validate_by_upload)  

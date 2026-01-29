@@ -20,7 +20,7 @@ La normalisation n'est pas définitive, elle peut encore évoluer. Vous pouvez c
 les évaluations.
 {% endcallout %}
 
-{% aref "https://www.ecma-international.org/", "Consultez ECMAScript Editions" %}
+[Consultez ECMAScript Editions](https://www.ecma-international.org/)
 ## 1 - Constructeur
 {% callout %}
 **Classe : Définition**

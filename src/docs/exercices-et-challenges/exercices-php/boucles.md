@@ -104,6 +104,7 @@ echo "La somme des CA  est de $somme";
 
 ```
 {% endcol-n %}
+
 **Dans la version 3, comment peut-on arrêter de saisir des CA ?**  
 ☐ quand la somme est calculée  
 ☐ en saisissant un CA nul  
@@ -117,7 +118,9 @@ echo "La somme des CA  est de $somme";
 ☐ Version 1  
 ☐ Version 2  
 ☐ Version 3
+
 ## 3 - Analyser un programme
+
 Soit l’extrait de version suivant :
 ```php
 $somme = 0;
@@ -194,7 +197,9 @@ while ($vente != 0)
 echo "totalht : $totalht";
 ```
 {% endcol-n %}
+
 **Complétez le tableau d’analyse suivant :**
+
 {% bs-table %}
 
 |                                      | **Version 1** | **Version 2** | **Version 3** |
@@ -289,7 +294,9 @@ while ($compteur < 4)
  }
 ```
 {% endcol-n %}
+
 **Pour chaque version, combien de chiffres d’affaires l’utilisateur pourra-t-il saisir ?**
+
 {% bs-table %}
 
 | **Nombre de CA saisis** |  **Version 1**  |  **Version 2**  |  **Version 3**  |
@@ -301,6 +308,7 @@ while ($compteur < 4)
 | **5**                   |        ☐        |        ☐        |        ☐        |
 {% endbs-table %}
 **Quel sera le contenu de la variable COMPTEUR au terme de l’exécution de chaque version :**
+
 {% bs-table %}
 
 | **Contenu de COMPTEUR** |  **Version 1**  |  **Version 2**  |  **Version 3**  |
@@ -309,6 +317,7 @@ while ($compteur < 4)
 | **4**                   |        ☐        |        ☐        |        ☐        |
 | **5**                   |        ☐        |        ☐        |        ☐        |
 {% endbs-table %}
+
 ## 7 - Le test de saisie
 Soit l’extrait de versions suivant permettant de calculer la somme de chiffre d’affaires :
 {% col-n %}
@@ -339,6 +348,7 @@ while ($ca != 0)
 echo "La somme des CA est de $somme";
 ```
 {% endcol-n %}
+
 **Si l’utilisateur saisit les valeurs 10, 20, 30 et 0, quel sera le contenu de la variable SOMME pour chaque version ?**
 
 {% bs-table %}
@@ -444,6 +454,7 @@ while ($k < 100)
 echo "s = $s";
 ```
 {% endcol-n %}
+
 **Comment modifier le code pour rendre les deux boucles équivalentes ?**
 
 ☐ k=k+1  

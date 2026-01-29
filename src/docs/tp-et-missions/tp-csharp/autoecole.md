@@ -64,7 +64,7 @@ permettre d’utiliser un modèle objet directement relié aux tables.
 #### a) Configuration de la base de données.
 1. Lancez le fichier SSMS
    {% figure-abs "images/exercices-et-challenges/ssms.png" "ssms" "30%" "30%" %}
-2. Récupérez le fichier sql -> {% aref "content/download/autoecole_sqlserver.sql" "AUTOECOLE"%}
+2. Récupérez le fichier sql -> {% aref "content/download/autoecole_sqlserver.sql" "🔗 AUTOECOLE"%}
 3. Créez la base de données en double-cliquant sur `Databases`
    {% figure-abs "images/exercices-et-challenges/sqlserverexecut00.png" "sqlserverexecut00"  "50%" "50%" %}
 4. Chargez le fichier sql avec `File>Open>File` ou `CTRL + O` et Exécutez le

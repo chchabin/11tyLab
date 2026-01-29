@@ -51,7 +51,7 @@ Les internautes se rendant à l’adresse du site OFFICEMASTER peuvent naviguer 
 ## 4 - les missions de réalisation
 ### mission 1  
 Réalisation du fichier HTML selon le modèle : 
-[Fichier de la mission 1]({% aref "download/mission1.pdf"%})
+{% aref "download/mission1.pdf" "🔗 Fichier de la mission 1" %}
 
 1. Le texte est toujours entouré par des balises `p`
 2. les titres sont en `h3`
@@ -65,7 +65,7 @@ renvoie directement au titre choisi.
 
 
 ### mission 2  
-Réalisation du css : [Fichier de la mission 2]({% aref "download/mission2.pdf"%})
+Réalisation du css : {% aref "download/mission2.pdf" "🔗 Fichier de la mission 2" %}
 
 1. Récupérer le css du site d'[alsacréation](https://www.alsacreations.com/tuto/lire/555-design-css-complet-5-etapes.html)
 2. Changer le `background` du menu

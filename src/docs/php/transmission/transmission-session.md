@@ -35,7 +35,7 @@ La création d’une nouvelle session s’effectue en appelant la fonction `sess
 session_start();
 // ...
 ```
-{% callout danger %}
+{% callout "danger" %}
 **Attention**  
 Cette fonction doit obligatoirement être appelée au tout début de la page, avant tout code HTML.
 {% endcallout %}

@@ -44,7 +44,7 @@ echo fun(a);
 function  fun( array b ): string
 {
     $ret="";
-    $k =[3, 4, 7, 8,’\0’];
+    $k =[3, 4, 7, 8,’0’];
     for ($i = 0; $i < count($b); $i++)
     {
         $b[i] = $b[i] + $k[i] ;
@@ -57,6 +57,7 @@ function  fun( array b ): string
 ☐ 3, 4, 7, 8, 5, 1, 2, 3, 4, 5  
 ☐ 4, 6, 10, 12, 5  
 ☐ Erreur de compilation
+
 ### 4 - retour attendu
 Qu’allez vous obtenir à l’affichage ?
 ```php
@@ -83,6 +84,7 @@ echo ’Les nombres obtenus sont :’.fun(a);
 ☐ 2, 4, 34, 46, 6, 88, 90  
 ☐ 2, 34, 46, 88, 90  
 ☐ Erreur de compilation
+
 ### 5 - Traduire les chiffres
 Qu’allez vous obtenir à l’affichage ?
 ```php

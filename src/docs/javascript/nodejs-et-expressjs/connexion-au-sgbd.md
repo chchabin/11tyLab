@@ -24,7 +24,7 @@ Télécharger les modules : `mysql` et `dotenv`.
 {% endcallout %}
 ## 1 - Exécution du script sql
 Créez votre base de données et lancez le fichier sql.  
-Si vous avez oublié, voyez comment faire [ici]({% aref "docs/tp-et-missions/php-tp-introductif/pattern-mvc-sgbd" %})
+Si vous avez oublié, voyez comment faire {% aref "docs/tp-et-missions/php-tp-introductif/pattern-mvc-sgbd" "🔗 ICI" %}
 
 ## 2 - Création de la structure des répertoires et des fichiers
 ### a - modification du fichier .env
@@ -106,7 +106,7 @@ module.exports = {
     },
 }
 ```
-La fonction exploite les promesses comme expliqué dans la fiche [promesses]({% aref "docs/javascript/programmer/les-promesses" %}). 
+La fonction exploite les promesses comme expliqué dans la fiche {% aref "docs/javascript/programmer/les-promesses" "🔗 promesses" %}. 
 Si l'exécution se passe correctement, c'est la fonction resolve qui s'exécute, sinon c'est une fonction reject qui n'est pas utilisée ici.
 ### c - Récupération des données dans le contrôleur
 Vous allez connecter le module de base de données au contrôleur. En haut du fichier du contrôleur, copiez :

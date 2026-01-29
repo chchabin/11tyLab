@@ -57,9 +57,9 @@ Approchant de l’antre du lion, il vit, gravé dans la pierre :
 
 Hercule considéra sa liste de divinités :
 
-ARTEMIS, ASCLEPIOS, ATHENA, ATLAS, CHARON, CHIRON, CRONOS, DEMETER, EOS, ERIS,
-EROS, GAIA, HADES, HECATE, HEPHAISTOS, HERA, HERMES, HESTIA, HYGIE, LETO, MAIA,
-METIS, MNEMOSYNE, NYX, OCEANOS, OURANOS, PAN, PERSEPHONE, POSEIDON, RHADAMANTHE,
+ARTEMIS, ASCLEPIOS, ATHENA, ATLAS, CHARON, CHIRON, CHRONOS, DEMETER, EOS, ERIS,
+EROS, GAIA, HADES, HECATE, HÉPHAÏSTOS, HERA, HERMES, HESTIA, HYGIE, LETO, MAIA,
+METIS, MNEMOSYNE, NYX, OCÉANOS, OURANOS, PAN, PERSEPHONE, POSEIDON, RHADAMANTHE,
 SELENE, THEMIS, THETIS, TRITON, ZEUS.
 
 Voyons : ARTEMIS vaut 85, donc il faut la placer avant ASCLEPIOS qui vaut 99...
@@ -110,7 +110,7 @@ Il s'agit d'afficher des distributions de notes. Les notes sont générées par 
 {% bs-table %}
 
 | **Nom** | **Rôle**          | **Paramètres** | **Valeur de retour**                    |
-| ------- | ----------------- | -------------- | --------------------------------------- |
+|---------|-------------------|----------------|-----------------------------------------|
 | Menu    | Affichage du menu |                | reponse : char - choix de l'utilisateur |
 
 {% endbs-table %}
@@ -120,8 +120,8 @@ Il s'agit d'afficher des distributions de notes. Les notes sont générées par 
 {% bs-table %}
 
 | **Nom** | **Rôle**                          | **Paramètres**                | **Valeur de retour** |
-| ------- | --------------------------------- | ----------------------------- | -------------------- |
-| Traiter | Appel des fonctions liées au menu | char : choix de l'utilisateur |                      |
+|---------|-----------------------------------|-------------------------------|----------------------|
+| Traiter | Appel des fonctions liées au menu | char : choix de l'utilisateur | void                 |
 
 {% endbs-table %}
 
@@ -138,7 +138,7 @@ Le code est écrit en algorithmique pour faciliter son adaptation dans différen
 {% bs-table %}
 
 | **Nom**        | **Rôle**                     | **Paramètres**                    | **Valeur de retour**                 |
-|----------------| ---------------------------- | --------------------------------- | ------------------------------------ |
+|----------------|------------------------------|-----------------------------------|--------------------------------------|
 | ChargerTableau | Charge le tableau de données | nbr : entier → le nombre de notes | tNotes : tableau DE réel → les notes |
 |                |                              | valSup : réel → la note maximale  |                                      |
 {% endbs-table %}
@@ -191,7 +191,7 @@ $tNotes[$i] = abs(((int) (cos((float) $i + 1) * 1000)) % valSup);
 {% bs-table %}
 
 | **Nom**         | **Rôle**                      | **Paramètres**                       | **Valeur de retour** |
-|-----------------| ----------------------------- | ------------------------------------ | -------------------- |
+|-----------------|-------------------------------|--------------------------------------|----------------------|
 | AfficherTableau | Affiche le tableau de données | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
@@ -231,7 +231,7 @@ fonction afficherTableau(tNotes :tableau DE réel) :void
 {% bs-table %}
 
 | **Nom**         | **Rôle**                 | **Paramètres**                       | **Valeur de retour** |
-|-----------------| ------------------------ | ------------------------------------ | -------------------- |
+|-----------------|--------------------------|--------------------------------------|----------------------|
 | DistributionMin | Affiche la note minimale | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
@@ -239,7 +239,7 @@ fonction afficherTableau(tNotes :tableau DE réel) :void
 {% bs-table %}
 
 | **Nom**         | **Rôle**                 | **Paramètres**                       | **Valeur de retour** |
-|-----------------| ------------------------ | ------------------------------------ | -------------------- |
+|-----------------|--------------------------|--------------------------------------|----------------------|
 | DistributionMax | Affiche la note maximale | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
@@ -247,15 +247,15 @@ fonction afficherTableau(tNotes :tableau DE réel) :void
 {% bs-table %}
 
 | **Nom**            | **Rôle**                                 | **Paramètres**                       | **Valeur de retour** |
-| ------------------ | ---------------------------------------- | ------------------------------------ | -------------------- |
-| distributionJalon5 | Affiche le nombre de notes inférieur à 5 | tNotes : tableau DE réel → les notes | void                 |
+|--------------------|------------------------------------------|--------------------------------------|----------------------|
+| DistributionJalon5 | Affiche le nombre de notes inférieur à 5 | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
 
 {% bs-table %}
 
 | **Nom**   | **Rôle**                                             | **Paramètres**                       | **Valeur de retour**      |
-|-----------| ---------------------------------------------------- | ------------------------------------ | ------------------------- |
+|-----------|------------------------------------------------------|--------------------------------------|---------------------------|
 | Frequence | Compte le nombre de chiffres compris dans les écarts | tNotes : tableau DE réel → les notes | stat :  tableau d'entiers |
 
 {% endbs-table %}
@@ -276,7 +276,7 @@ stat[4] contiendra le nombre de notes <20
 {% bs-table %}
 
 | **Nom**            | **Rôle**                                                 | **Paramètres**           | **Valeur de retour** |
-|--------------------| -------------------------------------------------------- | ------------------------ | -------------------- |
+|--------------------|----------------------------------------------------------|--------------------------|----------------------|
 | DistributionEcart4 | Affiche le nombre de notes dans un intervalle de 4 notes | stat : tableau d'entiers | void                 |
 
 {% endbs-table %}
@@ -293,7 +293,7 @@ Ajoutez la fonction qui permet d’afficher un histogramme horizontal.
 {% bs-table %}
 
 | **Nom**               | **Rôle**                                              | **Paramètres**                       | **Valeur de retour** |
-|-----------------------| ----------------------------------------------------- | ------------------------------------ | -------------------- |
+|-----------------------|-------------------------------------------------------|--------------------------------------|----------------------|
 | HistogrammeHorizontal | Affiche les notes sous forme d’histogramme horizontal | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
@@ -310,7 +310,7 @@ Ajoutez la fonction qui permet d’afficher un histogramme vertical.
 {% bs-table %}
 
 | **Nom**             | **Rôle**                                            | **Paramètres**                       | **Valeur de retour** |
-|---------------------| --------------------------------------------------- | ------------------------------------ | -------------------- |
+|---------------------|-----------------------------------------------------|--------------------------------------|----------------------|
 | HistogrammeVertical | Affiche les notes sous forme d’histogramme vertical | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
@@ -354,6 +354,6 @@ On désire construire les 3 formulaires suivants qui s’enchaînent :
 
 {% endquestions %}
 
-{% aref "https://chchabinlab.gitlab.io/labslides/formulaires/#/", "➡️ Résumé de cours" %}
+[➡️ Résumé de cours](https://chchabinlab.gitlab.io/labslides/formulaires/#/)
 
 ⚠️ En fonction de l'exercice, la méthode des formulaires est soit en POST, soit en GET ⚠️

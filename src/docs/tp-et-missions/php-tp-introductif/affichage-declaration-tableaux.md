@@ -67,7 +67,7 @@ Lancez TPMenu.php pour voir si tout fonctionne. Vous devez obtenir ceci :
 
 ## Exercice 1 - Affichage en php
 ### a - Insertion de balises PHP
-[dossier technique les variables]({% aref "docs/php/programmer/les-variables"%})
+{% aref "docs/php/programmer/les-variables" "🔗 dossier technique les variables" %}
 
 Nous voulons que les titres des menus puissent être définis par le programmeur. Pour ce faire, nous allons adapter une version anglaise.
 Avant le doctype, insérez le code suivant :
@@ -149,7 +149,7 @@ Lancez TPMenuLangue.php pour voir si tout fonctionne. Vous devez obtenir ceci :
 3. À quoi correspond la variable `__File__` ?
    {% endquestions %}
 ### b - Objectif :
-[Dossier technique les tableaux]({% aref "docs/php/programmer/les-tableaux"%})
+{% aref "docs/php/programmer/les-tableaux" "🔗 Dossier technique les tableaux" %})
 
 Changer la langue du menu avec une zone de liste. Voici le tableau des correspondances :
 {% bs-table %}
@@ -185,7 +185,7 @@ $lang=array();
    {% endquestions %}
 
 ### c - Affichage des valeurs
-[Dossier technique les boucles]({% aref "docs/php/programmer/les-boucles"%})
+{% aref "docs/php/programmer/les-boucles" "🔗 Dossier technique les boucles" %}
 
 Nous allons saisir dynamiquement les valeurs en français.
 

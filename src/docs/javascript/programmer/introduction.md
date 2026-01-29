@@ -61,7 +61,7 @@ La forme du script peut-être soit :
 - des lignes de code
 - le nom d’un fichier, comme `script.js`, ce qui permet de séparer les langages, comme dans le cas du css.
 ### b - Avec un serveur javascript comme NodeJs
-[Aller à la partie 2]({% aref "/docs/javascript/nodejs-et-expressjs/introduction" %})
+{% aref "/docs/javascript/nodejs-et-expressjs/introduction" "🔗 Aller à la partie 2" %}
 ## 3 - Commentaires
 Les commentaires dans un fichier javascript sont les mêmes que pour le C# ou le PHP.
 

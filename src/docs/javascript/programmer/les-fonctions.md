@@ -172,7 +172,8 @@ console.log(nb) // affichera 2
 
 Lorsque la variable est passé en argument, elle devient locale dans la fonction. C’est la valeur de la variable qui est passée.
 
-#### [Objet]({% aref "docs/javascript/programmer/les-objets"%}) passé en argument
+#### {% aref "docs/javascript/programmer/les-objets" "🔗 Objet" %} passé en argument
+
 ```javascript
 const monObjet={
     nb : 2

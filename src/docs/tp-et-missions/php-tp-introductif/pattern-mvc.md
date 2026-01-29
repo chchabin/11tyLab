@@ -73,7 +73,7 @@ Comme le fichier TPEntete.php contient l’en-tête HTML, qui sert à l’affich
 {% endbt-collapse %}
 
 La situation est la même pour `TPNav.php`. Nous le nommerons `v_nav.php`. Notez que la structure des liens a changé,
-l’URL s’écrit maintenant comme expliquée dans ce [dossier technique les transmission par url]({% aref "docs/php/transmission/transmission-url"%})
+l’URL s’écrit maintenant comme expliquée dans ce {% aref "docs/php/transmission/transmission-url" "dossier technique les transmission par url" %}
 
 {% bt-collapse "I3" %}
 ```html
@@ -170,7 +170,7 @@ include('v_Pied.php') ;
 {% endbt-collapse %}
 
 Ce fichier va lire l’URL du site. Nous allons donner un format particulier à cette url comme cela est expliqué dans ce
-[dossier technique les transmission par url]({% aref "docs/php/transmission/transmission-url" %})
+{% aref "docs/php/transmission/transmission-url" "🔗 dossier technique les transmission par url" %}
 
 Au lancement de la page, il n’y a aucune variable uc ou action dans l’URL. La variable globale `REQUEST` est vide. Le système affecte à uc la valeur accueil et va ouvrir la page `v_accueil.php`
 {% callout success%}

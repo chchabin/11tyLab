@@ -9,7 +9,9 @@ date : "2022-08-25T12:14:50+02:00"
 draft : false
 ---
 ## 1 - Déclaration
+
 {% col-n %}
+
 #### Version 1
 
 ```csharp
@@ -29,7 +31,9 @@ while (compteur < 4)
  }
 ```
 {% endcol-n %}
-**Complétez le tableau d’analyse suivant :**  
+
+**Complétez le tableau d’analyse suivant :** 
+
 {% bs-table %}
 
 |                                            | **Version 1** | **Version 2** | **Aucune Version** |
@@ -59,10 +63,13 @@ int[] tableau1 ={1,2,3,4,5};
 Console.WriteLine(tableau1);
 ```
 {% endcol-n %}
+
 **Selon vous, en l’expliquant, quelle est la meilleure version ?**  
 ☐ Version 1  
 ☐ Version 2
+
 ## 3 - Copier un tableau
+
 Dans le code ci-dessous, on désire que le tableau2 contienne les éléments du tableau1.
 
 {% col-n %}
@@ -84,10 +91,13 @@ int[] tableau2 = new int[5];
 tableau2=tableau1;
 ```
 {% endcol-n %}
+
 **Selon vous, en l’expliquant, quelle est la meilleure version ?**  
 ☐ Version 1  
 ☐ Version 2
+
 ## 4 - Copier un tableau inversé
+
 Dans le code ci-dessous, on désire que le tableau2 contienne les éléments du tableau1 dans l’ordre inverse.
 ```csharp
 int[] tableau1 ={1,2,3,4,5};
@@ -141,11 +151,14 @@ for (int i=0;i<tableau1.length;i++)
     }
 ```
 {% endcol-n %}
+
 **Complétez le tableau d’analyse suivant :**
+
 {% bs-table %}
 
 |                                            | **Version 1** | **Version 2** | **Aucune Version** |
 |--------------------------------------------|:-------------:|:-------------:|:------------------:|
 | **la déclaration du tableau est correcte** |       ☐       |       ☐       |         ☐          | 
 | **la taille du tableau est correcte**      |       ☐       |       ☐       |         ☐          |
+
 {% endbs-table %}

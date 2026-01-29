@@ -9,6 +9,7 @@ date : "2022-08-25T22:38:41+02:00"
 draft : false
 ---
 ## 1 - Déclaration
+
 {% col-n %}
 #### Version 1
 
@@ -25,7 +26,9 @@ echo ’Le tableau a ’.count($t).’ éléments’;
 echo "La quatrième valeur est $t[4]";
 ```
 {% endcol-n %}
+
 **Complétez le tableau d’analyse suivant :**  
+
 {% bs-table %}
 
 |                                            | **Version 1** | **Version 2** | **Aucune Version** |
@@ -62,9 +65,11 @@ foreach ($tableau1 as $v)
 echo "$somme"; 
 ```
 {% endcol-n %}
+
 **Selon vous, en l’expliquant, quelle est la meilleure version ?**  
 ☐ Version 1  
 ☐ Version 2
+
 ## 3 - Copier un tableau
 Dans le code ci-dessous, on désire que le tableau2 contienne les éléments du tableau1.
 
@@ -85,9 +90,11 @@ $tableau1 =[1,2,3,4,5];
 tableau2=tableau1;
 ```
 {% endcol-n %}
+
 **Selon vous, en l’expliquant, quelle est la meilleure version ?**  
 ☐ Version 1  
 ☐ Version 2
+
 ## 4 - Copier un tableau inversé
 Dans le code ci-dessous, on désire que le tableau2 contienne les éléments du tableau1 dans l’ordre inverse.
 ```php
@@ -102,6 +109,7 @@ for ($i=0;$i<count($tableau1);$i++)
 ☐ tableau2[i]=tableau1[n-i]  
 ☐ tableau2[i]=tableau1[i-n+1]  
 ☐ tableau2[i]=tableau1[n-i-1]
+
 ## 5 - Copier des cellules
 Qu’affiche le code suivant :
 ```php
@@ -118,6 +126,7 @@ echo $k[1];
 ☐ 3  
 ☐ 4  
 ☐ 1
+
 ## 6 - Afficher un tableau associatif
 Dans le code ci-dessous, on désire afficher les clés et les valeurs du tableau suivant :
 ```php
@@ -141,7 +150,9 @@ foreach ($tab  as $k) {
     echo "Clé: $k\t Val: $tab[$k] \n";
 ```
 {% endcol-n %}
+
 **Complétez le tableau d’analyse suivant :**
+
 {% bs-table %}
 
 |                                           | **Version 1** | **Version 2** | **Aucune Version** |
@@ -190,6 +201,7 @@ foreach ($client  as $key => $value) {
 }    
 ```
 {% endcol-n %}
+
 **Quelle version choisir pour afficher ce tableau dans une zone de liste d’un formulaire ?**  
 ☐ Version 1  
 ☐ Version 2

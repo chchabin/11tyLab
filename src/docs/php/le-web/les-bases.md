@@ -50,7 +50,7 @@ Dans un fichier source PHP, on définit une portion de code PHP grâce aux balis
 </html>
 ```
 En l’exécutant, nous obtiendrons le résultat suivant :
-{% callout success%}
+{% callout "success" %}
 #### Résultat :
 Ce titre est écrit directement en HTML  
 Celui-ci contient une partie générée avec PHP  
@@ -63,7 +63,7 @@ echo'Ce titre est écrit directement générée avec PHP';
 echo'Celui-là est entièrement généré avec PHP';
 ```
 En l’exécutant, nous obtiendrons le résultat suivant :
-{% callout success%}
+{% callout "success" %}
 #### Résultat :
 Ce titre est écrit directement générée avec PHP  
 Celui-là est entièrement généré avec PHP  

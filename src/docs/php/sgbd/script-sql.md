@@ -30,7 +30,7 @@ Mais si vous avez déjà des données que vous voulez conserver, elles seront su
 {% endcallout%}
 ### b - La création de la base n'est pas dans le fichier SQL
 Si vous connaissez phpmyadmin (c’est celui qui sera en démonstration), lancez l’application, sinon utilisez votre **application favorite** ou les lignes de code. Une fois phpmyadmin connecté, cliquez sur base pour créer la base lafleur
-{% callout success%}
+{% callout "success" %}
 #### Résultat
 Voici ce que vous obtenez en créant la base :
 {% endcallout%}

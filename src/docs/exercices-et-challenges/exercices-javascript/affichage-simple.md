@@ -10,11 +10,11 @@ draft : false
 ---
 ## 1 - Hello World
 ### Prérequis
-{% aref "docs/javascript/manipuler-le-dom/les-evenements/#a---addeventlistener" "addEventListener" %}
+{% aref "docs/javascript/manipuler-le-dom/les-evenements/#a---addeventlistener" "🔗 addEventListener" %}
 
-{% aref "docs/javascript/manipuler-le-dom/les-evenements/#b---eventtarget" "e.target" %}
+{% aref "docs/javascript/manipuler-le-dom/les-evenements/#b---eventtarget" "🔗 e.target" %}
 
-{% aref "docs/javascript/manipuler-le-dom/objet-dom/#e---queryselector-et-queryselectorall" "querySelector" %}
+{% aref "docs/javascript/manipuler-le-dom/objet-dom/#e---queryselector-et-queryselectorall" "🔗 querySelector" %}
 
 ### Le code
 Voici une page HTML qui affiche HELLO
@@ -82,7 +82,7 @@ Modifier le code pour afficher non plus `WORLD` mais `HELLO WORLD`, sans modifie
 
 ## 2 - Changer une image.
 ### Prérequis
-[L'opérateur ternaire]({% aref "docs/javascript/programmer/les-tests-et-les-boucles/#d---lopérateur-ternaire"%})
+{% aref "docs/javascript/programmer/les-tests-et-les-boucles/#d---lopérateur-ternaire" "🔗 l'opérateur ternaire" %}
 
 ### Le code
 Voici une page HTML qui affiche une image
@@ -149,7 +149,7 @@ Nous traitons l'événement `Appuyer Sur Un Bouton`.
 
 ## 4 - Faire disparaitre une image.
 ### Prérequis
-[Le DOM]({% aref "docs/javascript/manipuler-le-dom/introduction/#2---les-éléments-du-dom"%})
+{% aref "docs/javascript/manipuler-le-dom/introduction/#2---les-éléments-du-dom" "🔗 Le DOM" %}
 
 ### Le code
 Voici une page HTML qui affiche une image

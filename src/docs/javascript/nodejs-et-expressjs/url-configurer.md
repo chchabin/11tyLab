@@ -15,7 +15,7 @@ Vous allez récrire l'application [Lafleur](https://github.com/chchabin/Lafleur-
 ## 1 - modification du contrôleur
 Lorsque l'utilisateur clic sur le lien l'URL est composée de `/voirProduitIdcategorie`. Il faut donc retrouver cette information. 
 En suivant le détail de l'
-[URL]({% aref "docs/javascript/nodejs-et-expressjs/commencer-et-afficher"%}) vous comprendrez comment récupérer l'`Idcategorie`.
+{% aref "docs/javascript/nodejs-et-expressjs/commencer-et-afficher" "🔗 URL" %} vous comprendrez comment récupérer l'`Idcategorie`.
 
 Vous allez modifier l'action voir produit dans le contrôleur après l'action voirCategories, de façon à charger les données en fonction du modèle.
 ```javascript

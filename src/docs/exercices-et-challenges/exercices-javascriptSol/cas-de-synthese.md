@@ -9,7 +9,7 @@ date : "2024-05-29T20:58:02+02:00"
 draft : false
 ---
 ## Cas de synthèse javascript
-{% aref "https://github.com/chchabin/laFolleParenthesEtudiant", "🚀 Version de démarrage sur github" %}
+[🚀 Version de démarrage sur github](https://github.com/chchabin/laFolleParenthesEtudiant)
 ### Contexte
 Vous disposez du site de présentation d’un club de voyages « La folle parenthèse ». Votre tuteur de stage a
 pour mission de réaliser quelques mises à jour sur l’aspect global du site ; il vous charge d’effectuer cette activité

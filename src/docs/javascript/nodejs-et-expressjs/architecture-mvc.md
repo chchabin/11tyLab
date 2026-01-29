@@ -19,12 +19,13 @@ Vous allez récrire l'application [Lafleur](https://github.com/chchabin/Lafleur-
 {% callout "warning" %}
 #### Prérequis
 Vous devez :
+{% endcallout %}
 
 1. créez un répertoire : `node-lafleur`,
-2. initialiser un projet nodejs avec [un fichier vierge]({% aref "docs/javascript/nodejs-et-expressjs/installation"%}),
-3. télécharger les [modules](1{% aref "docs/javascript/nodejs-et-expressjs/installation"%}) : nodemon et express.
-4. créer un fichier index.js selon le [modèle]({% aref "docs/javascript/nodejs-et-expressjs/commencer-et-afficher"%}) (supprimer la partie création de la route),
-{% endcallout %}
+2. initialiser un projet nodejs avec {% aref "docs/javascript/nodejs-et-expressjs/installation" "🔗 un fichier vierge" %}
+3. télécharger les {% aref "docs/javascript/nodejs-et-expressjs/installation" "🔗 modules" %} : nodemon et express.
+4. créer un fichier index.js selon le {% aref "docs/javascript/nodejs-et-expressjs/commencer-et-afficher" "🔗 modèle" %}(supprimer la partie création de la route),
+
 ## 1 - Création de la structure des routes
 {% callout "warning" %}
 #### Prérequis

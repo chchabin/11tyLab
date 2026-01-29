@@ -12,10 +12,11 @@ draft : false
 {% callout warning %}
 #### Documentation :
 [HTML documentation Mdn](https://developer.mozilla.org/fr/docs/Web/HTML/Reference)   
-[CSS documentation Mdn](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)  
-[memento html]({% aref "download/memento.pdf"%})  
-[memento css]({% aref "download/memento_css21.pdf"%})
+[CSS documentation Mdn](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
 {% endcallout %}
+
+{% aref "download/memento.pdf" "🔗 memento html" %})
+{% aref "download/memento_css21.pdf" "🔗 memento css" %}
 
 ## 1 - Les sélecteurs (attributs)
 Une feuille de style de CSS est composée d'un ensemble de règles. Une règle est composée de trois notions différentes :

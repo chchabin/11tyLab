@@ -46,7 +46,7 @@ static void Main(string[] args)
 static string fun( int[] b )
 {
     string ret="";
-    int[] k = { 3, 4, 7, 8,’\0’ };
+    int[] k = { 3, 4, 7, 8,’0’ };
     for (int i = 0; i < b.Length; i++)
     {
         b[i] = b[i] + k[i] ;

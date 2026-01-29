@@ -239,7 +239,7 @@ La propriété float indique qu'un élément doit être retiré du flux normal e
 gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entourerons l'élément flottant. L'élément est 
 retiré du flux normal de la page, mais s'inscrit toujours dans le flux (contrairement à l'élément absolu).
 
-Typiquement le float s'utilise avec un **positionnement d'image** : [comme ceci]({% aref "examples/examplefloat.html"  %})
+Typiquement le float s'utilise avec un **positionnement d'image** : {% aref "examples/examplefloat.html" "🔗 comme ceci" %}
 ### b - Quand utiliser le flex
 Avec la propriété flex ce sont les enfants qui vont specifier comment ils vont se placer.
 

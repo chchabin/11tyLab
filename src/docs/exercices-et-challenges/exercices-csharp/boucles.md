@@ -10,7 +10,8 @@ draft : false
 ---
 ## 1 - Utilité des boucles
 Voici deux extraits de version permettant d’obtenir la somme de chiffres d’affaires :
-__{% col-n %}
+{% col-n %}
+
 #### Version 1
 
 ```csharp
@@ -104,6 +105,7 @@ while (ca != 0)
 Console.WriteLine($"La somme des CA est de {somme} ");
 ```
 {% endcol-n %}
+
 **Dans la version 3, comment peut-on arrêter de saisir des CA ?**  
 ☐ quand la somme est calculée  
 ☐ en saisissant un CA nul  
@@ -117,6 +119,7 @@ Console.WriteLine($"La somme des CA est de {somme} ");
 ☐ Version 1  
 ☐ Version 2  
 ☐ Version 3  
+
 ## 3 - Analyser un programme
 Soit l’extrait de version suivant :
 ```csharp
@@ -291,7 +294,9 @@ while (compteur < 4)
  }
 ```
 {% endcol-n %}
+
 **Pour chaque version, combien de chiffres d’affaires l’utilisateur pourra-t-il saisir ?**
+
 {% bs-table %}
 
 | **Nombre de CA saisis** |  **Version 1**  |  **Version 2**  |  **Version 3**  |
@@ -341,6 +346,7 @@ while (ca != 0)
 Console.WriteLine($"La somme des CA est de {somme}");
 ```
 {% endcol-n %}
+
 **Si l’utilisateur saisit les valeurs 10, 20, 30 et 0, quel sera le contenu de la variable SOMME pour chaque version ?**
 
 {% bs-table %}
@@ -448,6 +454,7 @@ while (k < 100)
 Console.WriteLine($"s = {s} ");
 ```
 {% endcol-n %}
+
 **Comment modifier le code pour rendre les deux boucles équivalentes ?**
 
 ☐ k=k+1  

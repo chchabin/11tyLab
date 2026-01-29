@@ -15,3 +15,107 @@ body {
     padding-left: 0.5rem;
     font-weight: bold;
 }
+/*
+
+!* ================================ *!
+!* Code blocks background - Light mode *!
+!* ================================ *!
+:root,
+[data-bs-theme="light"] {
+    --code-bg-light: #f5f7fa;
+    --code-border-light: #e0e4e8;
+}
+
+!* Blocs de code avec .highlight *!
+[data-bs-theme="light"] .highlight {
+    background-color: var(--code-bg-light);
+    border: 1px solid var(--code-border-light);
+    border-radius: 0.375rem;
+    padding: 1rem;
+}
+
+[data-bs-theme="light"] .highlight pre {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+[data-bs-theme="light"] .highlight code {
+    background-color: transparent;
+    color: #2d2d2d;
+}
+
+!* Blocs de code avec pre[class*="language-"] *!
+[data-bs-theme="light"] pre[class*="language-"] {
+    background-color: var(--code-bg-light);
+    padding: 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--code-border-light);
+    margin: 0;
+}
+
+[data-bs-theme="light"] pre[class*="language-"] code {
+    background-color: transparent;
+    color: #2d2d2d;
+}
+
+!* ================================ *!
+!* Code blocks background - Dark mode *!
+!* ================================ *!
+[data-bs-theme="dark"] {
+    --code-bg-dark: #1e1e1e;
+    --code-border-dark: #3e3e3e;
+}
+
+!* Blocs de code avec .highlight *!
+[data-bs-theme="dark"] .highlight {
+    background-color: var(--code-bg-dark);
+    border: 1px solid var(--code-border-dark);
+    border-radius: 0.375rem;
+    padding: 1rem;
+}
+
+[data-bs-theme="dark"] .highlight pre {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+[data-bs-theme="dark"] .highlight code {
+    background-color: transparent;
+    color: #e0e0e0;
+}
+
+!* Blocs de code avec pre[class*="language-"] *!
+[data-bs-theme="dark"] pre[class*="language-"] {
+    background-color: var(--code-bg-dark);
+    padding: 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--code-border-dark);
+    margin: 0;
+}
+
+[data-bs-theme="dark"] pre[class*="language-"] code {
+    background-color: transparent;
+    color: #e0e0e0;
+}
+
+!* ================================ *!
+!* Inline code background *!
+!* ================================ *!
+:root,
+[data-bs-theme="light"] code:not(pre code) {
+    background-color: rgba(112, 66, 193, 0.1);
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    color: #6f42c1;
+}
+
+[data-bs-theme="dark"] code:not(pre code) {
+    background-color: rgba(148, 97, 251, 0.2);
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    color: #9461fb;
+}*/

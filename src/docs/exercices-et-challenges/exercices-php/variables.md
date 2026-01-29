@@ -12,6 +12,7 @@ draft : false
 #### Utiliser le script interactif
 Saisir [php -a](https://www.php.net/manual/fr/features.commandline.interactive.php) dans le terminal
 {% endcallout %}
+
 ## A - Afficher Saisir
 ### 1 - coder en php
 {% col-n %}
@@ -28,9 +29,11 @@ Saisir [php -a](https://www.php.net/manual/fr/features.commandline.interactive.p
 qui se continue en php</p>’ ?> 
 ```
 {% endcol-n %}
+
 **Selon vous, en l’expliquant, quelle est la meilleure version ?**
 ☐ Version 1  
 ☐ Version 2
+
 ### 2 - différentes façons d’afficher
 
 {% col-n %}
@@ -182,7 +185,9 @@ if ($ca > 20000)
 }
 ```
 {% endcol-n %}
+
 **Pour un CA de 9 000 Euros quel est le montant du taux de remise ?**
+
 {% bs-table %}
 
 |           | 10% | 20% | 30% |

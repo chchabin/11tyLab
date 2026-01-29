@@ -26,7 +26,7 @@ Vérifiez bien que vous êtes en UTF8.
 {% endcallout %}
 
 ## Exercice 1 - Création du formulaire
-[Dossier technique les formulaires]({% aref "docs/php/transmission/les-formulaires"%})
+{% aref "docs/php/transmission/les-formulaires" "🔗 Dossier technique les formulaires" %}
 Modifiez votre code dans TPMenu.php de façon à obtenir le code suivant :
 
 {% bt-collapse "I1" %}
@@ -70,7 +70,7 @@ Lancez TPMenu.php pour voir si tout fonctionne. Vous devez obtenir ceci :
    {% endquestions %}
 
 ## Exercice 2 - Récupération des valeurs du formulaire
-[Dossier technique les formulaires]({% aref "docs/php/transmission/les-formulaires"%})
+{% aref "docs/php/transmission/les-formulaires" "🔗 Dossier technique les formulaires" %}
 
 Vous allez modifier les attributs du formulaire pour qu’il puisse renvoyer quelque chose. Vous obtenez :
 
@@ -146,7 +146,7 @@ array(1) { ["langue"]=> string(1) "2" }
 ```
 {% endcallout %}
 
-[dossier technique les variables]({% aref "docs/php/programmer/les-variables"%})
+{% aref "docs/php/programmer/les-variables" "🔗 dossier technique les variables" %}
 
 {% questions %}
 **En vous aidant de la documentation php, répondez aux questions suivantes :**

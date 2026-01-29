@@ -10,7 +10,7 @@ draft : false
 ---
 ## 1 - Utiliser un objet
 ### Prérequis
-[Object.entries()]({% aref "https://developer.mozilla.org/fr/docs/web/javascript/reference/global_objects/object/entries"%})
+[Object.entries()](https://developer.mozilla.org/fr/docs/web/javascript/reference/global_objects/object/entries)
 
 ### code
 Voici une page HTML qui affiche un bouton
