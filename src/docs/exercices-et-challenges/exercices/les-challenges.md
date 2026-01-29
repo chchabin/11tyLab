@@ -115,7 +115,7 @@ Il s'agit d'afficher des distributions de notes. Les notes sont générées par 
 
 {% endbs-table %}
 
-{% figure-abs "images/exercices-et-challenges/statistique.png" "statistiques" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/statistique.png" "statistiques" "50%" "50%" %}
 
 {% bs-table %}
 
@@ -125,7 +125,7 @@ Il s'agit d'afficher des distributions de notes. Les notes sont générées par 
 
 {% endbs-table %}
 
-{% bt-collapse "notes_r", info, "Indice pour Traiter" %}
+{% bt-collapse "notes_r", info, "Indice pour la fonction Traiter" %}
 
 utilisez la structure `switch` `case
 `
@@ -138,8 +138,8 @@ Le code est écrit en algorithmique pour faciliter son adaptation dans différen
 {% bs-table %}
 
 | **Nom**        | **Rôle**                     | **Paramètres**                    | **Valeur de retour**                 |
-| -------------- | ---------------------------- | --------------------------------- | ------------------------------------ |
-| chargerTableau | Charge le tableau de données | nbr : entier → le nombre de notes | tNotes : tableau DE réel → les notes |
+|----------------| ---------------------------- | --------------------------------- | ------------------------------------ |
+| ChargerTableau | Charge le tableau de données | nbr : entier → le nombre de notes | tNotes : tableau DE réel → les notes |
 |                |                              | valSup : réel → la note maximale  |                                      |
 {% endbs-table %}
 
@@ -159,7 +159,8 @@ Le code est écrit en algorithmique pour faciliter son adaptation dans différen
     i <- 0
 
 	Pour i de 0 à tab.longueur Faire
-
+	
+        // Le code de la fonction dans un langage spécifique est mis, aprés, dans les boutons
 		tNotes [i] <- ABS((ENTIER(COS(REEL(i+1)))%valSup)
 
 	FinPour
@@ -167,10 +168,22 @@ Le code est écrit en algorithmique pour faciliter son adaptation dans différen
     RESULTAT <- tNotes
 
  FIN
+```
 
- // En C# la fonction est : tNotes[i] = Math.Abs(((int)(Math.Cos((float)i + 1.0f) * 1000)) % valSup);
+{% endbt-collapse %}
 
- // En PHP la fonction est : $tNotes[$i] = abs(((int) (cos((float) $i + 1) * 1000)) % valSup);
+{% bt-collapse "codecsharp", info, "Code de la fonction en C#" %}
+
+```csharp
+tNotes[i] = Math.Abs(((int)(Math.Cos((float)i + 1.0f) * 1000)) % valSup);
+```
+
+{% endbt-collapse %}
+
+{% bt-collapse "codephp", info, "Code de la fonction en PHP" %}
+
+```php
+$tNotes[$i] = abs(((int) (cos((float) $i + 1) * 1000)) % valSup);
 ```
 
 {% endbt-collapse %}
@@ -178,8 +191,8 @@ Le code est écrit en algorithmique pour faciliter son adaptation dans différen
 {% bs-table %}
 
 | **Nom**         | **Rôle**                      | **Paramètres**                       | **Valeur de retour** |
-| --------------- | ----------------------------- | ------------------------------------ | -------------------- |
-| afficherTableau | Affiche le tableau de données | tNotes : tableau DE réel → les notes | void                 |
+|-----------------| ----------------------------- | ------------------------------------ | -------------------- |
+| AfficherTableau | Affiche le tableau de données | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
 
@@ -218,16 +231,16 @@ fonction afficherTableau(tNotes :tableau DE réel) :void
 {% bs-table %}
 
 | **Nom**         | **Rôle**                 | **Paramètres**                       | **Valeur de retour** |
-| --------------- | ------------------------ | ------------------------------------ | -------------------- |
-| distributionMin | Affiche la note minimale | tNotes : tableau DE réel → les notes | void                 |
+|-----------------| ------------------------ | ------------------------------------ | -------------------- |
+| DistributionMin | Affiche la note minimale | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
 
 {% bs-table %}
 
 | **Nom**         | **Rôle**                 | **Paramètres**                       | **Valeur de retour** |
-| --------------- | ------------------------ | ------------------------------------ | -------------------- |
-| distributionMax | Affiche la note maximale | tNotes : tableau DE réel → les notes | void                 |
+|-----------------| ------------------------ | ------------------------------------ | -------------------- |
+| DistributionMax | Affiche la note maximale | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
 
@@ -242,12 +255,12 @@ fonction afficherTableau(tNotes :tableau DE réel) :void
 {% bs-table %}
 
 | **Nom**   | **Rôle**                                             | **Paramètres**                       | **Valeur de retour**      |
-| --------- | ---------------------------------------------------- | ------------------------------------ | ------------------------- |
-| frequence | Compte le nombre de chiffres compris dans les écarts | tNotes : tableau DE réel → les notes | stat :  tableau d'entiers |
+|-----------| ---------------------------------------------------- | ------------------------------------ | ------------------------- |
+| Frequence | Compte le nombre de chiffres compris dans les écarts | tNotes : tableau DE réel → les notes | stat :  tableau d'entiers |
 
 {% endbs-table %}
 
-{% bt-collapse "notes3", info, "Indice pour statistique" %}
+{% bt-collapse "notes3", info, "Indice pour frequence" %}
 
 ```text
 créez un tableau stat[0,...5] : tableau DE entier  
@@ -263,15 +276,15 @@ stat[4] contiendra le nombre de notes <20
 {% bs-table %}
 
 | **Nom**            | **Rôle**                                                 | **Paramètres**           | **Valeur de retour** |
-| ------------------ | -------------------------------------------------------- | ------------------------ | -------------------- |
-| distributionEcart4 | Affiche le nombre de notes dans un intervalle de 4 notes | stat : tableau d'entiers | void                 |
+|--------------------| -------------------------------------------------------- | ------------------------ | -------------------- |
+| DistributionEcart4 | Affiche le nombre de notes dans un intervalle de 4 notes | stat : tableau d'entiers | void                 |
 
 {% endbs-table %}
 
 
 L’affichage doit ressembler à :
 
-{% figure-abs "images/exercices-et-challenges/distrib.png" "distrib.PNG" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/distrib.png" "distrib.PNG" "70%" "70%" %}
 
 ### d - Histogramme horizontal
 
@@ -280,15 +293,15 @@ Ajoutez la fonction qui permet d’afficher un histogramme horizontal.
 {% bs-table %}
 
 | **Nom**               | **Rôle**                                              | **Paramètres**                       | **Valeur de retour** |
-| --------------------- | ----------------------------------------------------- | ------------------------------------ | -------------------- |
-| histogrammeHorizontal | Affiche les notes sous forme d’histogramme horizontal | tNotes : tableau DE réel → les notes | void                 |
+|-----------------------| ----------------------------------------------------- | ------------------------------------ | -------------------- |
+| HistogrammeHorizontal | Affiche les notes sous forme d’histogramme horizontal | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
 
 <mark>Le nombre d’étoiles correspond au nombre de valeurs. </mark>
 L’affichage doit ressembler à :
 
-{% figure-abs "images/exercices-et-challenges/histoH.png" "histoH.PNG" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/histoH.png" "histoH.PNG" "70%" "70%" %}
 
 ### e - Histogramme vertical
 
@@ -297,15 +310,15 @@ Ajoutez la fonction qui permet d’afficher un histogramme vertical.
 {% bs-table %}
 
 | **Nom**             | **Rôle**                                            | **Paramètres**                       | **Valeur de retour** |
-| ------------------- | --------------------------------------------------- | ------------------------------------ | -------------------- |
-| histogrammeVertical | Affiche les notes sous forme d’histogramme vertical | tNotes : tableau DE réel → les notes | void                 |
+|---------------------| --------------------------------------------------- | ------------------------------------ | -------------------- |
+| HistogrammeVertical | Affiche les notes sous forme d’histogramme vertical | tNotes : tableau DE réel → les notes | void                 |
 
 {% endbs-table %}
 
 <mark>Le nombre d’étoiles correspond au nombre de valeurs. </mark> 
 L’affichage doit ressembler à :
 
-{% figure-abs "images/exercices-et-challenges/histoV.png" "histoV.png" "100%" "100%" %}
+{% figure-abs "images/exercices-et-challenges/histoV.png" "histoV.png" "70%" "70%" %}
 
 {% questions %}
 
@@ -318,19 +331,19 @@ Reprenez votre code et reprogrammez votre application avec une classe.
 ## 6 - Passage de variables
 
 On désire construire les 3 formulaires suivants qui s’enchaînent :
-{% figure-abs "images/exercices-et-challenges/passVarNom.png" "passVarNom.png" "50%" "50%" %}
+{% figure-abs "images/exercices-et-challenges/passVarNom.png" "passVarNom.png" "30%" "30%" %}
 
 ⬇️
 
-{% figure-abs "images/exercices-et-challenges/passVarPrenom.png" "passVarPrenom.png" "50%" "50%" %}
+{% figure-abs "images/exercices-et-challenges/passVarPrenom.png" "passVarPrenom.png" "30%" "30%" %}
 
 ⬇️
 
-{% figure-abs "images/exercices-et-challenges/passVarAdresse.png" "passVarAdresse.png" "50%" "50%" %}
+{% figure-abs "images/exercices-et-challenges/passVarAdresse.png" "passVarAdresse.png" "30%" "30%" %}
 
 ⬇️ Un dernier formulaire présente un état des trois précédentes saisies :
 
-{% figure-abs "images/exercices-et-challenges/passVarRecap.png" "passVarRecap.png" "50%" "50%" %}
+{% figure-abs "images/exercices-et-challenges/passVarRecap.png" "passVarRecap.png" "30%" "30%" %}
 
 {% questions %}
 
@@ -343,4 +356,4 @@ On désire construire les 3 formulaires suivants qui s’enchaînent :
 
 {% aref "https://chchabinlab.gitlab.io/labslides/formulaires/#/", "➡️ Résumé de cours" %}
 
-⚠️ La méthode des formulaires est toujours en POST ⚠️
+⚠️ En fonction de l'exercice, la méthode des formulaires est soit en POST, soit en GET ⚠️
