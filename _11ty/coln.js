@@ -41,6 +41,9 @@ module.exports = function(content) {
             htmlColumn = htmlColumn.replace(/<p>(<h[1-6]|<pre)/g, '$1');
             htmlColumn = htmlColumn.replace(/(<\/h[1-6]>|<\/pre>)<\/p>/g, '$1');
 
+            // Ajouter la classe language-* détectée à la balise <pre>
+            htmlColumn = htmlColumn.replace(/<pre><code class="language-([^"]+)"/g, '<pre class="language-$1"><code class="language-$1"');
+
             return `<div class="col">${htmlColumn}</div>`;
         }
         return '';
