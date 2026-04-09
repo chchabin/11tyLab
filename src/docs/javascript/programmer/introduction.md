@@ -22,7 +22,9 @@ Pourquoi apprendre javascript
 - Il est utilisé dans la création d’applications très rapides coté serveur et coté client
 - Il est utilisé pour le développement mobile (React Native, NativeScript, Ionic),
 - Il est utilisé pour des applications de bureau (Electron js),
+
 ## 2 - Anatomie d’un fichier source
+
 ### a - Avec un fichier HTML
 Commençons par envisager le javascript coté client. Nous verrons le javascript coté serveur avec `ExpressJs`
 ```html
@@ -60,15 +62,21 @@ La forme du script peut-être soit :
 
 - des lignes de code
 - le nom d’un fichier, comme `script.js`, ce qui permet de séparer les langages, comme dans le cas du css.
+
 ### b - Avec un serveur javascript comme NodeJs
-{% aref "/docs/javascript/nodejs-et-expressjs/introduction" "🔗 Aller à la partie 2" %}
+
+Voici le lien ;
+{% aref"/docs/javascript/nodejs-et-expressjs/introduction" "🔗 Aller à la partie 2" %}
+
 ## 3 - Commentaires
+
 Les commentaires dans un fichier javascript sont les mêmes que pour le C# ou le PHP.
 
 Il y a deux façons de placer des commentaires :
 
 - soit en utilisant `\* Commentaire *\`, qui permet aussi un commentaire sur plusieurs lignes,
 - soit en utilisant `//`. Le reste de la ligne est un commentaire où le commentaire se termine à la fin de la ligne.
+
 ## 4 - La syntaxe
 Le point-virgule est généralement utilisé en informatique pour indiquer la fin d’une instruction, c’est-à-dire pour séparer deux instructions l’une de l’autre et cela va également être le cas en JavaScript.
 
