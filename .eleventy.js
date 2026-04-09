@@ -1,3 +1,8 @@
+// Définir NODE_ENV par défaut
+if (!process.env.NODE_ENV) {
+    process.env.NODE_ENV = 'development';
+}
+
 const SITE_CONFIG = {
     baseURL: process.env.NODE_ENV === 'production'
         ? "https://chchabin.github.io/11tyLab/"

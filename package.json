@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "postbuild": "npx pagefind --site _site",
-    "build:prod": "NODE_ENV=production npx @11ty/eleventy",
+    "build:prod": "cross-env NODE_ENV=production npx @11ty/eleventy",
     "start": "npx @11ty/eleventy && npx pagefind --site _site && npx @11ty/eleventy --serve --incremental",
     "watch": "npx @11ty/eleventy --watch"
   },
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "cross-env": "^10.1.0",
     "eleventy-plugin-toc": "^1.1.5",
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.1.0",
