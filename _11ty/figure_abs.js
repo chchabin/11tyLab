@@ -1,9 +1,9 @@
 const path = require('path');
 // _includes/shortcodes/imageCard.js
 module.exports = function (link, alt = "", width = 0, height = 0,  site = {}) {
-    // Récupérer l'URL de base du site
-   // console.log("Site parameter:", site);
-    const baseURL = site.baseURL || 'http://localhost:8080/';
+    // Récupérer le pathPrefix du site (fonctionne en dev et prod)
+    // console.log("Site parameter:", site);
+    const pathPrefix = site.pathPrefix || '/';
 
     // Vérifier si le lien est déjà une URL absolue
     let abslink;
@@ -12,20 +12,23 @@ module.exports = function (link, alt = "", width = 0, height = 0,  site = {}) {
         new URL(link);
         abslink = link; // Utiliser l'URL telle quelle
     } catch (e) {
-        // Si ce n'est pas une URL valide, la combiner avec l'URL de base
-        abslink = new URL(path.join(baseURL, link)).href;
+        // Si ce n'est pas une URL valide, la combiner avec le pathPrefix
+        // Nettoyer les slashes en double
+        const cleanPath = link.startsWith('/') ? link : '/' + link;
+        const cleanPrefix = pathPrefix.endsWith('/') ? pathPrefix : pathPrefix + '/';
+        abslink = cleanPrefix + cleanPath.slice(1);
     }
 
     const w = String(width || "").trim();
     const h = String(height || "").trim();
     // Vérifier si title est valide et le nettoyer
     let cleanTitle = "";
-   /* if (title && typeof title === "string" && title.trim() !== "" && title !== "[object Object]") {
-        cleanTitle = title.trim();
-    } else if (title && typeof title === "object") {
-        // Si c'est un objet, on ignore complètement
-        cleanTitle = "";
-    }*/
+    /* if (title && typeof title === "string" && title.trim() !== "" && title !== "[object Object]") {
+         cleanTitle = title.trim();
+     } else if (title && typeof title === "object") {
+         // Si c'est un objet, on ignore complètement
+         cleanTitle = "";
+     }*/
 
     const widthAttr = w ? ` width="${w}"` : "";
     const heightAttr = h ? ` height="${h}"` : "";
