@@ -63,4 +63,5 @@ Les dates des saisons sont les suivantes :
    {% figure-abs "images/exercices-et-challenges/descriptionOn.png" "descriptionOn" "30%" "30%" %}
 
 ## Résultat à obtenir
-{% figure-abs "images/gif/laFolleParenthese.gif" "laFolleParenthese" %}
+
+   {% figure-abs "images/gif/laFolleParenthese.gif" "laFolleParenthese" "100%" "100%"  %}

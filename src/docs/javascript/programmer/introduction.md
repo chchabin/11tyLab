@@ -49,15 +49,20 @@ Commençons par envisager le javascript coté client. Nous verrons le javascript
         </script>
     </body>
 </html>
-````
+```
+
 Les scripts javascript peuvent être placés à deux endroits :
 
 - dans la balise Head, dans ces conditions, le script sera exécuté avant le chargement du body
 - à la fin du body, le script sera exécuté après le chargement du body
-  {% callout %}
+
+{% callout %}
+
 #### Bonnes pratiques
 Comme le langage script est tès rapide, il est préférable de mettre les scripts à la fin du body, pour permettre au langage HTML de se charger d’abord.
+
 {% endcallout %}
+
 La forme du script peut-être soit :
 
 - des lignes de code
@@ -74,7 +79,7 @@ Les commentaires dans un fichier javascript sont les mêmes que pour le C# ou le
 
 Il y a deux façons de placer des commentaires :
 
-- soit en utilisant `\* Commentaire *\`, qui permet aussi un commentaire sur plusieurs lignes,
+- soit en utilisant `/* Commentaire */`, qui permet aussi un commentaire sur plusieurs lignes,
 - soit en utilisant `//`. Le reste de la ligne est un commentaire où le commentaire se termine à la fin de la ligne.
 
 ## 4 - La syntaxe
