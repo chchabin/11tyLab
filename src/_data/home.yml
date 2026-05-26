@@ -195,3 +195,11 @@
     - arefs:
         ref: https://www.youtube.com/watch?v=0RrvrMnq7OU&list=PLGBzNYNT_qduAEkaaEFCRwLqDatq9Pzi5
         titre: Vidéo sur la création d’un site en php, pattern MVC
+
+- titre : Quiz
+  id : _13
+  target : q0
+  liens :
+    - arefs :
+        ref : docs/quizz/quizzcsharp/listecsharp/
+        titre : Liste Csharp

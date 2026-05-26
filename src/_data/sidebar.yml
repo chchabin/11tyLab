@@ -114,6 +114,7 @@
   icon: menu-button-wide-fill
   icon_color: orange
   pages:
+    - title: CheckList MVC
     - title: Horoscope
     - title: Annuaire
 
@@ -299,6 +300,13 @@
   pages:
     - title: Installation
     - title: Acces Distant
+
+- title: Quizz C#
+  section: quizz
+  icon: book-half
+  icon_color: yello
+  pages:
+    - title: Liste Csharp
 
 - title: Failles et Architecture Web
   section: failles

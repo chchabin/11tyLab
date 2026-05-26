@@ -108,6 +108,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPairedShortcode("callout", shortcodes.callout);
     eleventyConfig.addPairedShortcode("bt-collapse", shortcodes.btcollapse);
     eleventyConfig.addPairedShortcode("col-n", shortcodes.coln);
+    eleventyConfig.addPairedShortcode("qcm", shortcodes.qcm);
 
     return {
         pathPrefix: SITE_CONFIG.pathPrefix,

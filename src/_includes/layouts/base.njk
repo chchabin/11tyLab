@@ -18,5 +18,20 @@
         theme: 'default'
     });
 </script>
+<script>
+function verifierQcm(id, answer) {
+    const selected = document.querySelector(`input[name="${id}"]:checked`);
+    const feedback = document.getElementById(`${id}-feedback`);
+    if (!selected) {
+        feedback.innerHTML = '<div class="alert alert-warning py-1 mb-0">Veuillez sélectionner une réponse.</div>';
+        return;
+    }
+    if (selected.value === answer) {
+        feedback.innerHTML = '<div class="alert alert-success py-1 mb-0">✅ Bonne réponse !</div>';
+    } else {
+        feedback.innerHTML = `<div class="alert alert-danger py-1 mb-0">❌ Incorrect. La bonne réponse est : <strong>${answer}</strong></div>`;
+    }
+}
+</script>
 </body>
 </html>

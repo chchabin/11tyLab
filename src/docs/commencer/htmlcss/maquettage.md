@@ -239,7 +239,7 @@ La propriété float indique qu'un élément doit être retiré du flux normal e
 gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entourerons l'élément flottant. L'élément est 
 retiré du flux normal de la page, mais s'inscrit toujours dans le flux (contrairement à l'élément absolu).
 
-Typiquement le float s'utilise avec un **positionnement d'image** : {% aref "examples/examplefloat.html" "🔗 comme ceci" %}
+Typiquement le float s'utilise avec un **positionnement d'image** : {% aref "content/examples/examplefloat.html" "🔗 comme ceci" %}
 ### b - Quand utiliser le flex
 Avec la propriété flex ce sont les enfants qui vont specifier comment ils vont se placer.
 
@@ -249,6 +249,6 @@ Il faut donc prévoir la taille des enfants, avant de coder, ce qui est fastidie
 Le display flex s'adapte bien dans le cadre de carte pour aligner les element sur un même ligne : des boutons par exemple.
 ### c - Quand utiliser le grid ?
 C'est la technique recommandée pour mettre en forme une page.  
-Le pilotage des enfants se fait par le parent. Voici un [exemple]({% aref "examples/examplegrid.html"  %}).
+Le pilotage des enfants se fait par le parent. Voici un ({% aref "content/examples/examplegrid.html" "example" %}).
 
 La gestion du responsive est plus facile, car il faut juste changer les caractéristiques du père.

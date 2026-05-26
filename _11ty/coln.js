@@ -5,7 +5,7 @@ module.exports = function(content) {
 
     const md = require('markdown-it')({
         html: true,
-        breaks: true,
+        breaks: false,
         linkify: true,
         typographer: true,
         highlight: (code, lang) => {
@@ -34,12 +34,11 @@ module.exports = function(content) {
             // Convertir le Markdown en HTML
             let htmlColumn = md.render(trimmedColumn);
 
-            // Supprimer les <p></p> vides
+            // Supprimer les <p> et <br> autour de tous les éléments de bloc
+            htmlColumn = htmlColumn.replace(/<p>\s*(<(?:h[1-6]|pre|ul|ol|table|div)[^>]*>)/g, '$1');
+            htmlColumn = htmlColumn.replace(/(<\/(?:h[1-6]|pre|ul|ol|table|div)>)\s*<\/p>/g, '$1');
             htmlColumn = htmlColumn.replace(/<p>\s*<\/p>/g, '');
-
-            // Supprimer les <p> et </p> autour des éléments de bloc
-            htmlColumn = htmlColumn.replace(/<p>(<h[1-6]|<pre)/g, '$1');
-            htmlColumn = htmlColumn.replace(/(<\/h[1-6]>|<\/pre>)<\/p>/g, '$1');
+            htmlColumn = htmlColumn.replace(/<br\s*\/?>/gi, '');
 
             // Ajouter la classe language-* détectée à la balise <pre>
             htmlColumn = htmlColumn.replace(/<pre><code class="language-([^"]+)"/g, '<pre class="language-$1"><code class="language-$1"');

@@ -39,7 +39,7 @@ Quel le bon affichage ?
 
 ☐ 1101  
 ☐ 435666  
-☐ Erreur d’affichage  
+☐ Erreur d’affichage
 ### 3 - HT -> TTC
 On vous fournit le programme suivant qui calcule le montant TTC en fonction d’un montant HT :
 ```csharp
@@ -154,7 +154,7 @@ if (ca > 20000)
 **Selon vous, quelle est la meilleure version ?**  
 ☐ Version 1  
 ☐ Version 2  
-☐ Version 3  
+☐ Version 3
 
 Donnez-en les raisons.
 ### 2 - Calcul de prime
@@ -180,14 +180,14 @@ Soit le programme suivant qui calcule le montant de la prime de représentants e
 ☐ 500  
 ☐ 590  
 ☐ 640  
-**Pour un nombre de kilomètres de 500, quel est le montant de la prime :** 
+**Pour un nombre de kilomètres de 500, quel est le montant de la prime :**
 ☐ 500  
 ☐ 540  
 ☐ 590  
 **on souhaite ajouter la borne 1 000 kilomètres ; quelle sera l’instruction de calcul pour la prime au-delà de 1 000 kilomètres :**  
 ☐ (km-500) \* 0,3 + 640  
 ☐ (km-1 000) \* 0,3 + 640  
-☐ (km-1000) \* 0,3 + 540  
+☐ (km-1000) \* 0,3 + 540
 
 Modifiez le programme en conséquence.
 ## C - Les structures alternatives (`selon cas`)
