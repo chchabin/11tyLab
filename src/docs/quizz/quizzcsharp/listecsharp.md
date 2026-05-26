@@ -15,3 +15,4 @@ draft : false
 {% aref "content/quizz/Exercices_Boucles.html" "🔗 quiz général sur les boucles" %}
 {% aref "content/quizz/Exercices_Tableaux.html" "🔗 quiz général sur les tableaux" %}
 {% aref "content/quizz/Exercices_objet.html" "🔗 quiz de vocabulaire sur les objets" %}
+{% aref "content/quizz/pratique_objet.html" "🔗 quiz exercices pratiques sur les objets" %}

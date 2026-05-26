@@ -9,8 +9,9 @@ const SITE_CONFIG = {
         : "http://localhost:8080/",
     pathPrefix: process.env.NODE_ENV === 'production' ? "/11tyLab/" : "/"
 };
-//http://localhost:8080/
+//http://localhost:8080/ + commentaire ligne 10
 //http://chchabin.free.fr/
+
 const siteConfigs=require('./config/');
 // npm install js-yaml --save-dev
 const yaml = require('js-yaml');
@@ -108,7 +109,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPairedShortcode("callout", shortcodes.callout);
     eleventyConfig.addPairedShortcode("bt-collapse", shortcodes.btcollapse);
     eleventyConfig.addPairedShortcode("col-n", shortcodes.coln);
-    eleventyConfig.addPairedShortcode("qcm", shortcodes.qcm);
+
 
     return {
         pathPrefix: SITE_CONFIG.pathPrefix,
