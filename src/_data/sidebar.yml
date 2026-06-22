@@ -292,6 +292,7 @@
   icon_color: yellow
   pages:
     - title: Utiliser une IA
+    - title: Cahier des charges questions
 
 - title: sqlExpress
   section: commencer
