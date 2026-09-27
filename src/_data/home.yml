@@ -201,5 +201,8 @@
   target : q0
   liens :
     - arefs :
-        ref : docs/quizz/quiz-csharp/listecsharp/
+        ref : docs/quizz/quiz-csharp/liste-csharp/
         titre : Liste Csharp
+    - arefs:
+        ref: docs/quizz/quiz-csharp/quiz-test/
+        titre : Quiz Test
