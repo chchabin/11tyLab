@@ -302,12 +302,13 @@
     - title: Installation
     - title: Acces Distant
 
-- title: Quizz C#
+- title: Quiz Csharp
   section: quizz
   icon: book-half
   icon_color: yello
   pages:
     - title: Liste Csharp
+    - title: Quiz Test
 
 - title: Failles et Architecture Web
   section: failles
