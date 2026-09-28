@@ -10,7 +10,7 @@ const SITE_CONFIG = {
     pathPrefix: process.env.NODE_ENV === 'production' ? "/11tyLab/" : "/"
 };
 //http://localhost:8080/ + commentaire ligne 10
-//http://chchabin.free.fr/
+//http://chchabin.free.fr/ npx @11ty/eleventy
 
 const siteConfigs=require('./config/');
 // npm install js-yaml --save-dev
