@@ -82,7 +82,7 @@ jour à partir des différents travaux et clonée sur GitLab.
 4. Installer l’application :
 
    {% callout danger %}
-   Pour la version `11` La procédure est différente car laravel utilise par défaut sqlLite
+   À partir de la version `11` La procédure est différente, car laravel utilise par défaut sqlLite
    {% endcallout %}
 
     ```bash

@@ -6,7 +6,7 @@ if (!process.env.NODE_ENV) {
 const SITE_CONFIG = {
     baseURL: process.env.NODE_ENV === 'production'
         ? "https://chchabin.github.io/11tyLab/"
-        : "http://localhost:8080/",
+        : "http://chchabin.free.fr/",
     pathPrefix: process.env.NODE_ENV === 'production' ? "/11tyLab/" : "/"
 };
 //http://localhost:8080/ + commentaire ligne 10
