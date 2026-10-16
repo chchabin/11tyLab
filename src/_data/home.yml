@@ -193,6 +193,9 @@
         ref: https://github.com/chchabin/11tyLab/releases/tag/v1.0.0
         titre: Laragon++
     - arefs:
+        ref: https://chchabin.github.io/11tyLabSlides/
+        titre: Slides de cours
+    - arefs:
         ref: https://www.youtube.com/watch?v=0RrvrMnq7OU&list=PLGBzNYNT_qduAEkaaEFCRwLqDatq9Pzi5
         titre: Vidéo sur la création d’un site en php, pattern MVC
 
